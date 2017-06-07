@@ -498,7 +498,7 @@ if __name__ == '__main__':
     max_norm = 100
 
     # SET RANDOM SEED (TODO: rng vs. random.seed)
-    if seed in None:
+    if seed is None:
         rng = np.random.randint(2**32 - 1)
     np.random.seed(seed)  # for reproducibility
     rng = numpy.random.RandomState(seed)

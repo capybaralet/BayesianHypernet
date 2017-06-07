@@ -7,25 +7,43 @@ Created on Fri May 12 17:46:38 2017
 @author: Chin-Wei
 """
 
-from layers import LinearFlowLayer, IndexLayer, PermuteLayer, ReverseLayer
-from layers import CoupledDenseLayer, stochasticDenseLayer2, ConvexBiasLayer#, CoupledWNDenseLayer
-from layers import * # just in case
-from utils import log_normal, log_stdnormal
-from ops import load_mnist
+import numpy
+import numpy as np
 import theano
 import theano.tensor as T
 from theano.tensor.shared_randomstreams import RandomStreams
 floatX = theano.config.floatX
+
 
 import lasagne
 from lasagne import init
 from lasagne import nonlinearities
 from lasagne.layers import get_output
 from lasagne.objectives import categorical_crossentropy as cc
-import numpy as np
-
 
 from helpers import flatten_list, gelu, plot_dict
+from helpers import log_normal, log_stdnormal
+from helpers import load_mnist
+
+from layers import LinearFlowLayer, IndexLayer, PermuteLayer, ReverseLayer
+from layers import CoupledDenseLayer, stochasticDenseLayer2, ConvexBiasLayer#, CoupledWNDenseLayer
+from layers import * # just in case
+
+if 1: # extra imports, collected from throughout the script...
+    
+    import argparse
+    import sys
+    import os
+    import numpy 
+    np = numpy
+
+    from helpers import MCpred
+    #def MCpred(X, predict_probs_fn=None, num_samples=100, inds=None, returns='preds', num_classes=10):
+    import time
+
+    from sklearn.metrics import roc_auc_score as roc
+    from sklearn.metrics import average_precision_score as pr
+    import scipy.stats
 
 
 # TODO: 
@@ -43,12 +61,6 @@ if 1:#def main():
     MNIST example
     weight norm reparameterized MLP with prior on rescaling parameters
     """
-    
-    import argparse
-    import sys
-    import os
-    import numpy 
-    np = numpy
     
     parser = argparse.ArgumentParser()
     parser.add_argument('--anomaly',type=int, default=1)
@@ -253,7 +265,6 @@ if 1:#def main():
 
     # TODO: don't redefine :P 
     def MCpred(X, inds=None, num_samples=10, returns='preds'):
-        from utils import MCpred
         return MCpred(X, predict_probs_fn=predict_probs, num_samples=num_samples, inds=inds, returns=returns)
 
 
@@ -270,7 +281,6 @@ if 1:#def main():
     records['val_acc'] = []
     
     t = 0
-    import time
     t0 = time.time()
     for e in range(epochs):
         
@@ -291,8 +301,9 @@ if 1:#def main():
                 print 'epoch: {} {}, loss:{}'.format(e,t,loss)
                 tr_inds = np.random.choice(len(X), num_examples, replace=False)
                 te_inds = np.random.choice(len(Xt), num_examples, replace=False)
-                tr_acc = (MCpred(X, inds=tr_inds)==Y[tr_inds].argmax(1)).mean()
-                te_acc = (MCpred(Xt, inds=te_inds)==Yt[te_inds].argmax(1)).mean()
+                tr_acc = (MCpred(X=X, predict_probs_fn=predict_probs, num_samples=10, inds=tr_inds)==Y[tr_inds].argmax(1)).mean()
+                tr_acc = (MCpred(X=Xt, predict_probs_fn=predict_probs, num_samples=10, inds=tr_inds)==Y[tr_inds].argmax(1)).mean()
+                #te_acc = (MCpred(X=Xt, inds=te_inds)==Yt[te_inds].argmax(1)).mean()
                 #assert False
                 print '\ttrain acc: {}'.format(tr_acc)
                 print '\ttest acc: {}'.format(te_acc)
@@ -310,12 +321,14 @@ if 1:#def main():
 if save:
     # load best and do proper evaluation
     lasagne.layers.set_all_param_values([h_layer, layer], np.load(save_path + '_params_best.npy'))
-    best_acc = (MCpred(Xt, inds=range(len(Xt)), num_samples=100) == Yt.argmax(1)).mean()
+    #best_acc = (MCpred(Xt, inds=range(len(Xt)), num_samples=100) == Yt.argmax(1)).mean()
+    best_acc = (MCpred(X=Xt, predict_probs_fn=predict_probs, num_samples=100, inds=tr_inds)==Y[tr_inds].argmax(1)).mean()
     np.save(save_path + '_best_val_acc=' + str(np.round(100*best_acc, 2)) + '.npy', best_acc)
 
     if test_eval: # TEST SET
         Xt, Yt = test_x, test_y
-        best_acc = (MCpred(Xt, inds=range(len(Xt)), num_samples=100) == Yt.argmax(1)).mean()
+        #best_acc = (MCpred(Xt, inds=range(len(Xt)), num_samples=100) == Yt.argmax(1)).mean()
+        best_acc = (MCpred(X=Xt, predict_probs_fn=predict_probs, num_samples=100, inds=tr_inds)==Y[tr_inds].argmax(1)).mean()
         np.save(save_path + '_best_test_acc=' + str(np.round(100*best_acc, 2)) + '.npy', best_acc)
 
         
@@ -335,12 +348,7 @@ if anomaly:
     print "                                                                           RUNNING ANOMALY DETECTION EVALUATIONS!"
 
         
-    import time
     t0 = time.time()
-    import theano
-    import theano.tensor as T
-    from theano.tensor.shared_randomstreams import RandomStreams
-
     noise_level=1.
 
 
@@ -411,8 +419,6 @@ if anomaly:
     # TODO: get_results CONFIDENCE
 
     #####################
-    from sklearn.metrics import roc_auc_score as roc
-    from sklearn.metrics import average_precision_score as pr
     def get_results(ins, oos): #in/out of sample
         """
         returns AOROC, AOPR (success), AOPR (failure) 
@@ -446,7 +452,6 @@ if anomaly:
     # SAMPLES: nsamples, nexamples, nclasses
     # returns scores: nexamples
     # they are listed in alphabetic order
-    import scipy.stats
     def bald(samples):
         return - (scipy.stats.entropy(samples.mean(0).T) - scipy.stats.entropy(samples.transpose(2,0,1)).mean(0))
     score_fns.append(bald)
@@ -478,7 +483,6 @@ if anomaly:
     #######################
     # predictions on clean data
 
-    from utils import MCpred
     clean_samples = MCpred(X=Xt, predict_probs_fn=probs, num_samples=100, returns='samples')
     clean_probs = clean_samples.mean(0)
     clean_preds = clean_probs.argmax(-1)
@@ -535,54 +539,4 @@ if anomaly:
     print "                                                                                        DONE,   total time=", time.time() - t0
             
 
-
-
-
-
-
-
-
-
-
-if 0: # DEPRECATED
-    ##########################
-    # OOD-detection
-    import collections
-    risky = collections.OrderedDict() # easy-to-hard
-    risky['uniform'] = noised(Xt, noise_level, 'uniform')
-    risky['omniglot'] = omni_images
-    risky['CIFARbw'] = cifar_batch
-    risky['normal'] = noised(Xt, noise_level)
-    risky['notMNIST'] = notmnist_dataset
-
-    for kk, vv in risky.items():
-        print "\n",kk
-        nyht = np.zeros((num_samples, num_examples, 10))
-        for ind in range(num_samples):
-            nyht[ind] = probs(vv[:num_examples])
-        print "done sampling!"
-        nyht = np.mean(nyht, axis=0)
-        print get_AOC(yhtm, nyht)
-
-    # samples: nsample, nexample, 10
-    def baseline(samples):
-        return np.mean(samples, 0)
-
-    def entropy():
-        pass
-
-
-    if 0:
-
-        # TODO: how diverse are the samples? (how to evaluate that?? what to compare to / expect??)
-
-        # 2D scatter-plots of sampled params
-        for i in range(9):                                                                                                                     
-            subplot(3,3,i+1)
-            seaborn.regplot(thet[:, np.random.choice(7940)], thet[:, np.random.choice(7940)]) 
-        # look at actual correlation coefficients
-        hist([scipy.stats.pearsonr(thet[:, np.random.choice(7940)], thet[:, np.random.choice(7940)])[1] for _ in range(10000)], 100) 
-
-        # TODO: what does the posterior over parameters look like? (we expect to see certain dependencies... e.g. in the simplest case...)
-        #   So we can actually see that easily in a toy example, where output = a*b*input, so we just need a*b to equal the right thing, and we can compute the exact posterior based on #examples, etc... and then we can see the difference between independent and not
 

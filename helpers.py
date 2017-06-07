@@ -19,7 +19,7 @@ import time
 import os
 
 
-def to_categorical(y):
+def riashat_to_categorical(y):
     num_classes=10
     y = np.array(y, dtype='int').ravel()
     if not num_classes:
@@ -29,6 +29,7 @@ def to_categorical(y):
     categorical[np.arange(n), y] = 1
 
     return categorical
+
 
 
 def split_train_pool_data(X_train, y_train):
@@ -106,7 +107,7 @@ def get_initial_training_data(X_train_All, y_train_All):
     X_train = np.concatenate((X_0, X_1, X_2, X_3, X_4, X_5, X_6, X_7, X_8, X_9), axis=0 )
     y_train = np.concatenate((y_0, y_1, y_2, y_3, y_4, y_5, y_6, y_7, y_8, y_9), axis=0 )
     
-    y_train = to_categorical(y_train)
+    y_train = riashat_to_categorical(y_train)
 
     return X_train, y_train
 
