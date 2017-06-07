@@ -264,8 +264,8 @@ if 1:#def main():
     predict_probs = theano.function([input_var],y)
 
     # TODO: don't redefine :P 
-    def MCpred(X, inds=None, num_samples=10, returns='preds'):
-        return MCpred(X, predict_probs_fn=predict_probs, num_samples=num_samples, inds=inds, returns=returns)
+    #def MCpred(X, inds=None, num_samples=10, returns='preds'):
+    #    return MCpred(X, predict_probs_fn=predict_probs, num_samples=num_samples, inds=inds, returns=returns)
 
 
 
@@ -300,9 +300,9 @@ if 1:#def main():
                 print 'time', time.time() - t0
                 print 'epoch: {} {}, loss:{}'.format(e,t,loss)
                 tr_inds = np.random.choice(len(X), num_examples, replace=False)
-                te_inds = np.random.choice(len(Xt), num_examples, replace=False)
                 tr_acc = (MCpred(X=X, predict_probs_fn=predict_probs, num_samples=10, inds=tr_inds)==Y[tr_inds].argmax(1)).mean()
-                tr_acc = (MCpred(X=Xt, predict_probs_fn=predict_probs, num_samples=10, inds=tr_inds)==Y[tr_inds].argmax(1)).mean()
+                te_inds = np.random.choice(len(Xt), num_examples, replace=False)
+                te_acc = (MCpred(X=Xt, predict_probs_fn=predict_probs, num_samples=10, inds=te_inds)==Yt[te_inds].argmax(1)).mean()
                 #te_acc = (MCpred(X=Xt, inds=te_inds)==Yt[te_inds].argmax(1)).mean()
                 #assert False
                 print '\ttrain acc: {}'.format(tr_acc)
@@ -322,13 +322,13 @@ if save:
     # load best and do proper evaluation
     lasagne.layers.set_all_param_values([h_layer, layer], np.load(save_path + '_params_best.npy'))
     #best_acc = (MCpred(Xt, inds=range(len(Xt)), num_samples=100) == Yt.argmax(1)).mean()
-    best_acc = (MCpred(X=Xt, predict_probs_fn=predict_probs, num_samples=100, inds=tr_inds)==Y[tr_inds].argmax(1)).mean()
+    best_acc = (MCpred(X=Xt, predict_probs_fn=predict_probs, num_samples=100)==Yt.argmax(1)).mean()
     np.save(save_path + '_best_val_acc=' + str(np.round(100*best_acc, 2)) + '.npy', best_acc)
 
     if test_eval: # TEST SET
         Xt, Yt = test_x, test_y
         #best_acc = (MCpred(Xt, inds=range(len(Xt)), num_samples=100) == Yt.argmax(1)).mean()
-        best_acc = (MCpred(X=Xt, predict_probs_fn=predict_probs, num_samples=100, inds=tr_inds)==Y[tr_inds].argmax(1)).mean()
+        best_acc = (MCpred(X=Xt, predict_probs_fn=predict_probs, num_samples=100)==Y.argmax(1)).mean()
         np.save(save_path + '_best_test_acc=' + str(np.round(100*best_acc, 2)) + '.npy', best_acc)
 
         
