@@ -1,0 +1,1221 @@
+[DBI] executing on host gpu-k20-06
+MOAB_JOBNAME=dbi_667f9305317
+MOAB_USER=capybara
+MOAB_TASKMAP=gpu-k20-06:1
+MOAB_CLASS=gpu_1
+MOAB_PROCCOUNT=1
+MOAB_GROUP=jvb-000-01
+MOAB_NODELIST=gpu-k20-06
+MOAB_ACCOUNT=jvb-000-ag
+MOABHOMEDIR=/opt/moab
+MOAB_MACHINE=torque
+MOAB_NODECOUNT=1
+MOAB_JOBID=72541[0]
+MOAB_QOS=24H
+MOAB_PARTITION=colosse
+
+
+
+-----------------------------------------------------------------------
+
+
+
+Namespace(acq='bald', arch='hyperCNN', bs=128, coupling=4, epochs=50, lbda=1, lr0=0.0005, lrdecay=0, num_experiments=1, params_reset='none', perdatapoint=0, pool_size=2000, prior='log_normal', save_dir='/rap/jvb-000-aa//capy/results/launch_LR_dk_AL.py', size=10000)
+Initial Training Data (20, 1, 28, 28)
+kernel_shape (32, 4, 4)
+	building hyper net
+	building primary net
+(None, 1, 28, 28)
+(None, 32, 25, 25)
+(None, 32, 22, 22)
+(None, 32, 19, 19)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:11970.8203125
+	train acc: 0.35
+                                                          Test Accuracy 0.333
+time 1084.42847586
+POOLING ITERATION 0
+epoch: 49 49, loss:7950.67089844
+	train acc: 0.266666666667
+                                                          Test Accuracy 0.2349
+time 1143.82730889
+POOLING ITERATION 1
+epoch: 49 49, loss:5958.58154297
+	train acc: 0.35
+                                                          Test Accuracy 0.3
+time 1203.45928001
+POOLING ITERATION 2
+epoch: 49 49, loss:4755.06298828
+	train acc: 1.0
+                                                          Test Accuracy 0.6252
+time 1262.83958697
+POOLING ITERATION 3
+epoch: 49 49, loss:3960.50610352
+	train acc: 0.95
+                                                          Test Accuracy 0.6622
+time 1322.85919094
+POOLING ITERATION 4
+epoch: 49 49, loss:3391.94213867
+	train acc: 0.942857142857
+                                                          Test Accuracy 0.6937
+time 1382.58474207
+POOLING ITERATION 5
+epoch: 49 49, loss:2967.49487305
+	train acc: 0.95
+                                                          Test Accuracy 0.6618
+time 1443.089396
+POOLING ITERATION 6
+epoch: 49 49, loss:2639.08447266
+	train acc: 0.966666666667
+                                                          Test Accuracy 0.7334
+time 1503.00492287
+POOLING ITERATION 7
+epoch: 49 49, loss:2372.75878906
+	train acc: 0.9
+                                                          Test Accuracy 0.7107
+time 1564.75618386
+POOLING ITERATION 8
+epoch: 49 49, loss:2157.2487793
+	train acc: 0.972727272727
+                                                          Test Accuracy 0.7416
+time 1624.94758797
+POOLING ITERATION 9
+epoch: 49 49, loss:1976.05297852
+	train acc: 0.983333333333
+                                                          Test Accuracy 0.7595
+time 1685.885818
+POOLING ITERATION 10
+epoch: 49 98, loss:1829.41699219
+	train acc: 0.438461538462
+epoch: 49 99, loss:1831.98388672
+	train acc: 0.461538461538
+                                                          Test Accuracy 0.4848
+time 1752.02084994
+POOLING ITERATION 11
+epoch: 49 98, loss:1692.04504395
+	train acc: 1.0
+epoch: 49 99, loss:1692.03918457
+	train acc: 1.0
+                                                          Test Accuracy 0.7723
+time 1819.23289084
+POOLING ITERATION 12
+epoch: 49 98, loss:1583.61352539
+	train acc: 1.0
+epoch: 49 99, loss:1579.25280762
+	train acc: 0.986666666667
+                                                          Test Accuracy 0.7046
+time 1886.04614592
+POOLING ITERATION 13
+epoch: 49 98, loss:1481.48742676
+	train acc: 0.9875
+epoch: 49 99, loss:1481.34057617
+	train acc: 0.975
+                                                          Test Accuracy 0.7167
+time 1953.36085391
+POOLING ITERATION 14
+epoch: 49 98, loss:1391.90551758
+	train acc: 1.0
+epoch: 49 99, loss:1392.65551758
+	train acc: 0.988235294118
+                                                          Test Accuracy 0.7594
+time 2020.62969995
+POOLING ITERATION 15
+epoch: 49 98, loss:1313.04150391
+	train acc: 1.0
+epoch: 49 99, loss:1313.3638916
+	train acc: 1.0
+                                                          Test Accuracy 0.8145
+time 2087.70511007
+POOLING ITERATION 16
+epoch: 49 98, loss:1243.76159668
+	train acc: 0.994736842105
+epoch: 49 99, loss:1243.92041016
+	train acc: 1.0
+                                                          Test Accuracy 0.8104
+time 2155.65987492
+POOLING ITERATION 17
+epoch: 49 98, loss:1180.20300293
+	train acc: 0.96
+epoch: 49 99, loss:1180.38745117
+	train acc: 0.985
+                                                          Test Accuracy 0.8016
+time 2222.89133501
+POOLING ITERATION 18
+epoch: 49 98, loss:1123.29199219
+	train acc: 1.0
+epoch: 49 99, loss:1123.27783203
+	train acc: 0.980952380952
+                                                          Test Accuracy 0.822
+time 2290.06483889
+POOLING ITERATION 19
+epoch: 49 98, loss:1071.58544922
+	train acc: 1.0
+epoch: 49 99, loss:1071.6730957
+	train acc: 0.981818181818
+                                                          Test Accuracy 0.8365
+time 2357.18209505
+POOLING ITERATION 20
+epoch: 49 98, loss:1023.91534424
+	train acc: 1.0
+epoch: 49 99, loss:1023.8324585
+	train acc: 1.0
+                                                          Test Accuracy 0.8432
+time 2424.40219808
+POOLING ITERATION 21
+epoch: 49 98, loss:979.984985352
+	train acc: 0.995833333333
+epoch: 49 99, loss:979.915771484
+	train acc: 1.0
+                                                          Test Accuracy 0.8736
+time 2491.74342108
+POOLING ITERATION 22
+epoch: 49 98, loss:939.991271973
+	train acc: 0.988
+epoch: 49 99, loss:939.853027344
+	train acc: 0.992
+                                                          Test Accuracy 0.8297
+time 2559.23056793
+POOLING ITERATION 23
+epoch: 49 147, loss:902.131164551
+	train acc: 1.0
+epoch: 49 148, loss:902.077392578
+	train acc: 0.996153846154
+epoch: 49 149, loss:901.991210938
+	train acc: 1.0
+                                                          Test Accuracy 0.8588
+time 2632.19194198
+POOLING ITERATION 24
+epoch: 49 147, loss:867.154541016
+	train acc: 0.988888888889
+epoch: 49 148, loss:867.136291504
+	train acc: 0.996296296296
+epoch: 49 149, loss:867.051818848
+	train acc: 0.962962962963
+                                                          Test Accuracy 0.8523
+time 2705.657547
+POOLING ITERATION 25
+epoch: 49 147, loss:834.408569336
+	train acc: 0.996428571429
+epoch: 49 148, loss:834.234313965
+	train acc: 0.989285714286
+epoch: 49 149, loss:834.376037598
+	train acc: 0.975
+                                                          Test Accuracy 0.8582
+time 2779.58211994
+POOLING ITERATION 26
+epoch: 49 147, loss:803.902709961
+	train acc: 0.986206896552
+epoch: 49 148, loss:803.895324707
+	train acc: 0.98275862069
+epoch: 49 149, loss:803.843994141
+	train acc: 0.979310344828
+                                                          Test Accuracy 0.8325
+time 2853.40343094
+POOLING ITERATION 27
+epoch: 49 147, loss:775.093994141
+	train acc: 0.993333333333
+epoch: 49 148, loss:775.042907715
+	train acc: 1.0
+epoch: 49 149, loss:775.176391602
+	train acc: 1.0
+                                                          Test Accuracy 0.8941
+time 2927.30950785
+POOLING ITERATION 28
+epoch: 49 147, loss:747.885925293
+	train acc: 0.996774193548
+epoch: 49 148, loss:747.903747559
+	train acc: 1.0
+epoch: 49 149, loss:747.926879883
+	train acc: 1.0
+                                                          Test Accuracy 0.9003
+time 3001.32403588
+POOLING ITERATION 29
+epoch: 49 147, loss:722.251281738
+	train acc: 1.0
+epoch: 49 148, loss:722.265319824
+	train acc: 0.99375
+epoch: 49 149, loss:722.239257812
+	train acc: 0.98125
+                                                          Test Accuracy 0.901
+time 3075.41474986
+POOLING ITERATION 30
+epoch: 49 147, loss:698.00994873
+	train acc: 0.981818181818
+epoch: 49 148, loss:697.949523926
+	train acc: 0.978787878788
+epoch: 49 149, loss:698.085205078
+	train acc: 1.0
+                                                          Test Accuracy 0.8961
+time 3149.70580792
+POOLING ITERATION 31
+epoch: 49 147, loss:674.720336914
+	train acc: 0.997058823529
+epoch: 49 148, loss:674.588806152
+	train acc: 1.0
+epoch: 49 149, loss:674.563232422
+	train acc: 0.994117647059
+                                                          Test Accuracy 0.8979
+time 3224.18501592
+POOLING ITERATION 32
+epoch: 49 147, loss:652.437561035
+	train acc: 1.0
+epoch: 49 148, loss:652.402954102
+	train acc: 0.997142857143
+epoch: 49 149, loss:652.411132812
+	train acc: 0.991428571429
+                                                          Test Accuracy 0.9145
+time 3298.70132089
+POOLING ITERATION 33
+epoch: 49 147, loss:631.369934082
+	train acc: 0.994444444444
+epoch: 49 148, loss:631.49597168
+	train acc: 0.997222222222
+epoch: 49 149, loss:631.672302246
+	train acc: 1.0
+                                                          Test Accuracy 0.8916
+time 3373.33152795
+POOLING ITERATION 34
+epoch: 49 147, loss:611.568908691
+	train acc: 0.997297297297
+epoch: 49 148, loss:611.33190918
+	train acc: 1.0
+epoch: 49 149, loss:611.336120605
+	train acc: 1.0
+                                                          Test Accuracy 0.9194
+time 3448.07653308
+POOLING ITERATION 35
+epoch: 49 147, loss:591.971313477
+	train acc: 1.0
+epoch: 49 148, loss:591.93536377
+	train acc: 1.0
+epoch: 49 149, loss:591.923278809
+	train acc: 1.0
+                                                          Test Accuracy 0.9101
+time 3522.94481993
+POOLING ITERATION 36
+epoch: 49 196, loss:572.69909668
+	train acc: 0.987179487179
+epoch: 49 197, loss:572.67755127
+	train acc: 1.0
+epoch: 49 198, loss:572.606323242
+	train acc: 1.0
+epoch: 49 199, loss:572.548278809
+	train acc: 1.0
+                                                          Test Accuracy 0.9138
+time 3603.39887905
+POOLING ITERATION 37
+epoch: 49 196, loss:553.68347168
+	train acc: 1.0
+epoch: 49 197, loss:553.681335449
+	train acc: 0.9925
+epoch: 49 198, loss:553.803100586
+	train acc: 0.9925
+epoch: 49 199, loss:553.641784668
+	train acc: 0.9975
+                                                          Test Accuracy 0.9264
+time 3684.30879092
+POOLING ITERATION 38
+epoch: 49 196, loss:535.329528809
+	train acc: 1.0
+epoch: 49 197, loss:535.309387207
+	train acc: 1.0
+epoch: 49 198, loss:535.243041992
+	train acc: 0.99756097561
+epoch: 49 199, loss:535.992797852
+	train acc: 0.99512195122
+                                                          Test Accuracy 0.9293
+time 3765.61243391
+POOLING ITERATION 39
+epoch: 49 196, loss:517.74432373
+	train acc: 0.980952380952
+epoch: 49 197, loss:517.733459473
+	train acc: 0.983333333333
+epoch: 49 198, loss:517.58984375
+	train acc: 0.983333333333
+epoch: 49 199, loss:517.580688477
+	train acc: 0.985714285714
+                                                          Test Accuracy 0.9297
+time 3846.8240509
+POOLING ITERATION 40
+epoch: 49 196, loss:500.414093018
+	train acc: 0.960465116279
+epoch: 49 197, loss:500.502655029
+	train acc: 0.997674418605
+epoch: 49 198, loss:500.475036621
+	train acc: 0.983720930233
+epoch: 49 199, loss:500.45803833
+	train acc: 0.990697674419
+                                                          Test Accuracy 0.9079
+time 3928.17562389
+POOLING ITERATION 41
+epoch: 49 196, loss:483.698944092
+	train acc: 1.0
+epoch: 49 197, loss:483.693969727
+	train acc: 1.0
+epoch: 49 198, loss:483.691802979
+	train acc: 1.0
+epoch: 49 199, loss:483.644714355
+	train acc: 1.0
+                                                          Test Accuracy 0.9252
+time 4009.65960002
+POOLING ITERATION 42
+epoch: 49 196, loss:467.742156982
+	train acc: 1.0
+epoch: 49 197, loss:467.797943115
+	train acc: 1.0
+epoch: 49 198, loss:467.93548584
+	train acc: 0.993333333333
+epoch: 49 199, loss:467.657806396
+	train acc: 1.0
+                                                          Test Accuracy 0.9249
+time 4091.34411097
+POOLING ITERATION 43
+epoch: 49 196, loss:452.045288086
+	train acc: 1.0
+epoch: 49 197, loss:451.993652344
+	train acc: 1.0
+epoch: 49 198, loss:451.97543335
+	train acc: 1.0
+epoch: 49 199, loss:451.973358154
+	train acc: 1.0
+                                                          Test Accuracy 0.9347
+time 4173.18861389
+POOLING ITERATION 44
+epoch: 49 196, loss:436.653961182
+	train acc: 0.970212765957
+epoch: 49 197, loss:436.576080322
+	train acc: 0.995744680851
+epoch: 49 198, loss:436.61630249
+	train acc: 0.997872340426
+epoch: 49 199, loss:436.626586914
+	train acc: 0.997872340426
+                                                          Test Accuracy 0.9215
+time 4255.09713697
+POOLING ITERATION 45
+epoch: 49 196, loss:422.05770874
+	train acc: 1.0
+epoch: 49 197, loss:422.087799072
+	train acc: 1.0
+epoch: 49 198, loss:422.049072266
+	train acc: 0.997916666667
+epoch: 49 199, loss:422.039703369
+	train acc: 1.0
+                                                          Test Accuracy 0.9411
+time 4337.17131495
+POOLING ITERATION 46
+epoch: 49 196, loss:408.100708008
+	train acc: 0.99387755102
+epoch: 49 197, loss:408.099212646
+	train acc: 0.997959183673
+epoch: 49 198, loss:408.060211182
+	train acc: 0.997959183673
+epoch: 49 199, loss:408.023254395
+	train acc: 0.997959183673
+                                                          Test Accuracy 0.9423
+time 4419.42858291
+POOLING ITERATION 47
+epoch: 49 196, loss:394.532623291
+	train acc: 1.0
+epoch: 49 197, loss:394.506988525
+	train acc: 1.0
+epoch: 49 198, loss:394.523620605
+	train acc: 1.0
+epoch: 49 199, loss:394.473907471
+	train acc: 0.996
+                                                          Test Accuracy 0.9344
+time 4501.75640893
+POOLING ITERATION 48
+epoch: 49 196, loss:381.36895752
+	train acc: 1.0
+epoch: 49 197, loss:381.342041016
+	train acc: 0.996078431373
+epoch: 49 198, loss:381.224273682
+	train acc: 0.996078431373
+epoch: 49 199, loss:381.237426758
+	train acc: 0.998039215686
+                                                          Test Accuracy 0.9441
+time 4584.66308594
+POOLING ITERATION 49
+epoch: 49 245, loss:367.713623047
+	train acc: 1.0
+epoch: 49 246, loss:367.660400391
+	train acc: 0.986538461538
+epoch: 49 247, loss:367.647857666
+	train acc: 0.996153846154
+epoch: 49 248, loss:367.609222412
+	train acc: 0.994230769231
+epoch: 49 249, loss:367.649841309
+	train acc: 1.0
+                                                          Test Accuracy 0.9443
+time 4673.16937399
+POOLING ITERATION 50
+epoch: 49 245, loss:354.378387451
+	train acc: 1.0
+epoch: 49 246, loss:354.386016846
+	train acc: 0.998113207547
+epoch: 49 247, loss:354.378875732
+	train acc: 1.0
+epoch: 49 248, loss:354.316253662
+	train acc: 0.994339622642
+epoch: 49 249, loss:354.25100708
+	train acc: 0.988679245283
+                                                          Test Accuracy 0.9345
+time 4762.78061891
+POOLING ITERATION 51
+epoch: 49 245, loss:341.321838379
+	train acc: 0.998148148148
+epoch: 49 246, loss:341.254150391
+	train acc: 1.0
+epoch: 49 247, loss:341.247344971
+	train acc: 0.992592592593
+epoch: 49 248, loss:341.208068848
+	train acc: 0.994444444444
+epoch: 49 249, loss:341.230560303
+	train acc: 1.0
+                                                          Test Accuracy 0.9431
+time 4853.01461005
+POOLING ITERATION 52
+epoch: 49 245, loss:328.522247314
+	train acc: 0.998181818182
+epoch: 49 246, loss:328.512359619
+	train acc: 1.0
+epoch: 49 247, loss:328.468536377
+	train acc: 1.0
+epoch: 49 248, loss:328.486877441
+	train acc: 0.998181818182
+epoch: 49 249, loss:328.399932861
+	train acc: 0.998181818182
+                                                          Test Accuracy 0.9466
+time 4942.55736303
+POOLING ITERATION 53
+epoch: 49 245, loss:316.024688721
+	train acc: 0.994642857143
+epoch: 49 246, loss:316.040924072
+	train acc: 1.0
+epoch: 49 247, loss:315.982421875
+	train acc: 1.0
+epoch: 49 248, loss:315.943084717
+	train acc: 1.0
+epoch: 49 249, loss:315.927581787
+	train acc: 1.0
+                                                          Test Accuracy 0.9419
+time 5032.7967999
+POOLING ITERATION 54
+epoch: 49 245, loss:304.180877686
+	train acc: 0.994736842105
+epoch: 49 246, loss:304.188659668
+	train acc: 0.991228070175
+epoch: 49 247, loss:304.129882812
+	train acc: 1.0
+epoch: 49 248, loss:304.097564697
+	train acc: 1.0
+epoch: 49 249, loss:304.090576172
+	train acc: 1.0
+                                                          Test Accuracy 0.9388
+time 5122.63179803
+POOLING ITERATION 55
+epoch: 49 245, loss:292.418579102
+	train acc: 0.989655172414
+epoch: 49 246, loss:292.359100342
+	train acc: 1.0
+epoch: 49 247, loss:292.330566406
+	train acc: 1.0
+epoch: 49 248, loss:292.289703369
+	train acc: 0.993103448276
+epoch: 49 249, loss:292.313537598
+	train acc: 0.993103448276
+                                                          Test Accuracy 0.9421
+time 5213.26115108
+POOLING ITERATION 56
+epoch: 49 245, loss:281.041473389
+	train acc: 0.938983050847
+epoch: 49 246, loss:281.036346436
+	train acc: 0.962711864407
+epoch: 49 247, loss:281.004180908
+	train acc: 0.994915254237
+epoch: 49 248, loss:280.978363037
+	train acc: 1.0
+epoch: 49 249, loss:281.011932373
+	train acc: 0.974576271186
+                                                          Test Accuracy 0.944
+time 5303.31153202
+POOLING ITERATION 57
+epoch: 49 245, loss:270.223205566
+	train acc: 1.0
+epoch: 49 246, loss:270.166046143
+	train acc: 0.996666666667
+epoch: 49 247, loss:270.139343262
+	train acc: 1.0
+epoch: 49 248, loss:270.122039795
+	train acc: 1.0
+epoch: 49 249, loss:270.099700928
+	train acc: 1.0
+                                                          Test Accuracy 0.943
+time 5393.33004093
+POOLING ITERATION 58
+epoch: 49 245, loss:259.428894043
+	train acc: 0.996721311475
+epoch: 49 246, loss:259.422424316
+	train acc: 0.995081967213
+epoch: 49 247, loss:259.35736084
+	train acc: 0.998360655738
+epoch: 49 248, loss:259.363769531
+	train acc: 0.986885245902
+epoch: 49 249, loss:259.315979004
+	train acc: 0.977049180328
+                                                          Test Accuracy 0.9444
+time 5483.61266494
+POOLING ITERATION 59
+epoch: 49 245, loss:249.044250488
+	train acc: 0.993548387097
+epoch: 49 246, loss:249.084060669
+	train acc: 0.975806451613
+epoch: 49 247, loss:249.008529663
+	train acc: 0.998387096774
+epoch: 49 248, loss:248.983352661
+	train acc: 1.0
+epoch: 49 249, loss:248.952651978
+	train acc: 0.998387096774
+                                                          Test Accuracy 0.9449
+time 5574.08519506
+POOLING ITERATION 60
+epoch: 49 245, loss:239.104660034
+	train acc: 0.996825396825
+epoch: 49 246, loss:239.056854248
+	train acc: 0.995238095238
+epoch: 49 247, loss:239.050216675
+	train acc: 1.0
+epoch: 49 248, loss:239.054397583
+	train acc: 0.992063492063
+epoch: 49 249, loss:239.154525757
+	train acc: 1.0
+                                                          Test Accuracy 0.9397
+time 5664.59894896
+POOLING ITERATION 61
+epoch: 49 245, loss:229.504486084
+	train acc: 1.0
+epoch: 49 246, loss:229.497360229
+	train acc: 1.0
+epoch: 49 247, loss:229.470489502
+	train acc: 1.0
+epoch: 49 248, loss:229.473068237
+	train acc: 1.0
+epoch: 49 249, loss:229.423034668
+	train acc: 1.0
+                                                          Test Accuracy 0.9486
+time 5755.28811789
+POOLING ITERATION 62
+epoch: 49 294, loss:219.071121216
+	train acc: 0.996923076923
+epoch: 49 295, loss:219.002182007
+	train acc: 0.998461538462
+epoch: 49 296, loss:218.984191895
+	train acc: 0.998461538462
+epoch: 49 297, loss:218.966629028
+	train acc: 0.995384615385
+epoch: 49 298, loss:218.950668335
+	train acc: 0.996923076923
+epoch: 49 299, loss:218.892929077
+	train acc: 1.0
+                                                          Test Accuracy 0.9464
+time 5852.7280829
+POOLING ITERATION 63
+epoch: 49 294, loss:208.904022217
+	train acc: 0.992424242424
+epoch: 49 295, loss:208.909561157
+	train acc: 1.0
+epoch: 49 296, loss:208.843811035
+	train acc: 0.995454545455
+epoch: 49 297, loss:208.826660156
+	train acc: 0.990909090909
+epoch: 49 298, loss:208.78503418
+	train acc: 1.0
+epoch: 49 299, loss:208.771682739
+	train acc: 1.0
+                                                          Test Accuracy 0.9473
+time 5950.24361396
+POOLING ITERATION 64
+epoch: 49 294, loss:199.062347412
+	train acc: 0.998507462687
+epoch: 49 295, loss:199.046401978
+	train acc: 1.0
+epoch: 49 296, loss:199.026535034
+	train acc: 1.0
+epoch: 49 297, loss:199.020599365
+	train acc: 1.0
+epoch: 49 298, loss:198.969268799
+	train acc: 1.0
+epoch: 49 299, loss:198.96635437
+	train acc: 1.0
+                                                          Test Accuracy 0.9388
+time 6048.11419988
+POOLING ITERATION 65
+epoch: 49 294, loss:189.347991943
+	train acc: 1.0
+epoch: 49 295, loss:189.354904175
+	train acc: 1.0
+epoch: 49 296, loss:189.383117676
+	train acc: 0.994117647059
+epoch: 49 297, loss:189.31690979
+	train acc: 0.991176470588
+epoch: 49 298, loss:189.319458008
+	train acc: 0.992647058824
+epoch: 49 299, loss:189.279708862
+	train acc: 0.994117647059
+                                                          Test Accuracy 0.9467
+time 6145.57576299
+POOLING ITERATION 66
+epoch: 49 294, loss:179.937454224
+	train acc: 1.0
+epoch: 49 295, loss:179.919036865
+	train acc: 0.995652173913
+epoch: 49 296, loss:179.886505127
+	train acc: 0.998550724638
+epoch: 49 297, loss:179.86378479
+	train acc: 1.0
+epoch: 49 298, loss:179.831588745
+	train acc: 1.0
+epoch: 49 299, loss:179.881774902
+	train acc: 0.998550724638
+                                                          Test Accuracy 0.9518
+time 6243.46398592
+POOLING ITERATION 67
+epoch: 49 294, loss:170.791381836
+	train acc: 1.0
+epoch: 49 295, loss:172.641281128
+	train acc: 1.0
+epoch: 49 296, loss:170.741012573
+	train acc: 0.998571428571
+epoch: 49 297, loss:170.723205566
+	train acc: 0.984285714286
+epoch: 49 298, loss:170.714813232
+	train acc: 0.997142857143
+epoch: 49 299, loss:170.682785034
+	train acc: 1.0
+                                                          Test Accuracy 0.9497
+time 6341.65346885
+POOLING ITERATION 68
+epoch: 49 294, loss:162.053268433
+	train acc: 1.0
+epoch: 49 295, loss:162.054489136
+	train acc: 1.0
+epoch: 49 296, loss:162.028335571
+	train acc: 1.0
+epoch: 49 297, loss:161.996276855
+	train acc: 0.998591549296
+epoch: 49 298, loss:161.989318848
+	train acc: 1.0
+epoch: 49 299, loss:161.953948975
+	train acc: 0.995774647887
+                                                          Test Accuracy 0.9499
+time 6439.683676
+POOLING ITERATION 69
+epoch: 49 294, loss:153.488449097
+	train acc: 0.998611111111
+epoch: 49 295, loss:153.482009888
+	train acc: 1.0
+epoch: 49 296, loss:153.464233398
+	train acc: 1.0
+epoch: 49 297, loss:153.409317017
+	train acc: 0.994444444444
+epoch: 49 298, loss:153.422317505
+	train acc: 1.0
+epoch: 49 299, loss:153.400665283
+	train acc: 0.997222222222
+                                                          Test Accuracy 0.9493
+time 6537.84060788
+POOLING ITERATION 70
+epoch: 49 294, loss:145.082977295
+	train acc: 1.0
+epoch: 49 295, loss:145.079772949
+	train acc: 1.0
+epoch: 49 296, loss:145.018325806
+	train acc: 0.998630136986
+epoch: 49 297, loss:145.031509399
+	train acc: 0.998630136986
+epoch: 49 298, loss:144.985031128
+	train acc: 0.998630136986
+epoch: 49 299, loss:144.967697144
+	train acc: 0.998630136986
+                                                          Test Accuracy 0.9532
+time 6637.46093702
+POOLING ITERATION 71
+epoch: 49 294, loss:136.957672119
+	train acc: 1.0
+epoch: 49 295, loss:136.888412476
+	train acc: 0.997297297297
+epoch: 49 296, loss:136.888824463
+	train acc: 0.997297297297
+epoch: 49 297, loss:136.884109497
+	train acc: 0.997297297297
+epoch: 49 298, loss:136.85496521
+	train acc: 1.0
+epoch: 49 299, loss:136.820877075
+	train acc: 1.0
+                                                          Test Accuracy 0.9553
+time 6736.89754391
+POOLING ITERATION 72
+epoch: 49 294, loss:129.045959473
+	train acc: 0.98
+epoch: 49 295, loss:129.036239624
+	train acc: 0.997333333333
+epoch: 49 296, loss:129.181289673
+	train acc: 0.997333333333
+epoch: 49 297, loss:129.174362183
+	train acc: 0.933333333333
+epoch: 49 298, loss:128.959716797
+	train acc: 1.0
+epoch: 49 299, loss:128.954330444
+	train acc: 0.996
+                                                          Test Accuracy 0.9562
+time 6836.59762907
+POOLING ITERATION 73
+epoch: 49 294, loss:121.288124084
+	train acc: 1.0
+epoch: 49 295, loss:121.282417297
+	train acc: 0.998684210526
+epoch: 49 296, loss:121.267913818
+	train acc: 0.994736842105
+epoch: 49 297, loss:121.222496033
+	train acc: 0.996052631579
+epoch: 49 298, loss:121.205337524
+	train acc: 1.0
+epoch: 49 299, loss:121.210655212
+	train acc: 0.996052631579
+                                                          Test Accuracy 0.955
+time 6936.61543894
+POOLING ITERATION 74
+epoch: 49 343, loss:112.826538086
+	train acc: 0.981818181818
+epoch: 49 344, loss:112.842498779
+	train acc: 1.0
+epoch: 49 345, loss:112.820137024
+	train acc: 0.997402597403
+epoch: 49 346, loss:112.779975891
+	train acc: 0.998701298701
+epoch: 49 347, loss:112.764099121
+	train acc: 1.0
+epoch: 49 348, loss:112.765518188
+	train acc: 0.998701298701
+epoch: 49 349, loss:112.713943481
+	train acc: 1.0
+                                                          Test Accuracy 0.9571
+time 7042.31352401
+POOLING ITERATION 75
+epoch: 49 343, loss:104.621765137
+	train acc: 0.998717948718
+epoch: 49 344, loss:104.607460022
+	train acc: 0.998717948718
+epoch: 49 345, loss:104.604064941
+	train acc: 1.0
+epoch: 49 346, loss:104.60974884
+	train acc: 0.997435897436
+epoch: 49 347, loss:104.525527954
+	train acc: 1.0
+epoch: 49 348, loss:104.526443481
+	train acc: 0.996153846154
+epoch: 49 349, loss:104.480186462
+	train acc: 0.997435897436
+                                                          Test Accuracy 0.9474
+time 7148.63386703
+POOLING ITERATION 76
+epoch: 49 343, loss:96.5737380981
+	train acc: 0.993670886076
+epoch: 49 344, loss:96.5599746704
+	train acc: 0.992405063291
+epoch: 49 345, loss:96.5892944336
+	train acc: 0.967088607595
+epoch: 49 346, loss:96.8538894653
+	train acc: 0.984810126582
+epoch: 49 347, loss:96.5777511597
+	train acc: 0.992405063291
+epoch: 49 348, loss:96.5208740234
+	train acc: 0.99746835443
+epoch: 49 349, loss:96.4860153198
+	train acc: 0.998734177215
+                                                          Test Accuracy 0.9558
+time 7256.2130959
+POOLING ITERATION 77
+epoch: 49 343, loss:88.7116394043
+	train acc: 0.9975
+epoch: 49 344, loss:88.7471618652
+	train acc: 0.9975
+epoch: 49 345, loss:88.6945953369
+	train acc: 0.99875
+epoch: 49 346, loss:88.6877212524
+	train acc: 0.9975
+epoch: 49 347, loss:88.6489181519
+	train acc: 1.0
+epoch: 49 348, loss:88.6369171143
+	train acc: 0.99875
+epoch: 49 349, loss:88.6224899292
+	train acc: 1.0
+                                                          Test Accuracy 0.9547
+time 7363.35416603
+POOLING ITERATION 78
+epoch: 49 343, loss:81.2370452881
+	train acc: 0.7
+epoch: 49 344, loss:81.2146072388
+	train acc: 0.985185185185
+epoch: 49 345, loss:81.206703186
+	train acc: 1.0
+epoch: 49 346, loss:81.1728057861
+	train acc: 1.0
+epoch: 49 347, loss:81.1570053101
+	train acc: 0.997530864198
+epoch: 49 348, loss:81.1855621338
+	train acc: 1.0
+epoch: 49 349, loss:81.1228942871
+	train acc: 0.997530864198
+                                                          Test Accuracy 0.9592
+time 7471.0804739
+POOLING ITERATION 79
+epoch: 49 343, loss:73.6597976685
+	train acc: 0.676829268293
+epoch: 49 344, loss:74.0572814941
+	train acc: 0.99756097561
+epoch: 49 345, loss:73.6284484863
+	train acc: 0.993902439024
+epoch: 49 346, loss:73.6010742188
+	train acc: 0.989024390244
+epoch: 49 347, loss:73.5972061157
+	train acc: 0.998780487805
+epoch: 49 348, loss:73.6193161011
+	train acc: 1.0
+epoch: 49 349, loss:73.6421737671
+	train acc: 0.998780487805
+                                                          Test Accuracy 0.9593
+time 7578.7741189
+POOLING ITERATION 80
+epoch: 49 343, loss:66.2567367554
+	train acc: 1.0
+epoch: 49 344, loss:66.2582473755
+	train acc: 0.957831325301
+epoch: 49 345, loss:66.2421417236
+	train acc: 0.996385542169
+epoch: 49 346, loss:66.2648696899
+	train acc: 0.997590361446
+epoch: 49 347, loss:66.169921875
+	train acc: 1.0
+epoch: 49 348, loss:66.1697463989
+	train acc: 0.997590361446
+epoch: 49 349, loss:66.1606140137
+	train acc: 0.998795180723
+                                                          Test Accuracy 0.9545
+time 7686.51868701
+POOLING ITERATION 81
+epoch: 49 343, loss:59.0664024353
+	train acc: 0.99880952381
+epoch: 49 344, loss:59.0638313293
+	train acc: 0.995238095238
+epoch: 49 345, loss:59.0533599854
+	train acc: 1.0
+epoch: 49 346, loss:59.0238342285
+	train acc: 1.0
+epoch: 49 347, loss:59.0172691345
+	train acc: 0.986904761905
+epoch: 49 348, loss:58.98670578
+	train acc: 1.0
+epoch: 49 349, loss:58.9580497742
+	train acc: 1.0
+                                                          Test Accuracy 0.9561
+time 7794.60413885
+POOLING ITERATION 82
+epoch: 49 343, loss:52.0980567932
+	train acc: 0.98
+epoch: 49 344, loss:52.0781593323
+	train acc: 0.995294117647
+epoch: 49 345, loss:52.0537757874
+	train acc: 1.0
+epoch: 49 346, loss:52.028842926
+	train acc: 0.998823529412
+epoch: 49 347, loss:52.0166168213
+	train acc: 0.996470588235
+epoch: 49 348, loss:51.9964065552
+	train acc: 0.998823529412
+epoch: 49 349, loss:51.9920959473
+	train acc: 0.995294117647
+                                                          Test Accuracy 0.9602
+time 7902.02792597
+POOLING ITERATION 83
+epoch: 49 343, loss:45.3024253845
+	train acc: 1.0
+epoch: 49 344, loss:45.2747917175
+	train acc: 1.0
+epoch: 49 345, loss:45.2651863098
+	train acc: 0.998837209302
+epoch: 49 346, loss:45.2423820496
+	train acc: 1.0
+epoch: 49 347, loss:45.2193984985
+	train acc: 1.0
+epoch: 49 348, loss:45.1947860718
+	train acc: 1.0
+epoch: 49 349, loss:45.1892356873
+	train acc: 1.0
+                                                          Test Accuracy 0.958
+time 8010.35578394
+POOLING ITERATION 84
+epoch: 49 343, loss:38.7852859497
+	train acc: 0.998850574713
+epoch: 49 344, loss:38.7260284424
+	train acc: 0.997701149425
+epoch: 49 345, loss:38.7143096924
+	train acc: 0.998850574713
+epoch: 49 346, loss:38.684261322
+	train acc: 0.991954022989
+epoch: 49 347, loss:39.3052482605
+	train acc: 0.995402298851
+epoch: 49 348, loss:38.6808204651
+	train acc: 0.997701149425
+epoch: 49 349, loss:38.6723213196
+	train acc: 0.997701149425
+                                                          Test Accuracy 0.9577
+time 8117.75479698
+POOLING ITERATION 85
+epoch: 49 343, loss:32.320022583
+	train acc: 0.994318181818
+epoch: 49 344, loss:32.2978172302
+	train acc: 0.994318181818
+epoch: 49 345, loss:32.3234901428
+	train acc: 0.990909090909
+epoch: 49 346, loss:32.3528327942
+	train acc: 0.997727272727
+epoch: 49 347, loss:32.2805862427
+	train acc: 1.0
+epoch: 49 348, loss:32.2788162231
+	train acc: 0.998863636364
+epoch: 49 349, loss:32.2818489075
+	train acc: 0.998863636364
+                                                          Test Accuracy 0.9554
+time 8226.68530202
+POOLING ITERATION 86
+epoch: 49 343, loss:25.8994407654
+	train acc: 1.0
+epoch: 49 344, loss:25.8898887634
+	train acc: 1.0
+epoch: 49 345, loss:25.8686618805
+	train acc: 0.998876404494
+epoch: 49 346, loss:25.8631916046
+	train acc: 1.0
+epoch: 49 347, loss:25.8458461761
+	train acc: 0.979775280899
+epoch: 49 348, loss:25.8339977264
+	train acc: 0.996629213483
+epoch: 49 349, loss:25.8606739044
+	train acc: 0.98202247191
+                                                          Test Accuracy 0.9589
+time 8335.11039686
+POOLING ITERATION 87
+epoch: 49 392, loss:nan
+	train acc: 0.0822222222222
+epoch: 49 393, loss:nan
+	train acc: 0.0822222222222
+epoch: 49 394, loss:nan
+	train acc: 0.0822222222222
+epoch: 49 395, loss:nan
+	train acc: 0.0822222222222
+epoch: 49 396, loss:nan
+	train acc: 0.0822222222222
+epoch: 49 397, loss:nan
+	train acc: 0.0822222222222
+epoch: 49 398, loss:nan
+	train acc: 0.0822222222222
+epoch: 49 399, loss:nan
+	train acc: 0.0822222222222
+                                                          Test Accuracy 0.098
+time 8449.7687459
+POOLING ITERATION 88
+epoch: 49 392, loss:nan
+	train acc: 0.0813186813187
+epoch: 49 393, loss:nan
+	train acc: 0.0813186813187
+epoch: 49 394, loss:nan
+	train acc: 0.0813186813187
+epoch: 49 395, loss:nan
+	train acc: 0.0813186813187
+epoch: 49 396, loss:nan
+	train acc: 0.0813186813187
+epoch: 49 397, loss:nan
+	train acc: 0.0813186813187
+epoch: 49 398, loss:nan
+	train acc: 0.0813186813187
+epoch: 49 399, loss:nan
+	train acc: 0.0813186813187
+                                                          Test Accuracy 0.098
+time 8564.83651304
+POOLING ITERATION 89
+epoch: 49 392, loss:nan
+	train acc: 0.0815217391304
+epoch: 49 393, loss:nan
+	train acc: 0.0815217391304
+epoch: 49 394, loss:nan
+	train acc: 0.0815217391304
+epoch: 49 395, loss:nan
+	train acc: 0.0815217391304
+epoch: 49 396, loss:nan
+	train acc: 0.0815217391304
+epoch: 49 397, loss:nan
+	train acc: 0.0815217391304
+epoch: 49 398, loss:nan
+	train acc: 0.0815217391304
+epoch: 49 399, loss:nan
+	train acc: 0.0815217391304
+                                                          Test Accuracy 0.098
+time 8680.49123287
+POOLING ITERATION 90
+epoch: 49 392, loss:nan
+	train acc: 0.0817204301075
+epoch: 49 393, loss:nan
+	train acc: 0.0817204301075
+epoch: 49 394, loss:nan
+	train acc: 0.0817204301075
+epoch: 49 395, loss:nan
+	train acc: 0.0817204301075
+epoch: 49 396, loss:nan
+	train acc: 0.0817204301075
+epoch: 49 397, loss:nan
+	train acc: 0.0817204301075
+epoch: 49 398, loss:nan
+	train acc: 0.0817204301075
+epoch: 49 399, loss:nan
+	train acc: 0.0817204301075
+                                                          Test Accuracy 0.098
+time 8796.17189097
+POOLING ITERATION 91
+epoch: 49 392, loss:nan
+	train acc: 0.081914893617
+epoch: 49 393, loss:nan
+	train acc: 0.081914893617
+epoch: 49 394, loss:nan
+	train acc: 0.081914893617
+epoch: 49 395, loss:nan
+	train acc: 0.081914893617
+epoch: 49 396, loss:nan
+	train acc: 0.081914893617
+epoch: 49 397, loss:nan
+	train acc: 0.081914893617
+epoch: 49 398, loss:nan
+	train acc: 0.081914893617
+epoch: 49 399, loss:nan
+	train acc: 0.081914893617
+                                                          Test Accuracy 0.098
+time 8911.10909986
+POOLING ITERATION 92
+epoch: 49 392, loss:nan
+	train acc: 0.0821052631579
+epoch: 49 393, loss:nan
+	train acc: 0.0821052631579
+epoch: 49 394, loss:nan
+	train acc: 0.0821052631579
+epoch: 49 395, loss:nan
+	train acc: 0.0821052631579
+epoch: 49 396, loss:nan
+	train acc: 0.0821052631579
+epoch: 49 397, loss:nan
+	train acc: 0.0821052631579
+epoch: 49 398, loss:nan
+	train acc: 0.0821052631579
+epoch: 49 399, loss:nan
+	train acc: 0.0821052631579
+                                                          Test Accuracy 0.098
+time 9026.90828204
+POOLING ITERATION 93
+epoch: 49 392, loss:nan
+	train acc: 0.08125
+epoch: 49 393, loss:nan
+	train acc: 0.08125
+epoch: 49 394, loss:nan
+	train acc: 0.08125
+epoch: 49 395, loss:nan
+	train acc: 0.08125
+epoch: 49 396, loss:nan
+	train acc: 0.08125
+epoch: 49 397, loss:nan
+	train acc: 0.08125
+epoch: 49 398, loss:nan
+	train acc: 0.08125
+epoch: 49 399, loss:nan
+	train acc: 0.08125
+                                                          Test Accuracy 0.098
+time 9141.64331508
+POOLING ITERATION 94
+epoch: 49 392, loss:nan
+	train acc: 0.0835051546392
+epoch: 49 393, loss:nan
+	train acc: 0.0835051546392
+epoch: 49 394, loss:nan
+	train acc: 0.0835051546392
+epoch: 49 395, loss:nan
+	train acc: 0.0835051546392
+epoch: 49 396, loss:nan
+	train acc: 0.0835051546392
+epoch: 49 397, loss:nan
+	train acc: 0.0835051546392
+epoch: 49 398, loss:nan
+	train acc: 0.0835051546392
+epoch: 49 399, loss:nan
+	train acc: 0.0835051546392
+                                                          Test Accuracy 0.098
+time 9258.11975098
+POOLING ITERATION 95
+epoch: 49 392, loss:nan
+	train acc: 0.0826530612245
+epoch: 49 393, loss:nan
+	train acc: 0.0826530612245
+epoch: 49 394, loss:nan
+	train acc: 0.0826530612245
+epoch: 49 395, loss:nan
+	train acc: 0.0826530612245
+epoch: 49 396, loss:nan
+	train acc: 0.0826530612245
+epoch: 49 397, loss:nan
+	train acc: 0.0826530612245
+epoch: 49 398, loss:nan
+	train acc: 0.0826530612245
+epoch: 49 399, loss:nan
+	train acc: 0.0826530612245
+                                                          Test Accuracy 0.098
+time 9374.03667188
+POOLING ITERATION 96
+epoch: 49 392, loss:nan
+	train acc: 0.0828282828283
+epoch: 49 393, loss:nan
+	train acc: 0.0828282828283
+epoch: 49 394, loss:nan
+	train acc: 0.0828282828283
+epoch: 49 395, loss:nan
+	train acc: 0.0828282828283
+epoch: 49 396, loss:nan
+	train acc: 0.0828282828283
+epoch: 49 397, loss:nan
+	train acc: 0.0828282828283
+epoch: 49 398, loss:nan
+	train acc: 0.0828282828283
+epoch: 49 399, loss:nan
+	train acc: 0.0828282828283
+                                                          Test Accuracy 0.098
+time 9489.61580396
+POOLING ITERATION 97
+epoch: 49 392, loss:nan
+	train acc: 0.083
+epoch: 49 393, loss:nan
+	train acc: 0.083
+epoch: 49 394, loss:nan
+	train acc: 0.083
+epoch: 49 395, loss:nan
+	train acc: 0.083
+epoch: 49 396, loss:nan
+	train acc: 0.083
+epoch: 49 397, loss:nan
+	train acc: 0.083
+epoch: 49 398, loss:nan
+	train acc: 0.083
+epoch: 49 399, loss:nan
+	train acc: 0.083
+                                                          Test Accuracy 0.098
+Set compute mode to DEFAULT for GPU 0000:83:00.0.
+All done.

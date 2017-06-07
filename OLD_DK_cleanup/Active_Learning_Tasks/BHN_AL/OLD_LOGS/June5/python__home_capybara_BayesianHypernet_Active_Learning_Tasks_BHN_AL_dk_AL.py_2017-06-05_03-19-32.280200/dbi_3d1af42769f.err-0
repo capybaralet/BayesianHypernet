@@ -1,0 +1,27 @@
+WARNING (theano.sandbox.cuda): The cuda backend is deprecated and will be removed in the next release (v0.10).  Please switch to the gpuarray backend. You can get more information about how to switch at this URL:
+ https://github.com/Theano/Theano/wiki/Converting-to-the-new-gpu-back-end%28gpuarray%29
+
+
+==============NVSMI LOG==============
+
+Timestamp                           : Mon Jun  5 03:20:02 2017
+Driver Version                      : 375.39
+
+Attached GPUs                       : 16
+GPU 0000:86:00.0
+    Accounting Mode                 : Enabled
+    Accounting Mode Buffer Size     : 1920
+    Accounted Processes
+        Process ID                  : 13471
+            GPU Utilization         : 0 %
+            Memory Utilization      : 0 %
+            Max memory usage        : 0 MiB
+            Time                    : 739 ms
+            Is Running              : 0
+        Process ID                  : 218954
+            GPU Utilization         : 0 %
+            Memory Utilization      : 0 %
+            Max memory usage        : 1 MiB
+            Time                    : 1146 ms
+            Is Running              : 0
+

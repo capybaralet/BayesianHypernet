@@ -1,0 +1,4469 @@
+[DBI] executing on host gpu-k80-05
+MOAB_JOBNAME=dbi_e040b11ee5d
+MOAB_USER=capybara
+MOAB_TASKMAP=gpu-k80-05:1
+MOAB_CLASS=gpu_1
+MOAB_PROCCOUNT=1
+MOAB_GROUP=jvb-000-01
+MOAB_NODELIST=gpu-k80-05
+MOAB_ACCOUNT=jvb-000-ag
+MOABHOMEDIR=/opt/moab
+MOAB_MACHINE=torque
+MOAB_NODECOUNT=1
+MOAB_JOBID=82094[0]
+MOAB_QOS=24H
+MOAB_PARTITION=colosse
+/rap/jvb-000-aa//capy/results/launch6_dk_AL.py/dk_AL.py___model_type=CNN_dropout_acq=var_ratio_arch=Riashat_num_experiments=3_coupling=4_convex_combination=0_lr0=.001_new_model=1_params_reset=random_save=1_test_eval=1
+
+
+
+-----------------------------------------------------------------------
+
+
+
+Namespace(acq='var_ratio', arch='Riashat', bs=128, convex_combination=0, coupling=4, epochs=50, lbda=1, lr0=0.001, lrdecay=0, model_type='CNN_dropout', new_model=1, nonlinearity='rectify', num_acq=98, num_experiments=3, params_reset='random', perdatapoint=0, pool_size=2000, prior='log_normal', save=1, save_path='/rap/jvb-000-aa//capy/results/launch6_dk_AL.py/dk_AL.py___model_type=CNN_dropout_acq=var_ratio_arch=Riashat_num_experiments=3_coupling=4_convex_combination=0_lr0=.001_new_model=1_params_reset=random_save=1_test_eval=1', seed=1337, size=10000, test_eval=1, verbose=1)
+Initial Training Data (20, 1, 28, 28)
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.00629458436742
+	train acc: 1.0
+                                                          valid Accuracy 0.457
+                                                          Test Accuracy 0.442
+time 117.471560955
+POOLING ITERATION 0
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0067836442031
+	train acc: 1.0
+                                                          Valid Accuracy 0.4911
+                                                          Test Accuracy 0.4894
+time 964.14784503
+POOLING ITERATION 1
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0144116161391
+	train acc: 1.0
+                                                          Valid Accuracy 0.4549
+                                                          Test Accuracy 0.4551
+time 1129.36016202
+POOLING ITERATION 2
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.128145396709
+	train acc: 1.0
+                                                          Valid Accuracy 0.6402
+                                                          Test Accuracy 0.6256
+time 1199.31293082
+POOLING ITERATION 3
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0105118118227
+	train acc: 1.0
+                                                          Valid Accuracy 0.641
+                                                          Test Accuracy 0.6173
+time 1259.55609798
+POOLING ITERATION 4
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.146067246795
+	train acc: 0.985714285714
+                                                          Valid Accuracy 0.6293
+                                                          Test Accuracy 0.616
+time 1319.61616397
+POOLING ITERATION 5
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.04810173437
+	train acc: 1.0
+                                                          Valid Accuracy 0.7156
+                                                          Test Accuracy 0.7004
+time 1378.79879498
+POOLING ITERATION 6
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0468745492399
+	train acc: 1.0
+                                                          Valid Accuracy 0.7807
+                                                          Test Accuracy 0.7732
+time 1438.91499805
+POOLING ITERATION 7
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0616387240589
+	train acc: 1.0
+                                                          Valid Accuracy 0.7694
+                                                          Test Accuracy 0.7557
+time 1499.13703704
+POOLING ITERATION 8
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0375131182373
+	train acc: 1.0
+                                                          Valid Accuracy 0.7614
+                                                          Test Accuracy 0.7527
+time 1558.94516182
+POOLING ITERATION 9
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.160607174039
+	train acc: 1.0
+                                                          Valid Accuracy 0.8148
+                                                          Test Accuracy 0.8073
+time 1619.43718886
+POOLING ITERATION 10
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.175449192524
+	train acc: 0.992307692308
+epoch: 49 99, loss:5.24520874023e-06
+	train acc: 0.992307692308
+                                                          Valid Accuracy 0.7959
+                                                          Test Accuracy 0.7886
+time 1682.43137002
+POOLING ITERATION 11
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.268709301949
+	train acc: 0.978571428571
+epoch: 49 99, loss:0.184203147888
+	train acc: 0.985714285714
+                                                          Valid Accuracy 0.7963
+                                                          Test Accuracy 0.7927
+time 1747.08771896
+POOLING ITERATION 12
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.133995488286
+	train acc: 0.993333333333
+epoch: 49 99, loss:0.0252154525369
+	train acc: 0.993333333333
+                                                          Valid Accuracy 0.7906
+                                                          Test Accuracy 0.7801
+time 1809.50640893
+POOLING ITERATION 13
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.142762392759
+	train acc: 0.9875
+epoch: 49 99, loss:0.0258619114757
+	train acc: 0.98125
+                                                          Valid Accuracy 0.795
+                                                          Test Accuracy 0.7741
+time 1873.81463289
+POOLING ITERATION 14
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.200495645404
+	train acc: 0.970588235294
+epoch: 49 99, loss:0.0692341774702
+	train acc: 0.958823529412
+                                                          Valid Accuracy 0.7534
+                                                          Test Accuracy 0.7405
+time 1937.92481399
+POOLING ITERATION 15
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.146304249763
+	train acc: 1.0
+epoch: 49 99, loss:0.0400275811553
+	train acc: 1.0
+                                                          Valid Accuracy 0.7886
+                                                          Test Accuracy 0.7766
+time 2003.20466995
+POOLING ITERATION 16
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.127952441573
+	train acc: 1.0
+epoch: 49 99, loss:0.013864194043
+	train acc: 1.0
+                                                          Valid Accuracy 0.8336
+                                                          Test Accuracy 0.8195
+time 2070.33056688
+POOLING ITERATION 17
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.0616737157106
+	train acc: 1.0
+epoch: 49 99, loss:0.0939854606986
+	train acc: 1.0
+                                                          Valid Accuracy 0.8617
+                                                          Test Accuracy 0.8513
+time 2134.11868596
+POOLING ITERATION 18
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.0831401571631
+	train acc: 1.0
+epoch: 49 99, loss:0.0376014895737
+	train acc: 1.0
+                                                          Valid Accuracy 0.8519
+                                                          Test Accuracy 0.8418
+time 2197.64234591
+POOLING ITERATION 19
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.0781073719263
+	train acc: 1.0
+epoch: 49 99, loss:0.0632109344006
+	train acc: 1.0
+                                                          Valid Accuracy 0.8695
+                                                          Test Accuracy 0.8695
+time 2262.27236104
+POOLING ITERATION 20
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.0989484637976
+	train acc: 1.0
+epoch: 49 99, loss:0.0687603354454
+	train acc: 1.0
+                                                          Valid Accuracy 0.8417
+                                                          Test Accuracy 0.8343
+time 2330.45175695
+POOLING ITERATION 21
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.690744698048
+	train acc: 0.883333333333
+epoch: 49 99, loss:0.701300442219
+	train acc: 0.879166666667
+                                                          Valid Accuracy 0.7486
+                                                          Test Accuracy 0.745
+time 2398.23337293
+POOLING ITERATION 22
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.271483421326
+	train acc: 1.0
+epoch: 49 99, loss:0.124849192798
+	train acc: 0.996
+                                                          Valid Accuracy 0.8161
+                                                          Test Accuracy 0.8054
+time 2463.39126992
+POOLING ITERATION 23
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.180016815662
+	train acc: 0.984615384615
+epoch: 49 148, loss:0.232546836138
+	train acc: 0.988461538462
+epoch: 49 149, loss:2.67028808594e-05
+	train acc: 0.980769230769
+                                                          Valid Accuracy 0.7756
+                                                          Test Accuracy 0.7773
+time 2529.54360294
+POOLING ITERATION 24
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.238110095263
+	train acc: 0.97037037037
+epoch: 49 148, loss:0.179782629013
+	train acc: 0.977777777778
+epoch: 49 149, loss:0.0878102108836
+	train acc: 0.97037037037
+                                                          Valid Accuracy 0.832
+                                                          Test Accuracy 0.8246
+time 2599.70302892
+POOLING ITERATION 25
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.165791660547
+	train acc: 0.975
+epoch: 49 148, loss:0.255656003952
+	train acc: 0.992857142857
+epoch: 49 149, loss:0.0261418614537
+	train acc: 0.996428571429
+                                                          Valid Accuracy 0.8504
+                                                          Test Accuracy 0.8509
+time 2668.93677187
+POOLING ITERATION 26
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.125852316618
+	train acc: 1.0
+epoch: 49 148, loss:0.110236018896
+	train acc: 1.0
+epoch: 49 149, loss:0.0277636330575
+	train acc: 1.0
+                                                          Valid Accuracy 0.8195
+                                                          Test Accuracy 0.8061
+time 2736.83326602
+POOLING ITERATION 27
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.0928904935718
+	train acc: 0.993333333333
+epoch: 49 148, loss:0.137149482965
+	train acc: 0.993333333333
+epoch: 49 149, loss:0.050028886646
+	train acc: 0.993333333333
+                                                          Valid Accuracy 0.8759
+                                                          Test Accuracy 0.8686
+time 2804.00674891
+POOLING ITERATION 28
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.19402064383
+	train acc: 0.987096774194
+epoch: 49 148, loss:0.143031358719
+	train acc: 0.990322580645
+epoch: 49 149, loss:0.127360165119
+	train acc: 0.987096774194
+                                                          Valid Accuracy 0.8307
+                                                          Test Accuracy 0.8179
+time 2876.24236798
+POOLING ITERATION 29
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.0734133273363
+	train acc: 0.996875
+epoch: 49 148, loss:0.0538740344346
+	train acc: 0.996875
+epoch: 49 149, loss:0.0595586597919
+	train acc: 0.996875
+                                                          Valid Accuracy 0.8691
+                                                          Test Accuracy 0.8688
+time 2949.89678597
+POOLING ITERATION 30
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.150851339102
+	train acc: 1.0
+epoch: 49 148, loss:0.0997176319361
+	train acc: 1.0
+epoch: 49 149, loss:0.109177127481
+	train acc: 1.0
+                                                          Valid Accuracy 0.8567
+                                                          Test Accuracy 0.8521
+time 3022.10602093
+POOLING ITERATION 31
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.324563890696
+	train acc: 0.988235294118
+epoch: 49 148, loss:0.132997810841
+	train acc: 0.991176470588
+epoch: 49 149, loss:0.132080510259
+	train acc: 0.982352941176
+                                                          Valid Accuracy 0.8348
+                                                          Test Accuracy 0.8187
+time 3095.41830182
+POOLING ITERATION 32
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.249479115009
+	train acc: 0.965714285714
+epoch: 49 148, loss:0.315472096205
+	train acc: 0.96
+epoch: 49 149, loss:0.28207436204
+	train acc: 0.977142857143
+                                                          Valid Accuracy 0.8194
+                                                          Test Accuracy 0.8074
+time 3164.53880405
+POOLING ITERATION 33
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.16578194499
+	train acc: 1.0
+epoch: 49 148, loss:0.0769151002169
+	train acc: 1.0
+epoch: 49 149, loss:0.0857908353209
+	train acc: 1.0
+                                                          Valid Accuracy 0.8747
+                                                          Test Accuracy 0.8709
+time 3235.20565104
+POOLING ITERATION 34
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.0754634588957
+	train acc: 0.991891891892
+epoch: 49 148, loss:0.0822724252939
+	train acc: 0.991891891892
+epoch: 49 149, loss:0.102307476103
+	train acc: 1.0
+                                                          Valid Accuracy 0.8647
+                                                          Test Accuracy 0.8565
+time 3305.16396785
+POOLING ITERATION 35
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.0866973549128
+	train acc: 0.981578947368
+epoch: 49 148, loss:0.13295789063
+	train acc: 0.986842105263
+epoch: 49 149, loss:0.0847308710217
+	train acc: 0.992105263158
+                                                          Valid Accuracy 0.8896
+                                                          Test Accuracy 0.8856
+time 3373.00915694
+POOLING ITERATION 36
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.154685139656
+	train acc: 0.979487179487
+epoch: 49 197, loss:0.266594231129
+	train acc: 0.984615384615
+epoch: 49 198, loss:0.194824948907
+	train acc: 0.974358974359
+epoch: 49 199, loss:0.0318401642144
+	train acc: 0.958974358974
+                                                          Valid Accuracy 0.8265
+                                                          Test Accuracy 0.8204
+time 3446.64620185
+POOLING ITERATION 37
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.104399785399
+	train acc: 0.98
+epoch: 49 197, loss:0.0931088030338
+	train acc: 0.98
+epoch: 49 198, loss:0.124900385737
+	train acc: 0.9775
+epoch: 49 199, loss:0.0079008936882
+	train acc: 0.975
+                                                          Valid Accuracy 0.8312
+                                                          Test Accuracy 0.83
+time 3526.43323183
+POOLING ITERATION 38
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0480456463993
+	train acc: 0.992682926829
+epoch: 49 197, loss:0.123323962092
+	train acc: 0.992682926829
+epoch: 49 198, loss:0.0902050584555
+	train acc: 0.992682926829
+epoch: 49 199, loss:0.00737039837986
+	train acc: 0.992682926829
+                                                          Valid Accuracy 0.8944
+                                                          Test Accuracy 0.8916
+time 3603.59842491
+POOLING ITERATION 39
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.144116207957
+	train acc: 0.978571428571
+epoch: 49 197, loss:0.112527169287
+	train acc: 0.988095238095
+epoch: 49 198, loss:0.201731830835
+	train acc: 0.988095238095
+epoch: 49 199, loss:0.0661407783628
+	train acc: 0.990476190476
+                                                          Valid Accuracy 0.8619
+                                                          Test Accuracy 0.8606
+time 3678.63376284
+POOLING ITERATION 40
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.129058301449
+	train acc: 0.979069767442
+epoch: 49 197, loss:0.142265543342
+	train acc: 0.981395348837
+epoch: 49 198, loss:0.0963200479746
+	train acc: 0.979069767442
+epoch: 49 199, loss:0.0191104523838
+	train acc: 0.979069767442
+                                                          Valid Accuracy 0.8551
+                                                          Test Accuracy 0.855
+time 3759.14110684
+POOLING ITERATION 41
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.12223084271
+	train acc: 0.968181818182
+epoch: 49 197, loss:0.209581196308
+	train acc: 0.968181818182
+epoch: 49 198, loss:0.256973445415
+	train acc: 0.968181818182
+epoch: 49 199, loss:0.0548491738737
+	train acc: 0.965909090909
+                                                          Valid Accuracy 0.8398
+                                                          Test Accuracy 0.8339
+time 3844.66093683
+POOLING ITERATION 42
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.164018213749
+	train acc: 0.98
+epoch: 49 197, loss:0.107860445976
+	train acc: 0.988888888889
+epoch: 49 198, loss:0.071542866528
+	train acc: 0.988888888889
+epoch: 49 199, loss:0.0749165788293
+	train acc: 0.988888888889
+                                                          Valid Accuracy 0.8474
+                                                          Test Accuracy 0.8478
+time 3928.64941001
+POOLING ITERATION 43
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.111150547862
+	train acc: 0.99347826087
+epoch: 49 197, loss:0.0548128075898
+	train acc: 0.991304347826
+epoch: 49 198, loss:0.217466399074
+	train acc: 0.997826086957
+epoch: 49 199, loss:0.100832223892
+	train acc: 0.997826086957
+                                                          Valid Accuracy 0.8595
+                                                          Test Accuracy 0.8606
+time 4007.09138083
+POOLING ITERATION 44
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0706587806344
+	train acc: 0.989361702128
+epoch: 49 197, loss:0.0766121298075
+	train acc: 0.987234042553
+epoch: 49 198, loss:0.0801935791969
+	train acc: 0.982978723404
+epoch: 49 199, loss:0.0520723238587
+	train acc: 0.98085106383
+                                                          Valid Accuracy 0.8774
+                                                          Test Accuracy 0.8704
+time 4088.15878105
+POOLING ITERATION 45
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0495989732444
+	train acc: 0.991666666667
+epoch: 49 197, loss:0.0622084513307
+	train acc: 0.989583333333
+epoch: 49 198, loss:0.124975584447
+	train acc: 0.995833333333
+epoch: 49 199, loss:0.0686590075493
+	train acc: 0.99375
+                                                          Valid Accuracy 0.8881
+                                                          Test Accuracy 0.8856
+time 4172.75134397
+POOLING ITERATION 46
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0870153307915
+	train acc: 0.991836734694
+epoch: 49 197, loss:0.0615234822035
+	train acc: 0.99387755102
+epoch: 49 198, loss:0.192099973559
+	train acc: 0.99387755102
+epoch: 49 199, loss:0.111176401377
+	train acc: 0.99387755102
+                                                          Valid Accuracy 0.8956
+                                                          Test Accuracy 0.8951
+time 4255.50332284
+POOLING ITERATION 47
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.060434717685
+	train acc: 0.994
+epoch: 49 197, loss:0.0458191074431
+	train acc: 0.982
+epoch: 49 198, loss:0.146973639727
+	train acc: 0.984
+epoch: 49 199, loss:0.112900398672
+	train acc: 0.99
+                                                          Valid Accuracy 0.9057
+                                                          Test Accuracy 0.9038
+time 4334.79352689
+POOLING ITERATION 48
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0721062421799
+	train acc: 0.974509803922
+epoch: 49 197, loss:0.105284631252
+	train acc: 0.974509803922
+epoch: 49 198, loss:0.132357358932
+	train acc: 0.970588235294
+epoch: 49 199, loss:0.0738597288728
+	train acc: 0.96862745098
+                                                          Valid Accuracy 0.9038
+                                                          Test Accuracy 0.8984
+time 4412.92352295
+POOLING ITERATION 49
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0438059009612
+	train acc: 0.996153846154
+epoch: 49 246, loss:0.0528965555131
+	train acc: 0.996153846154
+epoch: 49 247, loss:0.100408233702
+	train acc: 0.996153846154
+epoch: 49 248, loss:0.0503676049411
+	train acc: 0.998076923077
+epoch: 49 249, loss:0.000176072120667
+	train acc: 1.0
+                                                          Valid Accuracy 0.902
+                                                          Test Accuracy 0.9
+time 4493.29033804
+POOLING ITERATION 50
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0445004925132
+	train acc: 0.996226415094
+epoch: 49 246, loss:0.169410124421
+	train acc: 0.998113207547
+epoch: 49 247, loss:0.10215998441
+	train acc: 0.996226415094
+epoch: 49 248, loss:0.0368040166795
+	train acc: 0.98679245283
+epoch: 49 249, loss:0.00568188540637
+	train acc: 0.977358490566
+                                                          Valid Accuracy 0.8969
+                                                          Test Accuracy 0.8974
+time 4577.20439291
+POOLING ITERATION 51
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.100408352911
+	train acc: 0.988888888889
+epoch: 49 246, loss:0.13143274188
+	train acc: 0.987037037037
+epoch: 49 247, loss:0.153149053454
+	train acc: 0.987037037037
+epoch: 49 248, loss:0.113955847919
+	train acc: 0.985185185185
+epoch: 49 249, loss:0.0430234335363
+	train acc: 0.988888888889
+                                                          Valid Accuracy 0.8861
+                                                          Test Accuracy 0.8827
+time 4660.86246085
+POOLING ITERATION 52
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0598439686
+	train acc: 0.963636363636
+epoch: 49 246, loss:0.112059153616
+	train acc: 0.96
+epoch: 49 247, loss:0.342349112034
+	train acc: 0.981818181818
+epoch: 49 248, loss:0.120179399848
+	train acc: 0.996363636364
+epoch: 49 249, loss:0.0263371095061
+	train acc: 0.985454545455
+                                                          Valid Accuracy 0.9036
+                                                          Test Accuracy 0.9024
+time 4743.94083405
+POOLING ITERATION 53
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.030732087791
+	train acc: 0.992857142857
+epoch: 49 246, loss:0.0416746065021
+	train acc: 0.992857142857
+epoch: 49 247, loss:0.103959098458
+	train acc: 0.989285714286
+epoch: 49 248, loss:0.125756025314
+	train acc: 0.996428571429
+epoch: 49 249, loss:0.040019530803
+	train acc: 0.998214285714
+                                                          Valid Accuracy 0.9041
+                                                          Test Accuracy 0.9046
+time 4827.24963093
+POOLING ITERATION 54
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.036573138088
+	train acc: 0.987719298246
+epoch: 49 246, loss:0.0657219588757
+	train acc: 0.991228070175
+epoch: 49 247, loss:0.077618278563
+	train acc: 0.991228070175
+epoch: 49 248, loss:0.0616457797587
+	train acc: 0.989473684211
+epoch: 49 249, loss:0.031349863857
+	train acc: 0.982456140351
+                                                          Valid Accuracy 0.9156
+                                                          Test Accuracy 0.9145
+time 4916.07508683
+POOLING ITERATION 55
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.119229122996
+	train acc: 0.974137931034
+epoch: 49 246, loss:0.319853246212
+	train acc: 0.974137931034
+epoch: 49 247, loss:0.153273552656
+	train acc: 0.98275862069
+epoch: 49 248, loss:0.211245596409
+	train acc: 0.989655172414
+epoch: 49 249, loss:0.103789485991
+	train acc: 0.986206896552
+                                                          Valid Accuracy 0.8685
+                                                          Test Accuracy 0.86
+time 4999.01555705
+POOLING ITERATION 56
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.034039221704
+	train acc: 0.983050847458
+epoch: 49 246, loss:0.0572164319456
+	train acc: 0.976271186441
+epoch: 49 247, loss:0.144162923098
+	train acc: 0.986440677966
+epoch: 49 248, loss:0.0391528941691
+	train acc: 0.996610169492
+epoch: 49 249, loss:0.0177035946399
+	train acc: 0.994915254237
+                                                          Valid Accuracy 0.9036
+                                                          Test Accuracy 0.9021
+time 5083.14990187
+POOLING ITERATION 57
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0641992092133
+	train acc: 0.971666666667
+epoch: 49 246, loss:0.102899938822
+	train acc: 0.975
+epoch: 49 247, loss:0.129764169455
+	train acc: 0.975
+epoch: 49 248, loss:0.126543283463
+	train acc: 0.98
+epoch: 49 249, loss:0.138116642833
+	train acc: 0.986666666667
+                                                          Valid Accuracy 0.9061
+                                                          Test Accuracy 0.9052
+time 5172.59253001
+POOLING ITERATION 58
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.068380959332
+	train acc: 0.975409836066
+epoch: 49 246, loss:0.0554275736213
+	train acc: 0.980327868852
+epoch: 49 247, loss:0.117610625923
+	train acc: 0.986885245902
+epoch: 49 248, loss:0.0839649140835
+	train acc: 0.986885245902
+epoch: 49 249, loss:0.0507515110075
+	train acc: 0.981967213115
+                                                          Valid Accuracy 0.9134
+                                                          Test Accuracy 0.9095
+time 5264.54398584
+POOLING ITERATION 59
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.185720875859
+	train acc: 0.95
+epoch: 49 246, loss:0.102446749806
+	train acc: 0.940322580645
+epoch: 49 247, loss:0.210815921426
+	train acc: 0.941935483871
+epoch: 49 248, loss:0.116286307573
+	train acc: 0.938709677419
+epoch: 49 249, loss:0.110535919666
+	train acc: 0.95
+                                                          Valid Accuracy 0.8911
+                                                          Test Accuracy 0.8888
+time 5352.93532085
+POOLING ITERATION 60
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.109829507768
+	train acc: 0.966666666667
+epoch: 49 246, loss:0.117320984602
+	train acc: 0.947619047619
+epoch: 49 247, loss:0.151669442654
+	train acc: 0.938095238095
+epoch: 49 248, loss:0.113569766283
+	train acc: 0.928571428571
+epoch: 49 249, loss:0.105574026704
+	train acc: 0.938095238095
+                                                          Valid Accuracy 0.8873
+                                                          Test Accuracy 0.8827
+time 5442.11046195
+POOLING ITERATION 61
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0667446106672
+	train acc: 0.9328125
+epoch: 49 246, loss:0.211674541235
+	train acc: 0.925
+epoch: 49 247, loss:0.158233195543
+	train acc: 0.9328125
+epoch: 49 248, loss:0.177010089159
+	train acc: 0.94375
+epoch: 49 249, loss:0.136312991381
+	train acc: 0.9296875
+                                                          Valid Accuracy 0.8691
+                                                          Test Accuracy 0.8647
+time 5534.27050495
+POOLING ITERATION 62
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.170178472996
+	train acc: 0.98
+epoch: 49 295, loss:0.132577240467
+	train acc: 0.976923076923
+epoch: 49 296, loss:0.188757717609
+	train acc: 0.975384615385
+epoch: 49 297, loss:0.167809665203
+	train acc: 0.975384615385
+epoch: 49 298, loss:0.167843818665
+	train acc: 0.981538461538
+epoch: 49 299, loss:0.0102274417877
+	train acc: 0.984615384615
+                                                          Valid Accuracy 0.8796
+                                                          Test Accuracy 0.8783
+time 5635.41473699
+POOLING ITERATION 63
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.191219687462
+	train acc: 0.987878787879
+epoch: 49 295, loss:0.197468116879
+	train acc: 0.989393939394
+epoch: 49 296, loss:0.158949375153
+	train acc: 0.995454545455
+epoch: 49 297, loss:0.0846562981606
+	train acc: 0.995454545455
+epoch: 49 298, loss:0.13414606452
+	train acc: 0.995454545455
+epoch: 49 299, loss:0.0305578950793
+	train acc: 0.990909090909
+                                                          Valid Accuracy 0.8449
+                                                          Test Accuracy 0.8371
+time 5726.53675604
+POOLING ITERATION 64
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.15650087595
+	train acc: 0.944776119403
+epoch: 49 295, loss:0.168478041887
+	train acc: 0.953731343284
+epoch: 49 296, loss:0.185825377703
+	train acc: 0.977611940299
+epoch: 49 297, loss:0.215681478381
+	train acc: 0.991044776119
+epoch: 49 298, loss:0.158171951771
+	train acc: 0.980597014925
+epoch: 49 299, loss:0.0267652347684
+	train acc: 0.959701492537
+                                                          Valid Accuracy 0.8733
+                                                          Test Accuracy 0.8615
+time 5812.75253892
+POOLING ITERATION 65
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.24173605442
+	train acc: 0.977941176471
+epoch: 49 295, loss:0.234113559127
+	train acc: 0.982352941176
+epoch: 49 296, loss:0.263820230961
+	train acc: 0.983823529412
+epoch: 49 297, loss:0.239760130644
+	train acc: 0.985294117647
+epoch: 49 298, loss:0.176764905453
+	train acc: 0.988235294118
+epoch: 49 299, loss:0.129657179117
+	train acc: 0.983823529412
+                                                          Valid Accuracy 0.8846
+                                                          Test Accuracy 0.8677
+time 5903.57276297
+POOLING ITERATION 66
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.105677105486
+	train acc: 0.953623188406
+epoch: 49 295, loss:0.0567971393466
+	train acc: 0.950724637681
+epoch: 49 296, loss:0.150095805526
+	train acc: 0.934782608696
+epoch: 49 297, loss:0.0855863019824
+	train acc: 0.920289855072
+epoch: 49 298, loss:0.0685785487294
+	train acc: 0.905797101449
+epoch: 49 299, loss:0.0783097371459
+	train acc: 0.901449275362
+                                                          Valid Accuracy 0.9108
+                                                          Test Accuracy 0.903
+time 5997.50268102
+POOLING ITERATION 67
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0757957398891
+	train acc: 0.94
+epoch: 49 295, loss:0.057891163975
+	train acc: 0.941428571429
+epoch: 49 296, loss:0.116161517799
+	train acc: 0.952857142857
+epoch: 49 297, loss:0.0768733769655
+	train acc: 0.961428571429
+epoch: 49 298, loss:0.0452264286578
+	train acc: 0.972857142857
+epoch: 49 299, loss:0.0270696077496
+	train acc: 0.974285714286
+                                                          Valid Accuracy 0.904
+                                                          Test Accuracy 0.9017
+time 6090.740978
+POOLING ITERATION 68
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.143243595958
+	train acc: 0.939436619718
+epoch: 49 295, loss:0.264766901731
+	train acc: 0.92676056338
+epoch: 49 296, loss:0.19950991869
+	train acc: 0.921126760563
+epoch: 49 297, loss:0.133620291948
+	train acc: 0.925352112676
+epoch: 49 298, loss:0.107168912888
+	train acc: 0.940845070423
+epoch: 49 299, loss:0.148614764214
+	train acc: 0.943661971831
+                                                          Valid Accuracy 0.9047
+                                                          Test Accuracy 0.9019
+time 6181.40039802
+POOLING ITERATION 69
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.146344393492
+	train acc: 0.988888888889
+epoch: 49 295, loss:0.0862485840917
+	train acc: 0.990277777778
+epoch: 49 296, loss:0.124252364039
+	train acc: 0.994444444444
+epoch: 49 297, loss:0.105259984732
+	train acc: 0.998611111111
+epoch: 49 298, loss:0.0950752049685
+	train acc: 0.997222222222
+epoch: 49 299, loss:0.0649535432458
+	train acc: 0.998611111111
+                                                          Valid Accuracy 0.8926
+                                                          Test Accuracy 0.8884
+time 6265.17083597
+POOLING ITERATION 70
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.101347267628
+	train acc: 0.986301369863
+epoch: 49 295, loss:0.118773564696
+	train acc: 0.983561643836
+epoch: 49 296, loss:0.0652150809765
+	train acc: 0.986301369863
+epoch: 49 297, loss:0.0828479900956
+	train acc: 0.987671232877
+epoch: 49 298, loss:0.0355469509959
+	train acc: 0.990410958904
+epoch: 49 299, loss:0.0795102789998
+	train acc: 0.98904109589
+                                                          Valid Accuracy 0.9101
+                                                          Test Accuracy 0.9103
+time 6355.17388988
+POOLING ITERATION 71
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.105105571449
+	train acc: 0.940540540541
+epoch: 49 295, loss:0.122958563268
+	train acc: 0.932432432432
+epoch: 49 296, loss:0.210634216666
+	train acc: 0.945945945946
+epoch: 49 297, loss:0.141585350037
+	train acc: 0.962162162162
+epoch: 49 298, loss:0.145788177848
+	train acc: 0.972972972973
+epoch: 49 299, loss:0.124738842249
+	train acc: 0.97027027027
+                                                          Valid Accuracy 0.8716
+                                                          Test Accuracy 0.8627
+time 6443.91472101
+POOLING ITERATION 72
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0803451687098
+	train acc: 0.988
+epoch: 49 295, loss:0.0392180345953
+	train acc: 0.993333333333
+epoch: 49 296, loss:0.0287959873676
+	train acc: 0.998666666667
+epoch: 49 297, loss:0.0950349867344
+	train acc: 1.0
+epoch: 49 298, loss:0.0570302717388
+	train acc: 0.997333333333
+epoch: 49 299, loss:0.108631201088
+	train acc: 0.988
+                                                          Valid Accuracy 0.9008
+                                                          Test Accuracy 0.8937
+time 6531.49336004
+POOLING ITERATION 73
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0905599296093
+	train acc: 0.996052631579
+epoch: 49 295, loss:0.169714659452
+	train acc: 0.994736842105
+epoch: 49 296, loss:0.145229130983
+	train acc: 0.990789473684
+epoch: 49 297, loss:0.101352885365
+	train acc: 0.990789473684
+epoch: 49 298, loss:0.0754548162222
+	train acc: 0.988157894737
+epoch: 49 299, loss:0.0930037349463
+	train acc: 0.989473684211
+                                                          Valid Accuracy 0.8615
+                                                          Test Accuracy 0.8602
+time 6626.26353693
+POOLING ITERATION 74
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0739379674196
+	train acc: 0.962337662338
+epoch: 49 344, loss:0.129017233849
+	train acc: 0.976623376623
+epoch: 49 345, loss:0.120378904045
+	train acc: 0.988311688312
+epoch: 49 346, loss:0.0684675425291
+	train acc: 0.993506493506
+epoch: 49 347, loss:0.0845567733049
+	train acc: 0.993506493506
+epoch: 49 348, loss:0.0761539563537
+	train acc: 0.997402597403
+epoch: 49 349, loss:0.10315990448
+	train acc: 0.992207792208
+                                                          Valid Accuracy 0.8797
+                                                          Test Accuracy 0.877
+time 6725.59923601
+POOLING ITERATION 75
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0233050659299
+	train acc: 0.980769230769
+epoch: 49 344, loss:0.0557129569352
+	train acc: 0.979487179487
+epoch: 49 345, loss:0.0363790094852
+	train acc: 0.979487179487
+epoch: 49 346, loss:0.0555915273726
+	train acc: 0.979487179487
+epoch: 49 347, loss:0.0175121165812
+	train acc: 0.979487179487
+epoch: 49 348, loss:0.0414214879274
+	train acc: 0.978205128205
+epoch: 49 349, loss:0.000316699355608
+	train acc: 0.978205128205
+                                                          Valid Accuracy 0.934
+                                                          Test Accuracy 0.9304
+time 6819.08474684
+POOLING ITERATION 76
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0463954731822
+	train acc: 0.953164556962
+epoch: 49 344, loss:0.0712505653501
+	train acc: 0.943037974684
+epoch: 49 345, loss:0.0954977571964
+	train acc: 0.93417721519
+epoch: 49 346, loss:0.0791445374489
+	train acc: 0.945569620253
+epoch: 49 347, loss:0.0699451938272
+	train acc: 0.959493670886
+epoch: 49 348, loss:0.0369125828147
+	train acc: 0.96582278481
+epoch: 49 349, loss:0.00375608960167
+	train acc: 0.970886075949
+                                                          Valid Accuracy 0.9303
+                                                          Test Accuracy 0.927
+time 6912.79746199
+POOLING ITERATION 77
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0843039751053
+	train acc: 0.98875
+epoch: 49 344, loss:0.0471005961299
+	train acc: 0.98875
+epoch: 49 345, loss:0.0613401383162
+	train acc: 0.995
+epoch: 49 346, loss:0.0719258189201
+	train acc: 0.995
+epoch: 49 347, loss:0.0675587803125
+	train acc: 0.99625
+epoch: 49 348, loss:0.0734216421843
+	train acc: 0.99625
+epoch: 49 349, loss:0.00768518447876
+	train acc: 0.99625
+                                                          Valid Accuracy 0.917
+                                                          Test Accuracy 0.9093
+time 7011.56856394
+POOLING ITERATION 78
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0586413368583
+	train acc: 0.956790123457
+epoch: 49 344, loss:0.117816366255
+	train acc: 0.96049382716
+epoch: 49 345, loss:0.128553643823
+	train acc: 0.962962962963
+epoch: 49 346, loss:0.0941679775715
+	train acc: 0.961728395062
+epoch: 49 347, loss:0.05760223791
+	train acc: 0.96049382716
+epoch: 49 348, loss:0.129570230842
+	train acc: 0.955555555556
+epoch: 49 349, loss:0.099864050746
+	train acc: 0.948148148148
+                                                          Valid Accuracy 0.9174
+                                                          Test Accuracy 0.9145
+time 7117.32460904
+POOLING ITERATION 79
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0398532152176
+	train acc: 0.973170731707
+epoch: 49 344, loss:0.0922130793333
+	train acc: 0.973170731707
+epoch: 49 345, loss:0.118438221514
+	train acc: 0.973170731707
+epoch: 49 346, loss:0.0451058596373
+	train acc: 0.979268292683
+epoch: 49 347, loss:0.0303619131446
+	train acc: 0.976829268293
+epoch: 49 348, loss:0.0369571037591
+	train acc: 0.978048780488
+epoch: 49 349, loss:0.0450921878219
+	train acc: 0.971951219512
+                                                          Valid Accuracy 0.9214
+                                                          Test Accuracy 0.9239
+time 7214.71066904
+POOLING ITERATION 80
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.047125492245
+	train acc: 0.948192771084
+epoch: 49 344, loss:0.0503375791013
+	train acc: 0.953012048193
+epoch: 49 345, loss:0.0881035327911
+	train acc: 0.977108433735
+epoch: 49 346, loss:0.0985957682133
+	train acc: 0.985542168675
+epoch: 49 347, loss:0.042210675776
+	train acc: 0.987951807229
+epoch: 49 348, loss:0.0842978805304
+	train acc: 0.989156626506
+epoch: 49 349, loss:0.0143407545984
+	train acc: 0.985542168675
+                                                          Valid Accuracy 0.9159
+                                                          Test Accuracy 0.915
+time 7302.94490385
+POOLING ITERATION 81
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.103042334318
+	train acc: 0.958333333333
+epoch: 49 344, loss:0.0490976683795
+	train acc: 0.969047619048
+epoch: 49 345, loss:0.173002183437
+	train acc: 0.977380952381
+epoch: 49 346, loss:0.0674513876438
+	train acc: 0.982142857143
+epoch: 49 347, loss:0.0329186990857
+	train acc: 0.984523809524
+epoch: 49 348, loss:0.0560506992042
+	train acc: 0.975
+epoch: 49 349, loss:0.0248204078525
+	train acc: 0.972619047619
+                                                          Valid Accuracy 0.9095
+                                                          Test Accuracy 0.9012
+time 7391.59672689
+POOLING ITERATION 82
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0465501621366
+	train acc: 0.977647058824
+epoch: 49 344, loss:0.0316815525293
+	train acc: 0.975294117647
+epoch: 49 345, loss:0.0456103011966
+	train acc: 0.970588235294
+epoch: 49 346, loss:0.0329613089561
+	train acc: 0.968235294118
+epoch: 49 347, loss:0.0413357019424
+	train acc: 0.963529411765
+epoch: 49 348, loss:0.0813445150852
+	train acc: 0.962352941176
+epoch: 49 349, loss:0.0375653654337
+	train acc: 0.961176470588
+                                                          Valid Accuracy 0.9246
+                                                          Test Accuracy 0.9265
+time 7487.99512291
+POOLING ITERATION 83
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.027532748878
+	train acc: 0.997674418605
+epoch: 49 344, loss:0.0272719934583
+	train acc: 0.997674418605
+epoch: 49 345, loss:0.0448743030429
+	train acc: 0.996511627907
+epoch: 49 346, loss:0.0235875025392
+	train acc: 0.995348837209
+epoch: 49 347, loss:0.033517125994
+	train acc: 0.994186046512
+epoch: 49 348, loss:0.0216425806284
+	train acc: 0.994186046512
+epoch: 49 349, loss:0.0228557530791
+	train acc: 0.994186046512
+                                                          Valid Accuracy 0.9133
+                                                          Test Accuracy 0.9099
+time 7581.37643003
+POOLING ITERATION 84
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0788104459643
+	train acc: 0.980459770115
+epoch: 49 344, loss:0.0276064835489
+	train acc: 0.972413793103
+epoch: 49 345, loss:0.0584714263678
+	train acc: 0.971264367816
+epoch: 49 346, loss:0.0451908037066
+	train acc: 0.974712643678
+epoch: 49 347, loss:0.0216505583376
+	train acc: 0.977011494253
+epoch: 49 348, loss:0.0375396311283
+	train acc: 0.977011494253
+epoch: 49 349, loss:0.034237831831
+	train acc: 0.98275862069
+                                                          Valid Accuracy 0.9008
+                                                          Test Accuracy 0.8954
+time 7668.28736496
+POOLING ITERATION 85
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0780268013477
+	train acc: 0.990909090909
+epoch: 49 344, loss:0.0498038195074
+	train acc: 0.988636363636
+epoch: 49 345, loss:0.0633300244808
+	train acc: 0.988636363636
+epoch: 49 346, loss:0.0370181053877
+	train acc: 0.989772727273
+epoch: 49 347, loss:0.066653445363
+	train acc: 0.990909090909
+epoch: 49 348, loss:0.0636261850595
+	train acc: 0.995454545455
+epoch: 49 349, loss:0.0210435688496
+	train acc: 0.997727272727
+                                                          Valid Accuracy 0.9251
+                                                          Test Accuracy 0.919
+time 7765.364923
+POOLING ITERATION 86
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0772486329079
+	train acc: 0.991011235955
+epoch: 49 344, loss:0.0466245040298
+	train acc: 0.98202247191
+epoch: 49 345, loss:0.0909202992916
+	train acc: 0.967415730337
+epoch: 49 346, loss:0.0587200373411
+	train acc: 0.950561797753
+epoch: 49 347, loss:0.0433106645942
+	train acc: 0.93595505618
+epoch: 49 348, loss:0.0780660063028
+	train acc: 0.941573033708
+epoch: 49 349, loss:0.0956355780363
+	train acc: 0.957303370787
+                                                          Valid Accuracy 0.9318
+                                                          Test Accuracy 0.9245
+time 7866.56386685
+POOLING ITERATION 87
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0377199463546
+	train acc: 0.988888888889
+epoch: 49 393, loss:0.0244662985206
+	train acc: 0.988888888889
+epoch: 49 394, loss:0.0483715645969
+	train acc: 0.987777777778
+epoch: 49 395, loss:0.0301045551896
+	train acc: 0.988888888889
+epoch: 49 396, loss:0.020511098206
+	train acc: 0.987777777778
+epoch: 49 397, loss:0.0468734949827
+	train acc: 0.988888888889
+epoch: 49 398, loss:0.0431540235877
+	train acc: 0.99
+epoch: 49 399, loss:4.2200088501e-05
+	train acc: 0.99
+                                                          Valid Accuracy 0.9329
+                                                          Test Accuracy 0.9284
+time 7961.97632003
+POOLING ITERATION 88
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0356248989701
+	train acc: 0.975824175824
+epoch: 49 393, loss:0.0669009461999
+	train acc: 0.972527472527
+epoch: 49 394, loss:0.0962739810348
+	train acc: 0.978021978022
+epoch: 49 395, loss:0.0848068743944
+	train acc: 0.983516483516
+epoch: 49 396, loss:0.0469791069627
+	train acc: 0.981318681319
+epoch: 49 397, loss:0.056336261332
+	train acc: 0.98021978022
+epoch: 49 398, loss:0.0192605033517
+	train acc: 0.976923076923
+epoch: 49 399, loss:0.00399759830907
+	train acc: 0.973626373626
+                                                          Valid Accuracy 0.9034
+                                                          Test Accuracy 0.9013
+time 8063.17769289
+POOLING ITERATION 89
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0795043259859
+	train acc: 0.989130434783
+epoch: 49 393, loss:0.0530850216746
+	train acc: 0.989130434783
+epoch: 49 394, loss:0.0408311076462
+	train acc: 0.986956521739
+epoch: 49 395, loss:0.0497772581875
+	train acc: 0.986956521739
+epoch: 49 396, loss:0.0598328486085
+	train acc: 0.989130434783
+epoch: 49 397, loss:0.0338157713413
+	train acc: 0.988043478261
+epoch: 49 398, loss:0.0322319492698
+	train acc: 0.986956521739
+epoch: 49 399, loss:0.00266071152873
+	train acc: 0.985869565217
+                                                          Valid Accuracy 0.9367
+                                                          Test Accuracy 0.933
+time 8170.11208892
+POOLING ITERATION 90
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.202139884233
+	train acc: 0.981720430108
+epoch: 49 393, loss:0.219070523977
+	train acc: 0.978494623656
+epoch: 49 394, loss:0.387993067503
+	train acc: 0.976344086022
+epoch: 49 395, loss:0.25147023797
+	train acc: 0.976344086022
+epoch: 49 396, loss:0.255771756172
+	train acc: 0.976344086022
+epoch: 49 397, loss:0.260386109352
+	train acc: 0.978494623656
+epoch: 49 398, loss:0.268660664558
+	train acc: 0.976344086022
+epoch: 49 399, loss:0.0865315720439
+	train acc: 0.969892473118
+                                                          Valid Accuracy 0.9093
+                                                          Test Accuracy 0.8997
+time 8276.74920392
+POOLING ITERATION 91
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0135887265205
+	train acc: 0.990425531915
+epoch: 49 393, loss:0.0580474436283
+	train acc: 0.990425531915
+epoch: 49 394, loss:0.0950897485018
+	train acc: 0.989361702128
+epoch: 49 395, loss:0.030652910471
+	train acc: 0.991489361702
+epoch: 49 396, loss:0.0563767552376
+	train acc: 0.98829787234
+epoch: 49 397, loss:0.0322296470404
+	train acc: 0.987234042553
+epoch: 49 398, loss:0.0391681045294
+	train acc: 0.987234042553
+epoch: 49 399, loss:0.00386177399196
+	train acc: 0.986170212766
+                                                          Valid Accuracy 0.9317
+                                                          Test Accuracy 0.9297
+time 8373.31797504
+POOLING ITERATION 92
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0519685558975
+	train acc: 0.992631578947
+epoch: 49 393, loss:0.0651401430368
+	train acc: 0.991578947368
+epoch: 49 394, loss:0.123264193535
+	train acc: 0.990526315789
+epoch: 49 395, loss:0.143297642469
+	train acc: 0.991578947368
+epoch: 49 396, loss:0.0769137218595
+	train acc: 0.991578947368
+epoch: 49 397, loss:0.134048908949
+	train acc: 0.991578947368
+epoch: 49 398, loss:0.0644827634096
+	train acc: 0.993684210526
+epoch: 49 399, loss:0.0527871362865
+	train acc: 0.992631578947
+                                                          Valid Accuracy 0.9103
+                                                          Test Accuracy 0.9047
+time 8464.26099586
+POOLING ITERATION 93
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.074829891324
+	train acc: 0.99375
+epoch: 49 393, loss:0.1110766083
+	train acc: 0.992708333333
+epoch: 49 394, loss:0.163068622351
+	train acc: 0.99375
+epoch: 49 395, loss:0.166045367718
+	train acc: 0.991666666667
+epoch: 49 396, loss:0.0912154614925
+	train acc: 0.991666666667
+epoch: 49 397, loss:0.0912726446986
+	train acc: 0.991666666667
+epoch: 49 398, loss:0.130982339382
+	train acc: 0.992708333333
+epoch: 49 399, loss:0.061444118619
+	train acc: 0.992708333333
+                                                          Valid Accuracy 0.9143
+                                                          Test Accuracy 0.9034
+time 8567.68986201
+POOLING ITERATION 94
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0605809986591
+	train acc: 0.983505154639
+epoch: 49 393, loss:0.0674370527267
+	train acc: 0.975257731959
+epoch: 49 394, loss:0.170376956463
+	train acc: 0.974226804124
+epoch: 49 395, loss:0.156851798296
+	train acc: 0.972164948454
+epoch: 49 396, loss:0.0597334690392
+	train acc: 0.973195876289
+epoch: 49 397, loss:0.0777324289083
+	train acc: 0.977319587629
+epoch: 49 398, loss:0.128308340907
+	train acc: 0.981443298969
+epoch: 49 399, loss:0.0606179125607
+	train acc: 0.982474226804
+                                                          Valid Accuracy 0.9216
+                                                          Test Accuracy 0.9194
+time 8671.19732404
+POOLING ITERATION 95
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0800988897681
+	train acc: 0.989795918367
+epoch: 49 393, loss:0.0496186502278
+	train acc: 0.989795918367
+epoch: 49 394, loss:0.0709308683872
+	train acc: 0.985714285714
+epoch: 49 395, loss:0.0615355521441
+	train acc: 0.983673469388
+epoch: 49 396, loss:0.0522284694016
+	train acc: 0.979591836735
+epoch: 49 397, loss:0.0518680177629
+	train acc: 0.977551020408
+epoch: 49 398, loss:0.0313217975199
+	train acc: 0.976530612245
+epoch: 49 399, loss:0.0321680493653
+	train acc: 0.976530612245
+                                                          Valid Accuracy 0.9429
+                                                          Test Accuracy 0.939
+time 8768.28957701
+POOLING ITERATION 96
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.228596866131
+	train acc: 0.979797979798
+epoch: 49 393, loss:0.180513605475
+	train acc: 0.979797979798
+epoch: 49 394, loss:0.268364548683
+	train acc: 0.983838383838
+epoch: 49 395, loss:0.151173010468
+	train acc: 0.978787878788
+epoch: 49 396, loss:0.303496658802
+	train acc: 0.976767676768
+epoch: 49 397, loss:0.169082045555
+	train acc: 0.968686868687
+epoch: 49 398, loss:0.255626708269
+	train acc: 0.974747474747
+epoch: 49 399, loss:0.203195795417
+	train acc: 0.980808080808
+                                                          Valid Accuracy 0.8918
+                                                          Test Accuracy 0.8827
+time 8862.42659903
+POOLING ITERATION 97
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0496799722314
+	train acc: 0.981
+epoch: 49 393, loss:0.024199269712
+	train acc: 0.971
+epoch: 49 394, loss:0.0682842433453
+	train acc: 0.967
+epoch: 49 395, loss:0.0841011404991
+	train acc: 0.963
+epoch: 49 396, loss:0.0223878100514
+	train acc: 0.97
+epoch: 49 397, loss:0.0375357270241
+	train acc: 0.974
+epoch: 49 398, loss:0.0230099447072
+	train acc: 0.984
+epoch: 49 399, loss:0.0575668402016
+	train acc: 0.986
+                                                          Valid Accuracy 0.9266
+                                                          Test Accuracy 0.928
+Initial Training Data (20, 1, 28, 28)
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0197993274778
+	train acc: 1.0
+                                                          valid Accuracy 0.4806
+                                                          Test Accuracy 0.4726
+time 59.5344450474
+POOLING ITERATION 0
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.1566760391
+	train acc: 1.0
+                                                          Valid Accuracy 0.4849
+                                                          Test Accuracy 0.4975
+time 126.314543962
+POOLING ITERATION 1
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0418917164207
+	train acc: 1.0
+                                                          Valid Accuracy 0.6804
+                                                          Test Accuracy 0.6651
+time 193.214457035
+POOLING ITERATION 2
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0164237692952
+	train acc: 1.0
+                                                          Valid Accuracy 0.7515
+                                                          Test Accuracy 0.7446
+time 263.309458017
+POOLING ITERATION 3
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0331426151097
+	train acc: 1.0
+                                                          Valid Accuracy 0.7608
+                                                          Test Accuracy 0.7708
+time 331.460352898
+POOLING ITERATION 4
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.169175550342
+	train acc: 1.0
+                                                          Valid Accuracy 0.7645
+                                                          Test Accuracy 0.7538
+time 399.92928791
+POOLING ITERATION 5
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.10921792686
+	train acc: 1.0
+                                                          Valid Accuracy 0.734
+                                                          Test Accuracy 0.7344
+time 466.063600063
+POOLING ITERATION 6
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0721473023295
+	train acc: 1.0
+                                                          Valid Accuracy 0.8101
+                                                          Test Accuracy 0.8031
+time 535.845700979
+POOLING ITERATION 7
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.371579289436
+	train acc: 0.99
+                                                          Valid Accuracy 0.6801
+                                                          Test Accuracy 0.668
+time 605.157804966
+POOLING ITERATION 8
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.229710876942
+	train acc: 1.0
+                                                          Valid Accuracy 0.7254
+                                                          Test Accuracy 0.7156
+time 675.994707108
+POOLING ITERATION 9
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.145019754767
+	train acc: 1.0
+                                                          Valid Accuracy 0.7113
+                                                          Test Accuracy 0.6982
+time 743.757823944
+POOLING ITERATION 10
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.170592337847
+	train acc: 1.0
+epoch: 49 99, loss:0.00355625152588
+	train acc: 1.0
+                                                          Valid Accuracy 0.7945
+                                                          Test Accuracy 0.7867
+time 815.528800011
+POOLING ITERATION 11
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.443314611912
+	train acc: 0.95
+epoch: 49 99, loss:0.0106985969469
+	train acc: 0.95
+                                                          Valid Accuracy 0.7448
+                                                          Test Accuracy 0.7285
+time 884.700460911
+POOLING ITERATION 12
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.809648096561
+	train acc: 0.933333333333
+epoch: 49 99, loss:0.14947873354
+	train acc: 0.94
+                                                          Valid Accuracy 0.6507
+                                                          Test Accuracy 0.6503
+time 961.00947094
+POOLING ITERATION 13
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.232513904572
+	train acc: 0.99375
+epoch: 49 99, loss:0.0427304953337
+	train acc: 0.99375
+                                                          Valid Accuracy 0.7905
+                                                          Test Accuracy 0.7802
+time 1033.38804698
+POOLING ITERATION 14
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.218704149127
+	train acc: 0.994117647059
+epoch: 49 99, loss:0.0404638685286
+	train acc: 0.988235294118
+                                                          Valid Accuracy 0.8292
+                                                          Test Accuracy 0.8219
+time 1109.07824492
+POOLING ITERATION 15
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.266541272402
+	train acc: 0.994444444444
+epoch: 49 99, loss:0.0623269826174
+	train acc: 0.994444444444
+                                                          Valid Accuracy 0.8244
+                                                          Test Accuracy 0.8078
+time 1179.23216105
+POOLING ITERATION 16
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.214700356126
+	train acc: 0.984210526316
+epoch: 49 99, loss:0.0875060632825
+	train acc: 0.994736842105
+                                                          Valid Accuracy 0.8308
+                                                          Test Accuracy 0.8242
+time 1253.52867389
+POOLING ITERATION 17
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.0758430585265
+	train acc: 1.0
+epoch: 49 99, loss:0.0266014728695
+	train acc: 1.0
+                                                          Valid Accuracy 0.8561
+                                                          Test Accuracy 0.847
+time 1325.88349891
+POOLING ITERATION 18
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.560319602489
+	train acc: 0.914285714286
+epoch: 49 99, loss:0.54349899292
+	train acc: 0.885714285714
+                                                          Valid Accuracy 0.7172
+                                                          Test Accuracy 0.7287
+time 1403.906636
+POOLING ITERATION 19
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.106457494199
+	train acc: 0.995454545455
+epoch: 49 99, loss:0.157446980476
+	train acc: 0.990909090909
+                                                          Valid Accuracy 0.8351
+                                                          Test Accuracy 0.8286
+time 1476.55611706
+POOLING ITERATION 20
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.127838224173
+	train acc: 0.991304347826
+epoch: 49 99, loss:0.106395684183
+	train acc: 0.986956521739
+                                                          Valid Accuracy 0.8485
+                                                          Test Accuracy 0.8358
+time 1553.2830441
+POOLING ITERATION 21
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.315279841423
+	train acc: 0.979166666667
+epoch: 49 99, loss:0.407370239496
+	train acc: 0.95
+                                                          Valid Accuracy 0.8027
+                                                          Test Accuracy 0.7908
+time 1623.70869899
+POOLING ITERATION 22
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.11376285553
+	train acc: 0.992
+epoch: 49 99, loss:0.123509369791
+	train acc: 0.988
+                                                          Valid Accuracy 0.8526
+                                                          Test Accuracy 0.8451
+time 1700.0069499
+POOLING ITERATION 23
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.206550419331
+	train acc: 0.996153846154
+epoch: 49 148, loss:0.0926588699222
+	train acc: 0.996153846154
+epoch: 49 149, loss:0.0118724107742
+	train acc: 0.996153846154
+                                                          Valid Accuracy 0.8144
+                                                          Test Accuracy 0.8021
+time 1775.45908189
+POOLING ITERATION 24
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.529421925545
+	train acc: 0.937037037037
+epoch: 49 148, loss:0.518373847008
+	train acc: 0.940740740741
+epoch: 49 149, loss:0.162297651172
+	train acc: 0.922222222222
+                                                          Valid Accuracy 0.7707
+                                                          Test Accuracy 0.7645
+time 1859.11525989
+POOLING ITERATION 25
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.109592378139
+	train acc: 0.975
+epoch: 49 148, loss:0.131659448147
+	train acc: 0.975
+epoch: 49 149, loss:0.011029958725
+	train acc: 0.985714285714
+                                                          Valid Accuracy 0.8708
+                                                          Test Accuracy 0.8639
+time 1936.44745398
+POOLING ITERATION 26
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.147633776069
+	train acc: 0.996551724138
+epoch: 49 148, loss:0.115387633443
+	train acc: 0.996551724138
+epoch: 49 149, loss:0.0912191420794
+	train acc: 0.996551724138
+                                                          Valid Accuracy 0.8571
+                                                          Test Accuracy 0.8527
+time 2024.98898602
+POOLING ITERATION 27
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.153280571103
+	train acc: 0.986666666667
+epoch: 49 148, loss:0.188620358706
+	train acc: 0.983333333333
+epoch: 49 149, loss:0.208925500512
+	train acc: 0.99
+                                                          Valid Accuracy 0.8371
+                                                          Test Accuracy 0.829
+time 2109.43232703
+POOLING ITERATION 28
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.439425706863
+	train acc: 0.916129032258
+epoch: 49 148, loss:0.356341183186
+	train acc: 0.909677419355
+epoch: 49 149, loss:0.335467725992
+	train acc: 0.91935483871
+                                                          Valid Accuracy 0.7854
+                                                          Test Accuracy 0.7751
+time 2198.79656196
+POOLING ITERATION 29
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.244150161743
+	train acc: 0.95
+epoch: 49 148, loss:0.178037822247
+	train acc: 0.95625
+epoch: 49 149, loss:0.105675213039
+	train acc: 0.946875
+                                                          Valid Accuracy 0.8614
+                                                          Test Accuracy 0.8516
+time 2284.51529694
+POOLING ITERATION 30
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.196517199278
+	train acc: 0.972727272727
+epoch: 49 148, loss:0.143390834332
+	train acc: 0.966666666667
+epoch: 49 149, loss:0.119106501341
+	train acc: 0.966666666667
+                                                          Valid Accuracy 0.8707
+                                                          Test Accuracy 0.8653
+time 2370.21433306
+POOLING ITERATION 31
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.163107782602
+	train acc: 0.985294117647
+epoch: 49 148, loss:0.155294850469
+	train acc: 0.988235294118
+epoch: 49 149, loss:0.0909386202693
+	train acc: 0.988235294118
+                                                          Valid Accuracy 0.883
+                                                          Test Accuracy 0.8741
+time 2455.08665705
+POOLING ITERATION 32
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.0905730128288
+	train acc: 0.994285714286
+epoch: 49 148, loss:0.130213066936
+	train acc: 0.997142857143
+epoch: 49 149, loss:0.0769512578845
+	train acc: 0.997142857143
+                                                          Valid Accuracy 0.9014
+                                                          Test Accuracy 0.8963
+time 2540.77009296
+POOLING ITERATION 33
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.109950393438
+	train acc: 0.994444444444
+epoch: 49 148, loss:0.132307827473
+	train acc: 0.983333333333
+epoch: 49 149, loss:0.15707936883
+	train acc: 0.983333333333
+                                                          Valid Accuracy 0.8583
+                                                          Test Accuracy 0.8523
+time 2626.34001398
+POOLING ITERATION 34
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.367949962616
+	train acc: 0.981081081081
+epoch: 49 148, loss:0.25351190567
+	train acc: 0.983783783784
+epoch: 49 149, loss:0.161392480135
+	train acc: 0.964864864865
+                                                          Valid Accuracy 0.8123
+                                                          Test Accuracy 0.7985
+time 2716.91244698
+POOLING ITERATION 35
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.0965893641114
+	train acc: 0.994736842105
+epoch: 49 148, loss:0.109271369874
+	train acc: 0.992105263158
+epoch: 49 149, loss:0.0856168493629
+	train acc: 0.989473684211
+                                                          Valid Accuracy 0.8863
+                                                          Test Accuracy 0.8781
+time 2804.14991188
+POOLING ITERATION 36
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.155970916152
+	train acc: 0.989743589744
+epoch: 49 197, loss:0.204247295856
+	train acc: 0.994871794872
+epoch: 49 198, loss:0.0798687338829
+	train acc: 0.979487179487
+epoch: 49 199, loss:0.0828634873033
+	train acc: 0.982051282051
+                                                          Valid Accuracy 0.8899
+                                                          Test Accuracy 0.8834
+time 2893.37315607
+POOLING ITERATION 37
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.103922940791
+	train acc: 0.97
+epoch: 49 197, loss:0.173130691051
+	train acc: 0.9825
+epoch: 49 198, loss:0.0452339462936
+	train acc: 0.9775
+epoch: 49 199, loss:0.00665411353111
+	train acc: 0.98
+                                                          Valid Accuracy 0.9027
+                                                          Test Accuracy 0.8989
+time 2987.37618494
+POOLING ITERATION 38
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.244215592742
+	train acc: 0.958536585366
+epoch: 49 197, loss:0.239324018359
+	train acc: 0.987804878049
+epoch: 49 198, loss:0.132503181696
+	train acc: 0.987804878049
+epoch: 49 199, loss:0.0960772782564
+	train acc: 0.987804878049
+                                                          Valid Accuracy 0.8371
+                                                          Test Accuracy 0.8269
+time 3076.89604306
+POOLING ITERATION 39
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.234647154808
+	train acc: 0.983333333333
+epoch: 49 197, loss:0.215349942446
+	train acc: 0.992857142857
+epoch: 49 198, loss:0.0995311066508
+	train acc: 0.990476190476
+epoch: 49 199, loss:0.053719624877
+	train acc: 0.985714285714
+                                                          Valid Accuracy 0.8387
+                                                          Test Accuracy 0.8367
+time 3171.16147089
+POOLING ITERATION 40
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.231993079185
+	train acc: 0.993023255814
+epoch: 49 197, loss:0.113399527967
+	train acc: 0.993023255814
+epoch: 49 198, loss:0.147955149412
+	train acc: 0.997674418605
+epoch: 49 199, loss:0.0799425169826
+	train acc: 1.0
+                                                          Valid Accuracy 0.8537
+                                                          Test Accuracy 0.8528
+time 3261.88844609
+POOLING ITERATION 41
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.174378708005
+	train acc: 0.986363636364
+epoch: 49 197, loss:0.134741961956
+	train acc: 0.977272727273
+epoch: 49 198, loss:0.103232987225
+	train acc: 0.972727272727
+epoch: 49 199, loss:0.0602274350822
+	train acc: 0.975
+                                                          Valid Accuracy 0.8813
+                                                          Test Accuracy 0.8798
+time 3366.48270106
+POOLING ITERATION 42
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.104863926768
+	train acc: 0.997777777778
+epoch: 49 197, loss:0.160141557455
+	train acc: 0.997777777778
+epoch: 49 198, loss:0.061002664268
+	train acc: 0.997777777778
+epoch: 49 199, loss:0.033913590014
+	train acc: 0.993333333333
+                                                          Valid Accuracy 0.9166
+                                                          Test Accuracy 0.9107
+time 3460.25795102
+POOLING ITERATION 43
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.122859835625
+	train acc: 0.991304347826
+epoch: 49 197, loss:0.0783717036247
+	train acc: 0.989130434783
+epoch: 49 198, loss:0.0613031834364
+	train acc: 0.991304347826
+epoch: 49 199, loss:0.0749694928527
+	train acc: 0.991304347826
+                                                          Valid Accuracy 0.9053
+                                                          Test Accuracy 0.8985
+time 3556.597929
+POOLING ITERATION 44
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0872996449471
+	train acc: 0.978723404255
+epoch: 49 197, loss:0.119260817766
+	train acc: 0.978723404255
+epoch: 49 198, loss:0.0800046175718
+	train acc: 0.978723404255
+epoch: 49 199, loss:0.0735295861959
+	train acc: 0.98085106383
+                                                          Valid Accuracy 0.8836
+                                                          Test Accuracy 0.8788
+time 3642.7372241
+POOLING ITERATION 45
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.128225803375
+	train acc: 0.970833333333
+epoch: 49 197, loss:0.14302136004
+	train acc: 0.970833333333
+epoch: 49 198, loss:0.140239596367
+	train acc: 0.96875
+epoch: 49 199, loss:0.0615427941084
+	train acc: 0.9625
+                                                          Valid Accuracy 0.8916
+                                                          Test Accuracy 0.8908
+time 3737.55589008
+POOLING ITERATION 46
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.1486441046
+	train acc: 0.981632653061
+epoch: 49 197, loss:0.255992919207
+	train acc: 0.99387755102
+epoch: 49 198, loss:0.119937524199
+	train acc: 0.991836734694
+epoch: 49 199, loss:0.101106442511
+	train acc: 0.99387755102
+                                                          Valid Accuracy 0.8726
+                                                          Test Accuracy 0.8678
+time 3827.88741708
+POOLING ITERATION 47
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.288033545017
+	train acc: 0.96
+epoch: 49 197, loss:0.242977336049
+	train acc: 0.972
+epoch: 49 198, loss:0.172443628311
+	train acc: 0.98
+epoch: 49 199, loss:0.199935168028
+	train acc: 0.976
+                                                          Valid Accuracy 0.8595
+                                                          Test Accuracy 0.8527
+time 3923.43815088
+POOLING ITERATION 48
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.145484447479
+	train acc: 0.952941176471
+epoch: 49 197, loss:0.129196584225
+	train acc: 0.970588235294
+epoch: 49 198, loss:0.095539778471
+	train acc: 0.982352941176
+epoch: 49 199, loss:0.136716872454
+	train acc: 0.980392156863
+                                                          Valid Accuracy 0.8834
+                                                          Test Accuracy 0.8767
+time 4016.84369206
+POOLING ITERATION 49
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0820049718022
+	train acc: 0.988461538462
+epoch: 49 246, loss:0.0664142072201
+	train acc: 0.990384615385
+epoch: 49 247, loss:0.0460310280323
+	train acc: 0.990384615385
+epoch: 49 248, loss:0.0907858014107
+	train acc: 0.988461538462
+epoch: 49 249, loss:0.000537633895874
+	train acc: 0.978846153846
+                                                          Valid Accuracy 0.9158
+                                                          Test Accuracy 0.9129
+time 4119.4547441
+POOLING ITERATION 50
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.241876095533
+	train acc: 0.949056603774
+epoch: 49 246, loss:0.293082147837
+	train acc: 0.967924528302
+epoch: 49 247, loss:0.171637102962
+	train acc: 0.981132075472
+epoch: 49 248, loss:0.15602260828
+	train acc: 0.981132075472
+epoch: 49 249, loss:0.0353456586599
+	train acc: 0.962264150943
+                                                          Valid Accuracy 0.875
+                                                          Test Accuracy 0.871
+time 4211.68201303
+POOLING ITERATION 51
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0815989524126
+	train acc: 0.977777777778
+epoch: 49 246, loss:0.0968287289143
+	train acc: 0.97962962963
+epoch: 49 247, loss:0.109023869038
+	train acc: 0.994444444444
+epoch: 49 248, loss:0.122542247176
+	train acc: 0.998148148148
+epoch: 49 249, loss:0.0136234760284
+	train acc: 1.0
+                                                          Valid Accuracy 0.9019
+                                                          Test Accuracy 0.896
+time 4311.00217795
+POOLING ITERATION 52
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.165657520294
+	train acc: 0.98
+epoch: 49 246, loss:0.0887749046087
+	train acc: 0.989090909091
+epoch: 49 247, loss:0.108071453869
+	train acc: 0.990909090909
+epoch: 49 248, loss:0.159466505051
+	train acc: 0.992727272727
+epoch: 49 249, loss:0.0857370048761
+	train acc: 0.990909090909
+                                                          Valid Accuracy 0.8576
+                                                          Test Accuracy 0.8456
+time 4405.92628288
+POOLING ITERATION 53
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.137898057699
+	train acc: 0.978571428571
+epoch: 49 246, loss:0.0893998146057
+	train acc: 0.960714285714
+epoch: 49 247, loss:0.177614122629
+	train acc: 0.964285714286
+epoch: 49 248, loss:0.331962555647
+	train acc: 0.982142857143
+epoch: 49 249, loss:0.0214414596558
+	train acc: 0.976785714286
+                                                          Valid Accuracy 0.8953
+                                                          Test Accuracy 0.8878
+time 4504.49267793
+POOLING ITERATION 54
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.100143790245
+	train acc: 0.985964912281
+epoch: 49 246, loss:0.22731526196
+	train acc: 0.989473684211
+epoch: 49 247, loss:0.076820589602
+	train acc: 1.0
+epoch: 49 248, loss:0.0626863837242
+	train acc: 0.998245614035
+epoch: 49 249, loss:0.0887630730867
+	train acc: 0.994736842105
+                                                          Valid Accuracy 0.8877
+                                                          Test Accuracy 0.8888
+time 4603.824893
+POOLING ITERATION 55
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0898848176003
+	train acc: 0.993103448276
+epoch: 49 246, loss:0.0583821609616
+	train acc: 0.996551724138
+epoch: 49 247, loss:0.0472036115825
+	train acc: 0.996551724138
+epoch: 49 248, loss:0.0789869129658
+	train acc: 0.996551724138
+epoch: 49 249, loss:0.135272532701
+	train acc: 0.996551724138
+                                                          Valid Accuracy 0.9133
+                                                          Test Accuracy 0.9098
+time 4697.98146296
+POOLING ITERATION 56
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0293289683759
+	train acc: 0.998305084746
+epoch: 49 246, loss:0.0563915856183
+	train acc: 0.994915254237
+epoch: 49 247, loss:0.0554324612021
+	train acc: 0.994915254237
+epoch: 49 248, loss:0.0681186169386
+	train acc: 0.996610169492
+epoch: 49 249, loss:0.0106305461377
+	train acc: 0.998305084746
+                                                          Valid Accuracy 0.9274
+                                                          Test Accuracy 0.9203
+time 4795.83840704
+POOLING ITERATION 57
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.130736872554
+	train acc: 0.995
+epoch: 49 246, loss:0.0931819826365
+	train acc: 0.985
+epoch: 49 247, loss:0.155940964818
+	train acc: 0.988333333333
+epoch: 49 248, loss:0.195534616709
+	train acc: 0.996666666667
+epoch: 49 249, loss:0.0487585701048
+	train acc: 0.99
+                                                          Valid Accuracy 0.8766
+                                                          Test Accuracy 0.8672
+time 4893.028862
+POOLING ITERATION 58
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.102468281984
+	train acc: 1.0
+epoch: 49 246, loss:0.0902037322521
+	train acc: 1.0
+epoch: 49 247, loss:0.0291885510087
+	train acc: 1.0
+epoch: 49 248, loss:0.0517120100558
+	train acc: 1.0
+epoch: 49 249, loss:0.0977247208357
+	train acc: 1.0
+                                                          Valid Accuracy 0.921
+                                                          Test Accuracy 0.9187
+time 4991.11151791
+POOLING ITERATION 59
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.130825906992
+	train acc: 0.996774193548
+epoch: 49 246, loss:0.117806889117
+	train acc: 0.991935483871
+epoch: 49 247, loss:0.113064207137
+	train acc: 0.988709677419
+epoch: 49 248, loss:0.104167148471
+	train acc: 0.988709677419
+epoch: 49 249, loss:0.0940550193191
+	train acc: 0.990322580645
+                                                          Valid Accuracy 0.8754
+                                                          Test Accuracy 0.8715
+time 5085.79953504
+POOLING ITERATION 60
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0752358138561
+	train acc: 0.977777777778
+epoch: 49 246, loss:0.145961984992
+	train acc: 0.984126984127
+epoch: 49 247, loss:0.0583719164133
+	train acc: 0.988888888889
+epoch: 49 248, loss:0.0911431759596
+	train acc: 0.993650793651
+epoch: 49 249, loss:0.0769766122103
+	train acc: 0.993650793651
+                                                          Valid Accuracy 0.9016
+                                                          Test Accuracy 0.8951
+time 5182.701437
+POOLING ITERATION 61
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0660578235984
+	train acc: 0.9578125
+epoch: 49 246, loss:0.151527494192
+	train acc: 0.953125
+epoch: 49 247, loss:0.0492358580232
+	train acc: 0.965625
+epoch: 49 248, loss:0.0970128104091
+	train acc: 0.9703125
+epoch: 49 249, loss:0.0897551998496
+	train acc: 0.9703125
+                                                          Valid Accuracy 0.8815
+                                                          Test Accuracy 0.8803
+time 5277.27338195
+POOLING ITERATION 62
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0745856910944
+	train acc: 0.998461538462
+epoch: 49 295, loss:0.0797180384398
+	train acc: 0.993846153846
+epoch: 49 296, loss:0.0645928382874
+	train acc: 0.992307692308
+epoch: 49 297, loss:0.0588900968432
+	train acc: 0.992307692308
+epoch: 49 298, loss:0.066331230104
+	train acc: 0.993846153846
+epoch: 49 299, loss:0.00371017446741
+	train acc: 0.993846153846
+                                                          Valid Accuracy 0.9253
+                                                          Test Accuracy 0.9201
+time 5377.96807599
+POOLING ITERATION 63
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0778081342578
+	train acc: 0.978787878788
+epoch: 49 295, loss:0.134838193655
+	train acc: 0.980303030303
+epoch: 49 296, loss:0.0929483398795
+	train acc: 0.981818181818
+epoch: 49 297, loss:0.0687129124999
+	train acc: 0.977272727273
+epoch: 49 298, loss:0.0539893433452
+	train acc: 0.974242424242
+epoch: 49 299, loss:0.0311168432236
+	train acc: 0.965151515152
+                                                          Valid Accuracy 0.8945
+                                                          Test Accuracy 0.8881
+time 5477.15572
+POOLING ITERATION 64
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.258141011
+	train acc: 0.959701492537
+epoch: 49 295, loss:0.276429802179
+	train acc: 0.968656716418
+epoch: 49 296, loss:0.208011582494
+	train acc: 0.970149253731
+epoch: 49 297, loss:0.210097759962
+	train acc: 0.971641791045
+epoch: 49 298, loss:0.18909727037
+	train acc: 0.962686567164
+epoch: 49 299, loss:0.149077743292
+	train acc: 0.962686567164
+                                                          Valid Accuracy 0.8834
+                                                          Test Accuracy 0.8764
+time 5576.2198391
+POOLING ITERATION 65
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.034916266799
+	train acc: 0.991176470588
+epoch: 49 295, loss:0.0936521589756
+	train acc: 0.991176470588
+epoch: 49 296, loss:0.0744432508945
+	train acc: 0.991176470588
+epoch: 49 297, loss:0.0315455310047
+	train acc: 0.994117647059
+epoch: 49 298, loss:0.0844861865044
+	train acc: 0.995588235294
+epoch: 49 299, loss:0.0717588812113
+	train acc: 0.997058823529
+                                                          Valid Accuracy 0.9329
+                                                          Test Accuracy 0.9265
+time 5672.254426
+POOLING ITERATION 66
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.119292274117
+	train acc: 0.982608695652
+epoch: 49 295, loss:0.126353114843
+	train acc: 0.986956521739
+epoch: 49 296, loss:0.128200888634
+	train acc: 0.989855072464
+epoch: 49 297, loss:0.0567963682115
+	train acc: 0.991304347826
+epoch: 49 298, loss:0.0831967964768
+	train acc: 0.991304347826
+epoch: 49 299, loss:0.0897887870669
+	train acc: 0.997101449275
+                                                          Valid Accuracy 0.9026
+                                                          Test Accuracy 0.8958
+time 5769.37307191
+POOLING ITERATION 67
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.075224250555
+	train acc: 0.991428571429
+epoch: 49 295, loss:0.0903857499361
+	train acc: 0.994285714286
+epoch: 49 296, loss:0.0982241779566
+	train acc: 0.992857142857
+epoch: 49 297, loss:0.169979661703
+	train acc: 0.992857142857
+epoch: 49 298, loss:0.054181098938
+	train acc: 0.987142857143
+epoch: 49 299, loss:0.0429969206452
+	train acc: 0.992857142857
+                                                          Valid Accuracy 0.8693
+                                                          Test Accuracy 0.8613
+time 5872.34098506
+POOLING ITERATION 68
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.454271972179
+	train acc: 0.93661971831
+epoch: 49 295, loss:0.38520398736
+	train acc: 0.945070422535
+epoch: 49 296, loss:0.399514138699
+	train acc: 0.947887323944
+epoch: 49 297, loss:0.38934186101
+	train acc: 0.943661971831
+epoch: 49 298, loss:0.337353467941
+	train acc: 0.942253521127
+epoch: 49 299, loss:0.320023685694
+	train acc: 0.939436619718
+                                                          Valid Accuracy 0.8523
+                                                          Test Accuracy 0.8457
+time 5974.93452501
+POOLING ITERATION 69
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.356043547392
+	train acc: 0.959722222222
+epoch: 49 295, loss:0.381634950638
+	train acc: 0.959722222222
+epoch: 49 296, loss:0.262024283409
+	train acc: 0.961111111111
+epoch: 49 297, loss:0.264476299286
+	train acc: 0.963888888889
+epoch: 49 298, loss:0.273283928633
+	train acc: 0.959722222222
+epoch: 49 299, loss:0.301536023617
+	train acc: 0.958333333333
+                                                          Valid Accuracy 0.8878
+                                                          Test Accuracy 0.8799
+time 6080.56182408
+POOLING ITERATION 70
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0904668718576
+	train acc: 0.98904109589
+epoch: 49 295, loss:0.0802423208952
+	train acc: 0.98904109589
+epoch: 49 296, loss:0.0594892352819
+	train acc: 0.990410958904
+epoch: 49 297, loss:0.0300776753575
+	train acc: 0.990410958904
+epoch: 49 298, loss:0.0363896638155
+	train acc: 0.990410958904
+epoch: 49 299, loss:0.0678012371063
+	train acc: 0.987671232877
+                                                          Valid Accuracy 0.9184
+                                                          Test Accuracy 0.9172
+time 6182.39507103
+POOLING ITERATION 71
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0534449480474
+	train acc: 0.986486486486
+epoch: 49 295, loss:0.0784733444452
+	train acc: 0.986486486486
+epoch: 49 296, loss:0.0500413738191
+	train acc: 0.986486486486
+epoch: 49 297, loss:0.0688373893499
+	train acc: 0.987837837838
+epoch: 49 298, loss:0.0667057931423
+	train acc: 0.990540540541
+epoch: 49 299, loss:0.0777060687542
+	train acc: 0.990540540541
+                                                          Valid Accuracy 0.9098
+                                                          Test Accuracy 0.914
+time 6289.03889203
+POOLING ITERATION 72
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.106816411018
+	train acc: 0.972
+epoch: 49 295, loss:0.10503987968
+	train acc: 0.976
+epoch: 49 296, loss:0.038533013314
+	train acc: 0.974666666667
+epoch: 49 297, loss:0.170427531004
+	train acc: 0.973333333333
+epoch: 49 298, loss:0.0722514390945
+	train acc: 0.969333333333
+epoch: 49 299, loss:0.170746341348
+	train acc: 0.968
+                                                          Valid Accuracy 0.8809
+                                                          Test Accuracy 0.8835
+time 6402.57241797
+POOLING ITERATION 73
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0742037296295
+	train acc: 0.992105263158
+epoch: 49 295, loss:0.0615761652589
+	train acc: 0.986842105263
+epoch: 49 296, loss:0.138562276959
+	train acc: 0.990789473684
+epoch: 49 297, loss:0.0527611635625
+	train acc: 0.992105263158
+epoch: 49 298, loss:0.0570530071855
+	train acc: 0.989473684211
+epoch: 49 299, loss:0.0825222358108
+	train acc: 0.994736842105
+                                                          Valid Accuracy 0.9019
+                                                          Test Accuracy 0.8969
+time 6511.28770304
+POOLING ITERATION 74
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0794401243329
+	train acc: 0.983116883117
+epoch: 49 344, loss:0.113437697291
+	train acc: 0.981818181818
+epoch: 49 345, loss:0.0724468827248
+	train acc: 0.983116883117
+epoch: 49 346, loss:0.100057579577
+	train acc: 0.979220779221
+epoch: 49 347, loss:0.0994021743536
+	train acc: 0.976623376623
+epoch: 49 348, loss:0.172000423074
+	train acc: 0.977922077922
+epoch: 49 349, loss:8.39233398438e-05
+	train acc: 0.976623376623
+                                                          Valid Accuracy 0.9212
+                                                          Test Accuracy 0.919
+time 6620.57267404
+POOLING ITERATION 75
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.157379329205
+	train acc: 0.983333333333
+epoch: 49 344, loss:0.229850426316
+	train acc: 0.984615384615
+epoch: 49 345, loss:0.108571499586
+	train acc: 0.989743589744
+epoch: 49 346, loss:0.100224658847
+	train acc: 0.989743589744
+epoch: 49 347, loss:0.107595875859
+	train acc: 0.991025641026
+epoch: 49 348, loss:0.117333076894
+	train acc: 0.988461538462
+epoch: 49 349, loss:0.00529805803671
+	train acc: 0.988461538462
+                                                          Valid Accuracy 0.9088
+                                                          Test Accuracy 0.9025
+time 6731.96809101
+POOLING ITERATION 76
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0842942669988
+	train acc: 0.989873417722
+epoch: 49 344, loss:0.142928123474
+	train acc: 0.991139240506
+epoch: 49 345, loss:0.107654258609
+	train acc: 0.987341772152
+epoch: 49 346, loss:0.0887642204762
+	train acc: 0.979746835443
+epoch: 49 347, loss:0.0578316375613
+	train acc: 0.96835443038
+epoch: 49 348, loss:0.0954955518246
+	train acc: 0.959493670886
+epoch: 49 349, loss:0.00783749017864
+	train acc: 0.939240506329
+                                                          Valid Accuracy 0.9295
+                                                          Test Accuracy 0.9279
+time 6845.32481909
+POOLING ITERATION 77
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.106706894934
+	train acc: 0.965
+epoch: 49 344, loss:0.179400831461
+	train acc: 0.9675
+epoch: 49 345, loss:0.103873953223
+	train acc: 0.95875
+epoch: 49 346, loss:0.128904312849
+	train acc: 0.9425
+epoch: 49 347, loss:0.128201901913
+	train acc: 0.93125
+epoch: 49 348, loss:0.147033274174
+	train acc: 0.92125
+epoch: 49 349, loss:0.0639023929834
+	train acc: 0.91375
+                                                          Valid Accuracy 0.9202
+                                                          Test Accuracy 0.918
+time 6960.96343589
+POOLING ITERATION 78
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0441818162799
+	train acc: 0.991358024691
+epoch: 49 344, loss:0.0666258111596
+	train acc: 0.992592592593
+epoch: 49 345, loss:0.0644268468022
+	train acc: 0.992592592593
+epoch: 49 346, loss:0.0311658680439
+	train acc: 0.991358024691
+epoch: 49 347, loss:0.00795693695545
+	train acc: 0.988888888889
+epoch: 49 348, loss:0.121100075543
+	train acc: 0.993827160494
+epoch: 49 349, loss:0.0395456254482
+	train acc: 0.996296296296
+                                                          Valid Accuracy 0.9442
+                                                          Test Accuracy 0.9395
+time 7072.63346505
+POOLING ITERATION 79
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0841455683112
+	train acc: 0.907317073171
+epoch: 49 344, loss:0.0900031328201
+	train acc: 0.915853658537
+epoch: 49 345, loss:0.0555480718613
+	train acc: 0.921951219512
+epoch: 49 346, loss:0.0860461145639
+	train acc: 0.931707317073
+epoch: 49 347, loss:0.0636103004217
+	train acc: 0.930487804878
+epoch: 49 348, loss:0.0975361689925
+	train acc: 0.934146341463
+epoch: 49 349, loss:0.0425008162856
+	train acc: 0.926829268293
+                                                          Valid Accuracy 0.9012
+                                                          Test Accuracy 0.9007
+time 7182.70723701
+POOLING ITERATION 80
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.224201530218
+	train acc: 0.985542168675
+epoch: 49 344, loss:0.235297650099
+	train acc: 0.979518072289
+epoch: 49 345, loss:0.251254528761
+	train acc: 0.981927710843
+epoch: 49 346, loss:0.199202865362
+	train acc: 0.977108433735
+epoch: 49 347, loss:0.17921744287
+	train acc: 0.978313253012
+epoch: 49 348, loss:0.306556940079
+	train acc: 0.98313253012
+epoch: 49 349, loss:0.156102329493
+	train acc: 0.981927710843
+                                                          Valid Accuracy 0.8898
+                                                          Test Accuracy 0.8843
+time 7293.87098908
+POOLING ITERATION 81
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.12499910593
+	train acc: 0.988095238095
+epoch: 49 344, loss:0.139597252011
+	train acc: 0.986904761905
+epoch: 49 345, loss:0.108049616218
+	train acc: 0.986904761905
+epoch: 49 346, loss:0.113992258906
+	train acc: 0.985714285714
+epoch: 49 347, loss:0.168974071741
+	train acc: 0.986904761905
+epoch: 49 348, loss:0.181859612465
+	train acc: 0.989285714286
+epoch: 49 349, loss:0.10006056726
+	train acc: 0.989285714286
+                                                          Valid Accuracy 0.8888
+                                                          Test Accuracy 0.8774
+time 7399.6514051
+POOLING ITERATION 82
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0667441040277
+	train acc: 0.958823529412
+epoch: 49 344, loss:0.0590745471418
+	train acc: 0.96
+epoch: 49 345, loss:0.0344180651009
+	train acc: 0.956470588235
+epoch: 49 346, loss:0.0581448934972
+	train acc: 0.958823529412
+epoch: 49 347, loss:0.055425144732
+	train acc: 0.962352941176
+epoch: 49 348, loss:0.0689051896334
+	train acc: 0.972941176471
+epoch: 49 349, loss:0.0820169225335
+	train acc: 0.978823529412
+                                                          Valid Accuracy 0.9427
+                                                          Test Accuracy 0.9441
+time 7517.76658988
+POOLING ITERATION 83
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.13403993845
+	train acc: 0.88488372093
+epoch: 49 344, loss:0.11988325417
+	train acc: 0.894186046512
+epoch: 49 345, loss:0.122154474258
+	train acc: 0.893023255814
+epoch: 49 346, loss:0.143382996321
+	train acc: 0.88023255814
+epoch: 49 347, loss:0.108468927443
+	train acc: 0.868604651163
+epoch: 49 348, loss:0.135474920273
+	train acc: 0.86511627907
+epoch: 49 349, loss:0.0870437845588
+	train acc: 0.848837209302
+                                                          Valid Accuracy 0.8921
+                                                          Test Accuracy 0.887
+time 7630.7623291
+POOLING ITERATION 84
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.203699499369
+	train acc: 0.948275862069
+epoch: 49 344, loss:0.151781842113
+	train acc: 0.933333333333
+epoch: 49 345, loss:0.0907851606607
+	train acc: 0.922988505747
+epoch: 49 346, loss:0.150455534458
+	train acc: 0.922988505747
+epoch: 49 347, loss:0.0616279542446
+	train acc: 0.929885057471
+epoch: 49 348, loss:0.105979919434
+	train acc: 0.942528735632
+epoch: 49 349, loss:0.116161480546
+	train acc: 0.959770114943
+                                                          Valid Accuracy 0.8933
+                                                          Test Accuracy 0.8905
+time 7734.28452206
+POOLING ITERATION 85
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0290155336261
+	train acc: 0.981818181818
+epoch: 49 344, loss:0.0187730118632
+	train acc: 0.982954545455
+epoch: 49 345, loss:0.0326084122062
+	train acc: 0.984090909091
+epoch: 49 346, loss:0.0612602457404
+	train acc: 0.984090909091
+epoch: 49 347, loss:0.0199815556407
+	train acc: 0.984090909091
+epoch: 49 348, loss:0.0336498469114
+	train acc: 0.985227272727
+epoch: 49 349, loss:0.0156875215471
+	train acc: 0.989772727273
+                                                          Valid Accuracy 0.9422
+                                                          Test Accuracy 0.9422
+time 7847.42950296
+POOLING ITERATION 86
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.109495192766
+	train acc: 0.991011235955
+epoch: 49 344, loss:0.0414269566536
+	train acc: 0.991011235955
+epoch: 49 345, loss:0.0619721412659
+	train acc: 0.991011235955
+epoch: 49 346, loss:0.0637171566486
+	train acc: 0.991011235955
+epoch: 49 347, loss:0.0309038870037
+	train acc: 0.986516853933
+epoch: 49 348, loss:0.207017838955
+	train acc: 0.989887640449
+epoch: 49 349, loss:0.0304553862661
+	train acc: 0.991011235955
+                                                          Valid Accuracy 0.9473
+                                                          Test Accuracy 0.9424
+time 7952.16037488
+POOLING ITERATION 87
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.059916883707
+	train acc: 0.986666666667
+epoch: 49 393, loss:0.0753056555986
+	train acc: 0.992222222222
+epoch: 49 394, loss:0.0943200439215
+	train acc: 0.988888888889
+epoch: 49 395, loss:0.0493479371071
+	train acc: 0.988888888889
+epoch: 49 396, loss:0.0581250675023
+	train acc: 0.985555555556
+epoch: 49 397, loss:0.173877447844
+	train acc: 0.982222222222
+epoch: 49 398, loss:0.0774970278144
+	train acc: 0.976666666667
+epoch: 49 399, loss:0.0447655916214
+	train acc: 0.977777777778
+                                                          Valid Accuracy 0.9255
+                                                          Test Accuracy 0.9224
+time 8055.29358196
+POOLING ITERATION 88
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0645901709795
+	train acc: 0.97032967033
+epoch: 49 393, loss:0.0406113490462
+	train acc: 0.968131868132
+epoch: 49 394, loss:0.0232111290097
+	train acc: 0.965934065934
+epoch: 49 395, loss:0.0795596018434
+	train acc: 0.964835164835
+epoch: 49 396, loss:0.0396766960621
+	train acc: 0.962637362637
+epoch: 49 397, loss:0.064949773252
+	train acc: 0.96043956044
+epoch: 49 398, loss:0.050825342536
+	train acc: 0.961538461538
+epoch: 49 399, loss:0.00044597897795
+	train acc: 0.964835164835
+                                                          Valid Accuracy 0.9232
+                                                          Test Accuracy 0.9256
+time 8167.16300106
+POOLING ITERATION 89
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0842390805483
+	train acc: 0.953260869565
+epoch: 49 393, loss:0.0939087718725
+	train acc: 0.951086956522
+epoch: 49 394, loss:0.118640787899
+	train acc: 0.957608695652
+epoch: 49 395, loss:0.0671581327915
+	train acc: 0.963043478261
+epoch: 49 396, loss:0.0994053184986
+	train acc: 0.975
+epoch: 49 397, loss:0.134522438049
+	train acc: 0.980434782609
+epoch: 49 398, loss:0.084987051785
+	train acc: 0.978260869565
+epoch: 49 399, loss:0.102292180061
+	train acc: 0.977173913043
+                                                          Valid Accuracy 0.9223
+                                                          Test Accuracy 0.9199
+time 8289.73911595
+POOLING ITERATION 90
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.172532826662
+	train acc: 0.92688172043
+epoch: 49 393, loss:0.113795906305
+	train acc: 0.922580645161
+epoch: 49 394, loss:0.0669247657061
+	train acc: 0.924731182796
+epoch: 49 395, loss:0.0933176353574
+	train acc: 0.916129032258
+epoch: 49 396, loss:0.181796610355
+	train acc: 0.911827956989
+epoch: 49 397, loss:0.205308422446
+	train acc: 0.906451612903
+epoch: 49 398, loss:0.105980426073
+	train acc: 0.90752688172
+epoch: 49 399, loss:0.0284137018025
+	train acc: 0.9
+                                                          Valid Accuracy 0.8974
+                                                          Test Accuracy 0.8896
+time 8409.21423888
+POOLING ITERATION 91
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0543502792716
+	train acc: 0.979787234043
+epoch: 49 393, loss:0.104766190052
+	train acc: 0.979787234043
+epoch: 49 394, loss:0.120159909129
+	train acc: 0.98829787234
+epoch: 49 395, loss:0.0868220329285
+	train acc: 0.992553191489
+epoch: 49 396, loss:0.082253664732
+	train acc: 0.992553191489
+epoch: 49 397, loss:0.121965661645
+	train acc: 0.992553191489
+epoch: 49 398, loss:0.0855767279863
+	train acc: 0.991489361702
+epoch: 49 399, loss:0.0543548725545
+	train acc: 0.987234042553
+                                                          Valid Accuracy 0.9069
+                                                          Test Accuracy 0.9117
+time 8535.14403009
+POOLING ITERATION 92
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0487746037543
+	train acc: 0.985263157895
+epoch: 49 393, loss:0.0699359476566
+	train acc: 0.983157894737
+epoch: 49 394, loss:0.0650842189789
+	train acc: 0.978947368421
+epoch: 49 395, loss:0.0363618135452
+	train acc: 0.975789473684
+epoch: 49 396, loss:0.0261336639524
+	train acc: 0.967368421053
+epoch: 49 397, loss:0.100448593497
+	train acc: 0.966315789474
+epoch: 49 398, loss:0.069895401597
+	train acc: 0.970526315789
+epoch: 49 399, loss:0.0375539921224
+	train acc: 0.970526315789
+                                                          Valid Accuracy 0.9376
+                                                          Test Accuracy 0.9383
+time 8657.58691192
+POOLING ITERATION 93
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.105785414577
+	train acc: 0.990625
+epoch: 49 393, loss:0.0692582726479
+	train acc: 0.988541666667
+epoch: 49 394, loss:0.0382600985467
+	train acc: 0.982291666667
+epoch: 49 395, loss:0.0845904946327
+	train acc: 0.979166666667
+epoch: 49 396, loss:0.0643709748983
+	train acc: 0.975
+epoch: 49 397, loss:0.0982835441828
+	train acc: 0.970833333333
+epoch: 49 398, loss:0.0712687373161
+	train acc: 0.970833333333
+epoch: 49 399, loss:0.0898428410292
+	train acc: 0.971875
+                                                          Valid Accuracy 0.9188
+                                                          Test Accuracy 0.9171
+time 8772.57918406
+POOLING ITERATION 94
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0603280179203
+	train acc: 0.930927835052
+epoch: 49 393, loss:0.110733553767
+	train acc: 0.927835051546
+epoch: 49 394, loss:0.0548650175333
+	train acc: 0.927835051546
+epoch: 49 395, loss:0.0805631875992
+	train acc: 0.927835051546
+epoch: 49 396, loss:0.0786786079407
+	train acc: 0.923711340206
+epoch: 49 397, loss:0.122690558434
+	train acc: 0.928865979381
+epoch: 49 398, loss:0.0456146746874
+	train acc: 0.932989690722
+epoch: 49 399, loss:0.0582165792584
+	train acc: 0.937113402062
+                                                          Valid Accuracy 0.9025
+                                                          Test Accuracy 0.9033
+time 8884.27980995
+POOLING ITERATION 95
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.038778193295
+	train acc: 0.970408163265
+epoch: 49 393, loss:0.0494856014848
+	train acc: 0.974489795918
+epoch: 49 394, loss:0.0399197936058
+	train acc: 0.977551020408
+epoch: 49 395, loss:0.0291434563696
+	train acc: 0.983673469388
+epoch: 49 396, loss:0.0243206657469
+	train acc: 0.981632653061
+epoch: 49 397, loss:0.0776175409555
+	train acc: 0.986734693878
+epoch: 49 398, loss:0.0472239218652
+	train acc: 0.989795918367
+epoch: 49 399, loss:0.00385871389881
+	train acc: 0.989795918367
+                                                          Valid Accuracy 0.9463
+                                                          Test Accuracy 0.9426
+time 8995.58263206
+POOLING ITERATION 96
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0677803531289
+	train acc: 0.972727272727
+epoch: 49 393, loss:0.0890582278371
+	train acc: 0.973737373737
+epoch: 49 394, loss:0.0359549596906
+	train acc: 0.970707070707
+epoch: 49 395, loss:0.0815182775259
+	train acc: 0.981818181818
+epoch: 49 396, loss:0.059448082
+	train acc: 0.982828282828
+epoch: 49 397, loss:0.14396288991
+	train acc: 0.981818181818
+epoch: 49 398, loss:0.0370352938771
+	train acc: 0.980808080808
+epoch: 49 399, loss:0.0580709576607
+	train acc: 0.981818181818
+                                                          Valid Accuracy 0.924
+                                                          Test Accuracy 0.9189
+time 9101.95191693
+POOLING ITERATION 97
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.104875668883
+	train acc: 0.919
+epoch: 49 393, loss:0.205598264933
+	train acc: 0.937
+epoch: 49 394, loss:0.0502011440694
+	train acc: 0.956
+epoch: 49 395, loss:0.170173898339
+	train acc: 0.963
+epoch: 49 396, loss:0.0979055911303
+	train acc: 0.962
+epoch: 49 397, loss:0.161769151688
+	train acc: 0.957
+epoch: 49 398, loss:0.114714466035
+	train acc: 0.948
+epoch: 49 399, loss:0.071034245193
+	train acc: 0.94
+                                                          Valid Accuracy 0.9115
+                                                          Test Accuracy 0.9114
+Initial Training Data (20, 1, 28, 28)
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0663148909807
+	train acc: 0.95
+                                                          valid Accuracy 0.4485
+                                                          Test Accuracy 0.4452
+time 61.3725390434
+POOLING ITERATION 0
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.100445918739
+	train acc: 1.0
+                                                          Valid Accuracy 0.5821
+                                                          Test Accuracy 0.576
+time 132.448043108
+POOLING ITERATION 1
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0893672704697
+	train acc: 1.0
+                                                          Valid Accuracy 0.6045
+                                                          Test Accuracy 0.5983
+time 201.957652092
+POOLING ITERATION 2
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.100658968091
+	train acc: 1.0
+                                                          Valid Accuracy 0.5458
+                                                          Test Accuracy 0.526
+time 273.998183966
+POOLING ITERATION 3
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.246642678976
+	train acc: 0.983333333333
+                                                          Valid Accuracy 0.635
+                                                          Test Accuracy 0.6244
+time 346.215022087
+POOLING ITERATION 4
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0791168734431
+	train acc: 1.0
+                                                          Valid Accuracy 0.6642
+                                                          Test Accuracy 0.6537
+time 418.19173193
+POOLING ITERATION 5
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.118996694684
+	train acc: 0.9875
+                                                          Valid Accuracy 0.6804
+                                                          Test Accuracy 0.6691
+time 491.783191919
+POOLING ITERATION 6
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.0776136219501
+	train acc: 1.0
+                                                          Valid Accuracy 0.7158
+                                                          Test Accuracy 0.6922
+time 559.529751062
+POOLING ITERATION 7
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.132593825459
+	train acc: 1.0
+                                                          Valid Accuracy 0.6859
+                                                          Test Accuracy 0.6722
+time 635.613219023
+POOLING ITERATION 8
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.14504994452
+	train acc: 1.0
+                                                          Valid Accuracy 0.7311
+                                                          Test Accuracy 0.7124
+time 707.977843046
+POOLING ITERATION 9
+	getting train_func
+	getting useful_funcs
+epoch: 49 49, loss:0.101503185928
+	train acc: 1.0
+                                                          Valid Accuracy 0.7348
+                                                          Test Accuracy 0.7141
+time 780.230092049
+POOLING ITERATION 10
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.477490007877
+	train acc: 0.861538461538
+epoch: 49 99, loss:0.000206470489502
+	train acc: 0.838461538462
+                                                          Valid Accuracy 0.7153
+                                                          Test Accuracy 0.6891
+time 852.663850069
+POOLING ITERATION 11
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.18909265101
+	train acc: 0.978571428571
+epoch: 49 99, loss:0.00350824999623
+	train acc: 0.978571428571
+                                                          Valid Accuracy 0.7686
+                                                          Test Accuracy 0.7465
+time 928.748797894
+POOLING ITERATION 12
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.144598707557
+	train acc: 0.993333333333
+epoch: 49 99, loss:0.226402416825
+	train acc: 0.993333333333
+                                                          Valid Accuracy 0.7552
+                                                          Test Accuracy 0.7435
+time 1007.26802707
+POOLING ITERATION 13
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.0781793147326
+	train acc: 0.99375
+epoch: 49 99, loss:0.0135551691055
+	train acc: 0.99375
+                                                          Valid Accuracy 0.7934
+                                                          Test Accuracy 0.7814
+time 1081.13409305
+POOLING ITERATION 14
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.255192875862
+	train acc: 1.0
+epoch: 49 99, loss:0.107795514166
+	train acc: 1.0
+                                                          Valid Accuracy 0.7631
+                                                          Test Accuracy 0.7473
+time 1159.02639794
+POOLING ITERATION 15
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.10423476994
+	train acc: 0.988888888889
+epoch: 49 99, loss:0.127994060516
+	train acc: 1.0
+                                                          Valid Accuracy 0.7873
+                                                          Test Accuracy 0.7773
+time 1241.24303102
+POOLING ITERATION 16
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.205143108964
+	train acc: 0.994736842105
+epoch: 49 99, loss:0.213728889823
+	train acc: 0.994736842105
+                                                          Valid Accuracy 0.7787
+                                                          Test Accuracy 0.7704
+time 1326.02530003
+POOLING ITERATION 17
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.106744594872
+	train acc: 0.985
+epoch: 49 99, loss:0.0946294367313
+	train acc: 0.99
+                                                          Valid Accuracy 0.7893
+                                                          Test Accuracy 0.7764
+time 1412.43630505
+POOLING ITERATION 18
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.21801546216
+	train acc: 0.995238095238
+epoch: 49 99, loss:0.135268136859
+	train acc: 0.990476190476
+                                                          Valid Accuracy 0.8263
+                                                          Test Accuracy 0.8118
+time 1497.64932013
+POOLING ITERATION 19
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.146971851587
+	train acc: 0.986363636364
+epoch: 49 99, loss:0.0667711570859
+	train acc: 0.981818181818
+                                                          Valid Accuracy 0.7657
+                                                          Test Accuracy 0.7615
+time 1586.963135
+POOLING ITERATION 20
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.144844606519
+	train acc: 0.986956521739
+epoch: 49 99, loss:0.109498508275
+	train acc: 0.986956521739
+                                                          Valid Accuracy 0.8154
+                                                          Test Accuracy 0.8111
+time 1674.5275321
+POOLING ITERATION 21
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.205124169588
+	train acc: 0.9875
+epoch: 49 99, loss:0.17599286139
+	train acc: 0.983333333333
+                                                          Valid Accuracy 0.7915
+                                                          Test Accuracy 0.7811
+time 1760.82614112
+POOLING ITERATION 22
+	getting train_func
+	getting useful_funcs
+epoch: 49 98, loss:0.140962094069
+	train acc: 0.988
+epoch: 49 99, loss:0.105882786214
+	train acc: 0.996
+                                                          Valid Accuracy 0.8463
+                                                          Test Accuracy 0.8377
+time 1847.25268006
+POOLING ITERATION 23
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.235967934132
+	train acc: 0.973076923077
+epoch: 49 148, loss:0.336630642414
+	train acc: 0.980769230769
+epoch: 49 149, loss:0.00604522228241
+	train acc: 0.969230769231
+                                                          Valid Accuracy 0.8229
+                                                          Test Accuracy 0.8156
+time 1931.15597105
+POOLING ITERATION 24
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.101109981537
+	train acc: 0.97037037037
+epoch: 49 148, loss:0.255454838276
+	train acc: 0.97037037037
+epoch: 49 149, loss:0.0252309534699
+	train acc: 0.981481481481
+                                                          Valid Accuracy 0.8645
+                                                          Test Accuracy 0.8613
+time 2025.48965502
+POOLING ITERATION 25
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.22241024673
+	train acc: 0.978571428571
+epoch: 49 148, loss:0.28045681119
+	train acc: 0.992857142857
+epoch: 49 149, loss:0.0570363216102
+	train acc: 0.989285714286
+                                                          Valid Accuracy 0.8176
+                                                          Test Accuracy 0.8125
+time 2117.47793412
+POOLING ITERATION 26
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.0491832606494
+	train acc: 1.0
+epoch: 49 148, loss:0.103990703821
+	train acc: 1.0
+epoch: 49 149, loss:0.0122902533039
+	train acc: 1.0
+                                                          Valid Accuracy 0.865
+                                                          Test Accuracy 0.8607
+time 2209.88801694
+POOLING ITERATION 27
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.107635267079
+	train acc: 0.97
+epoch: 49 148, loss:0.211401119828
+	train acc: 0.973333333333
+epoch: 49 149, loss:0.074153713882
+	train acc: 0.966666666667
+                                                          Valid Accuracy 0.8671
+                                                          Test Accuracy 0.8643
+time 2307.95762491
+POOLING ITERATION 28
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.133251622319
+	train acc: 0.990322580645
+epoch: 49 148, loss:0.0992870256305
+	train acc: 0.993548387097
+epoch: 49 149, loss:0.057887211442
+	train acc: 0.990322580645
+                                                          Valid Accuracy 0.8762
+                                                          Test Accuracy 0.8753
+time 2402.150841
+POOLING ITERATION 29
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.240210101008
+	train acc: 0.95625
+epoch: 49 148, loss:0.286988437176
+	train acc: 0.978125
+epoch: 49 149, loss:0.0785395056009
+	train acc: 0.965625
+                                                          Valid Accuracy 0.8612
+                                                          Test Accuracy 0.8583
+time 2493.57058001
+POOLING ITERATION 30
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.104252554476
+	train acc: 1.0
+epoch: 49 148, loss:0.12068168819
+	train acc: 1.0
+epoch: 49 149, loss:0.0672407820821
+	train acc: 1.0
+                                                          Valid Accuracy 0.8605
+                                                          Test Accuracy 0.8552
+time 2581.7884531
+POOLING ITERATION 31
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.0782231539488
+	train acc: 0.979411764706
+epoch: 49 148, loss:0.140684425831
+	train acc: 0.988235294118
+epoch: 49 149, loss:0.0263946335763
+	train acc: 0.994117647059
+                                                          Valid Accuracy 0.8578
+                                                          Test Accuracy 0.8508
+time 2673.63430905
+POOLING ITERATION 32
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.254506438971
+	train acc: 0.982857142857
+epoch: 49 148, loss:0.305975973606
+	train acc: 0.982857142857
+epoch: 49 149, loss:0.222637280822
+	train acc: 0.982857142857
+                                                          Valid Accuracy 0.8766
+                                                          Test Accuracy 0.8698
+time 2761.84993911
+POOLING ITERATION 33
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.083975687623
+	train acc: 0.997222222222
+epoch: 49 148, loss:0.0587946660817
+	train acc: 0.997222222222
+epoch: 49 149, loss:0.0438336655498
+	train acc: 0.997222222222
+                                                          Valid Accuracy 0.8734
+                                                          Test Accuracy 0.869
+time 2847.30080605
+POOLING ITERATION 34
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.208455055952
+	train acc: 0.978378378378
+epoch: 49 148, loss:0.199005484581
+	train acc: 0.981081081081
+epoch: 49 149, loss:0.209252119064
+	train acc: 0.978378378378
+                                                          Valid Accuracy 0.8781
+                                                          Test Accuracy 0.8729
+time 2941.90657401
+POOLING ITERATION 35
+	getting train_func
+	getting useful_funcs
+epoch: 49 147, loss:0.11552400887
+	train acc: 0.992105263158
+epoch: 49 148, loss:0.0972219109535
+	train acc: 0.986842105263
+epoch: 49 149, loss:0.0775519832969
+	train acc: 0.986842105263
+                                                          Valid Accuracy 0.8683
+                                                          Test Accuracy 0.8689
+time 3030.0649569
+POOLING ITERATION 36
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0666720122099
+	train acc: 1.0
+epoch: 49 197, loss:0.100724488497
+	train acc: 0.994871794872
+epoch: 49 198, loss:0.117620028555
+	train acc: 0.992307692308
+epoch: 49 199, loss:0.000814914703369
+	train acc: 0.989743589744
+                                                          Valid Accuracy 0.8439
+                                                          Test Accuracy 0.8437
+time 3116.65543699
+POOLING ITERATION 37
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0610812567174
+	train acc: 0.99
+epoch: 49 197, loss:0.190304204822
+	train acc: 0.995
+epoch: 49 198, loss:0.0996724665165
+	train acc: 1.0
+epoch: 49 199, loss:0.00461673736572
+	train acc: 0.9975
+                                                          Valid Accuracy 0.8883
+                                                          Test Accuracy 0.8869
+time 3206.31756091
+POOLING ITERATION 38
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.194369629025
+	train acc: 0.963414634146
+epoch: 49 197, loss:0.209135890007
+	train acc: 0.975609756098
+epoch: 49 198, loss:0.247864276171
+	train acc: 0.973170731707
+epoch: 49 199, loss:0.0445923432708
+	train acc: 0.975609756098
+                                                          Valid Accuracy 0.8423
+                                                          Test Accuracy 0.8409
+time 3292.20887208
+POOLING ITERATION 39
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.207328096032
+	train acc: 0.995238095238
+epoch: 49 197, loss:0.129447817802
+	train acc: 0.995238095238
+epoch: 49 198, loss:0.0782642811537
+	train acc: 0.995238095238
+epoch: 49 199, loss:0.0201266873628
+	train acc: 0.992857142857
+                                                          Valid Accuracy 0.8573
+                                                          Test Accuracy 0.8695
+time 3384.49992108
+POOLING ITERATION 40
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0796607807279
+	train acc: 0.995348837209
+epoch: 49 197, loss:0.0831210017204
+	train acc: 0.993023255814
+epoch: 49 198, loss:0.0845871940255
+	train acc: 0.995348837209
+epoch: 49 199, loss:0.0157111827284
+	train acc: 0.995348837209
+                                                          Valid Accuracy 0.8766
+                                                          Test Accuracy 0.8736
+time 3464.07518506
+POOLING ITERATION 41
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0579201392829
+	train acc: 0.990909090909
+epoch: 49 197, loss:0.0860238298774
+	train acc: 0.990909090909
+epoch: 49 198, loss:0.0941976383328
+	train acc: 0.993181818182
+epoch: 49 199, loss:0.0496043488383
+	train acc: 0.995454545455
+                                                          Valid Accuracy 0.8899
+                                                          Test Accuracy 0.8917
+time 3547.17577291
+POOLING ITERATION 42
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0744721591473
+	train acc: 0.995555555556
+epoch: 49 197, loss:0.102680549026
+	train acc: 0.993333333333
+epoch: 49 198, loss:0.0586434900761
+	train acc: 0.995555555556
+epoch: 49 199, loss:0.0323769897223
+	train acc: 0.995555555556
+                                                          Valid Accuracy 0.8885
+                                                          Test Accuracy 0.8854
+time 3630.97975898
+POOLING ITERATION 43
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0830631256104
+	train acc: 0.984782608696
+epoch: 49 197, loss:0.120152525604
+	train acc: 0.984782608696
+epoch: 49 198, loss:0.103898361325
+	train acc: 0.986956521739
+epoch: 49 199, loss:0.04994411394
+	train acc: 0.989130434783
+                                                          Valid Accuracy 0.8987
+                                                          Test Accuracy 0.8989
+time 3711.69983506
+POOLING ITERATION 44
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.125156417489
+	train acc: 0.987234042553
+epoch: 49 197, loss:0.094126328826
+	train acc: 0.987234042553
+epoch: 49 198, loss:0.124204188585
+	train acc: 0.991489361702
+epoch: 49 199, loss:0.0373854413629
+	train acc: 0.991489361702
+                                                          Valid Accuracy 0.8718
+                                                          Test Accuracy 0.8673
+time 3791.50588799
+POOLING ITERATION 45
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.112359344959
+	train acc: 0.991666666667
+epoch: 49 197, loss:0.133240908384
+	train acc: 0.989583333333
+epoch: 49 198, loss:0.0727395713329
+	train acc: 0.99375
+epoch: 49 199, loss:0.0315194241703
+	train acc: 0.99375
+                                                          Valid Accuracy 0.8829
+                                                          Test Accuracy 0.8798
+time 3867.74359202
+POOLING ITERATION 46
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0945452824235
+	train acc: 0.987755102041
+epoch: 49 197, loss:0.170531198382
+	train acc: 1.0
+epoch: 49 198, loss:0.0660645887256
+	train acc: 1.0
+epoch: 49 199, loss:0.07220364362
+	train acc: 1.0
+                                                          Valid Accuracy 0.868
+                                                          Test Accuracy 0.8617
+time 3944.09559298
+POOLING ITERATION 47
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.0692249238491
+	train acc: 0.996
+epoch: 49 197, loss:0.0740211009979
+	train acc: 0.992
+epoch: 49 198, loss:0.0301186516881
+	train acc: 0.986
+epoch: 49 199, loss:0.0574080124497
+	train acc: 0.982
+                                                          Valid Accuracy 0.8988
+                                                          Test Accuracy 0.8975
+time 4024.21888208
+POOLING ITERATION 48
+	getting train_func
+	getting useful_funcs
+epoch: 49 196, loss:0.09112098068
+	train acc: 0.960784313725
+epoch: 49 197, loss:0.168762236834
+	train acc: 0.96862745098
+epoch: 49 198, loss:0.157713800669
+	train acc: 0.970588235294
+epoch: 49 199, loss:0.146534815431
+	train acc: 0.982352941176
+                                                          Valid Accuracy 0.8621
+                                                          Test Accuracy 0.8522
+time 4098.96237993
+POOLING ITERATION 49
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.32086238265
+	train acc: 0.982692307692
+epoch: 49 246, loss:0.257465809584
+	train acc: 0.982692307692
+epoch: 49 247, loss:0.278261065483
+	train acc: 0.982692307692
+epoch: 49 248, loss:0.123212814331
+	train acc: 0.982692307692
+epoch: 49 249, loss:0.0117117762566
+	train acc: 0.982692307692
+                                                          Valid Accuracy 0.8555
+                                                          Test Accuracy 0.8461
+time 4181.08251309
+POOLING ITERATION 50
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.140025347471
+	train acc: 0.971698113208
+epoch: 49 246, loss:0.221689477563
+	train acc: 0.975471698113
+epoch: 49 247, loss:0.121890768409
+	train acc: 0.977358490566
+epoch: 49 248, loss:0.0952159017324
+	train acc: 0.97358490566
+epoch: 49 249, loss:0.0124196475372
+	train acc: 0.967924528302
+                                                          Valid Accuracy 0.888
+                                                          Test Accuracy 0.8867
+time 4260.65450692
+POOLING ITERATION 51
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0667319223285
+	train acc: 0.994444444444
+epoch: 49 246, loss:0.135759934783
+	train acc: 0.990740740741
+epoch: 49 247, loss:0.0685421526432
+	train acc: 0.994444444444
+epoch: 49 248, loss:0.0370172038674
+	train acc: 0.994444444444
+epoch: 49 249, loss:0.00648890202865
+	train acc: 0.996296296296
+                                                          Valid Accuracy 0.8967
+                                                          Test Accuracy 0.8898
+time 4350.30019808
+POOLING ITERATION 52
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0834290534258
+	train acc: 0.998181818182
+epoch: 49 246, loss:0.120147317648
+	train acc: 0.996363636364
+epoch: 49 247, loss:0.11498452723
+	train acc: 0.989090909091
+epoch: 49 248, loss:0.0667493343353
+	train acc: 0.985454545455
+epoch: 49 249, loss:0.00343391764909
+	train acc: 0.978181818182
+                                                          Valid Accuracy 0.8722
+                                                          Test Accuracy 0.8758
+time 4434.08370495
+POOLING ITERATION 53
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.134662285447
+	train acc: 0.983928571429
+epoch: 49 246, loss:0.120168022811
+	train acc: 0.973214285714
+epoch: 49 247, loss:0.142473116517
+	train acc: 0.973214285714
+epoch: 49 248, loss:0.142385870218
+	train acc: 0.976785714286
+epoch: 49 249, loss:0.0263132750988
+	train acc: 0.969642857143
+                                                          Valid Accuracy 0.909
+                                                          Test Accuracy 0.9068
+time 4517.15894103
+POOLING ITERATION 54
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.136243984103
+	train acc: 0.991228070175
+epoch: 49 246, loss:0.201176732779
+	train acc: 0.989473684211
+epoch: 49 247, loss:0.19980186224
+	train acc: 0.989473684211
+epoch: 49 248, loss:0.0500331036747
+	train acc: 0.977192982456
+epoch: 49 249, loss:0.0152353169397
+	train acc: 0.952631578947
+                                                          Valid Accuracy 0.8619
+                                                          Test Accuracy 0.8561
+time 4605.83605003
+POOLING ITERATION 55
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.171561896801
+	train acc: 0.993103448276
+epoch: 49 246, loss:0.196539923549
+	train acc: 0.994827586207
+epoch: 49 247, loss:0.0811385735869
+	train acc: 0.993103448276
+epoch: 49 248, loss:0.0644313544035
+	train acc: 0.984482758621
+epoch: 49 249, loss:0.0311924144626
+	train acc: 0.970689655172
+                                                          Valid Accuracy 0.8256
+                                                          Test Accuracy 0.8216
+time 4686.48503804
+POOLING ITERATION 56
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.199018657207
+	train acc: 0.962711864407
+epoch: 49 246, loss:0.461481124163
+	train acc: 0.969491525424
+epoch: 49 247, loss:0.24113497138
+	train acc: 0.972881355932
+epoch: 49 248, loss:0.226421177387
+	train acc: 0.966101694915
+epoch: 49 249, loss:0.199452847242
+	train acc: 0.954237288136
+                                                          Valid Accuracy 0.8658
+                                                          Test Accuracy 0.8515
+time 4772.8292191
+POOLING ITERATION 57
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0708858594298
+	train acc: 0.971666666667
+epoch: 49 246, loss:0.227831721306
+	train acc: 0.991666666667
+epoch: 49 247, loss:0.0480862557888
+	train acc: 0.995
+epoch: 49 248, loss:0.0456001237035
+	train acc: 0.995
+epoch: 49 249, loss:0.045661624521
+	train acc: 0.99
+                                                          Valid Accuracy 0.8877
+                                                          Test Accuracy 0.8816
+time 4859.43646693
+POOLING ITERATION 58
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0721656084061
+	train acc: 0.986885245902
+epoch: 49 246, loss:0.132030248642
+	train acc: 0.983606557377
+epoch: 49 247, loss:0.104717940092
+	train acc: 0.97868852459
+epoch: 49 248, loss:0.0425392650068
+	train acc: 0.968852459016
+epoch: 49 249, loss:0.019611319527
+	train acc: 0.947540983607
+                                                          Valid Accuracy 0.8625
+                                                          Test Accuracy 0.8614
+time 4942.309376
+POOLING ITERATION 59
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.110053963959
+	train acc: 0.941935483871
+epoch: 49 246, loss:0.0951118320227
+	train acc: 0.951612903226
+epoch: 49 247, loss:0.138992965221
+	train acc: 0.953225806452
+epoch: 49 248, loss:0.10121153295
+	train acc: 0.945161290323
+epoch: 49 249, loss:0.0480918437243
+	train acc: 0.938709677419
+                                                          Valid Accuracy 0.8869
+                                                          Test Accuracy 0.8906
+time 5027.94988704
+POOLING ITERATION 60
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.0855298489332
+	train acc: 0.988888888889
+epoch: 49 246, loss:0.0780975222588
+	train acc: 0.988888888889
+epoch: 49 247, loss:0.0590439774096
+	train acc: 0.987301587302
+epoch: 49 248, loss:0.0358099117875
+	train acc: 0.98253968254
+epoch: 49 249, loss:0.0537962280214
+	train acc: 0.985714285714
+                                                          Valid Accuracy 0.8845
+                                                          Test Accuracy 0.8729
+time 5111.55008411
+POOLING ITERATION 61
+	getting train_func
+	getting useful_funcs
+epoch: 49 245, loss:0.189062699676
+	train acc: 0.9796875
+epoch: 49 246, loss:0.120992973447
+	train acc: 0.98125
+epoch: 49 247, loss:0.0884094387293
+	train acc: 0.9796875
+epoch: 49 248, loss:0.0941092669964
+	train acc: 0.9765625
+epoch: 49 249, loss:0.0857453718781
+	train acc: 0.9734375
+                                                          Valid Accuracy 0.8839
+                                                          Test Accuracy 0.8877
+time 5195.00573993
+POOLING ITERATION 62
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0483082123101
+	train acc: 0.989230769231
+epoch: 49 295, loss:0.072898298502
+	train acc: 0.990769230769
+epoch: 49 296, loss:0.0736253112555
+	train acc: 0.990769230769
+epoch: 49 297, loss:0.068768799305
+	train acc: 0.990769230769
+epoch: 49 298, loss:0.0472536273301
+	train acc: 0.993846153846
+epoch: 49 299, loss:0.00937423668802
+	train acc: 0.995384615385
+                                                          Valid Accuracy 0.9189
+                                                          Test Accuracy 0.9169
+time 5290.30992198
+POOLING ITERATION 63
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.152861297131
+	train acc: 0.986363636364
+epoch: 49 295, loss:0.0918989256024
+	train acc: 0.983333333333
+epoch: 49 296, loss:0.109036751091
+	train acc: 0.980303030303
+epoch: 49 297, loss:0.0870850682259
+	train acc: 0.977272727273
+epoch: 49 298, loss:0.147460311651
+	train acc: 0.980303030303
+epoch: 49 299, loss:0.0409299135208
+	train acc: 0.977272727273
+                                                          Valid Accuracy 0.9112
+                                                          Test Accuracy 0.912
+time 5381.71200299
+POOLING ITERATION 64
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0674278885126
+	train acc: 0.959701492537
+epoch: 49 295, loss:0.14297388494
+	train acc: 0.968656716418
+epoch: 49 296, loss:0.118200339377
+	train acc: 0.971641791045
+epoch: 49 297, loss:0.0826412215829
+	train acc: 0.977611940299
+epoch: 49 298, loss:0.0649800673127
+	train acc: 0.977611940299
+epoch: 49 299, loss:0.0365844406188
+	train acc: 0.979104477612
+                                                          Valid Accuracy 0.8822
+                                                          Test Accuracy 0.8755
+time 5473.9597199
+POOLING ITERATION 65
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0682567954063
+	train acc: 0.991176470588
+epoch: 49 295, loss:0.151335641742
+	train acc: 0.992647058824
+epoch: 49 296, loss:0.0625386238098
+	train acc: 0.991176470588
+epoch: 49 297, loss:0.0376676470041
+	train acc: 0.988235294118
+epoch: 49 298, loss:0.0534493811429
+	train acc: 0.986764705882
+epoch: 49 299, loss:0.0234609488398
+	train acc: 0.983823529412
+                                                          Valid Accuracy 0.9238
+                                                          Test Accuracy 0.9259
+time 5569.27690911
+POOLING ITERATION 66
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0639467388391
+	train acc: 0.997101449275
+epoch: 49 295, loss:0.0656960085034
+	train acc: 0.995652173913
+epoch: 49 296, loss:0.0609653107822
+	train acc: 0.995652173913
+epoch: 49 297, loss:0.0827339738607
+	train acc: 0.997101449275
+epoch: 49 298, loss:0.0775996148586
+	train acc: 0.998550724638
+epoch: 49 299, loss:0.0385329835117
+	train acc: 0.998550724638
+                                                          Valid Accuracy 0.9124
+                                                          Test Accuracy 0.9138
+time 5664.41684794
+POOLING ITERATION 67
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.121489353478
+	train acc: 0.988571428571
+epoch: 49 295, loss:0.101092144847
+	train acc: 0.988571428571
+epoch: 49 296, loss:0.0761569961905
+	train acc: 0.982857142857
+epoch: 49 297, loss:0.104069069028
+	train acc: 0.987142857143
+epoch: 49 298, loss:0.0316119194031
+	train acc: 0.988571428571
+epoch: 49 299, loss:0.0148449819535
+	train acc: 0.987142857143
+                                                          Valid Accuracy 0.8871
+                                                          Test Accuracy 0.8921
+time 5758.25457811
+POOLING ITERATION 68
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.311630010605
+	train acc: 0.978873239437
+epoch: 49 295, loss:0.13127464056
+	train acc: 0.970422535211
+epoch: 49 296, loss:0.306589186192
+	train acc: 0.977464788732
+epoch: 49 297, loss:0.152753412724
+	train acc: 0.978873239437
+epoch: 49 298, loss:0.235587239265
+	train acc: 0.974647887324
+epoch: 49 299, loss:0.0594471879303
+	train acc: 0.969014084507
+                                                          Valid Accuracy 0.8628
+                                                          Test Accuracy 0.8619
+time 5857.72595596
+POOLING ITERATION 69
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0326645299792
+	train acc: 0.991666666667
+epoch: 49 295, loss:0.0458957068622
+	train acc: 0.991666666667
+epoch: 49 296, loss:0.0606950744987
+	train acc: 0.986111111111
+epoch: 49 297, loss:0.0529581233859
+	train acc: 0.976388888889
+epoch: 49 298, loss:0.0225588083267
+	train acc: 0.972222222222
+epoch: 49 299, loss:0.0352905206382
+	train acc: 0.977777777778
+                                                          Valid Accuracy 0.9053
+                                                          Test Accuracy 0.9011
+time 5955.58933091
+POOLING ITERATION 70
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0700731575489
+	train acc: 0.96301369863
+epoch: 49 295, loss:0.0729243606329
+	train acc: 0.971232876712
+epoch: 49 296, loss:0.114422574639
+	train acc: 0.965753424658
+epoch: 49 297, loss:0.0817549303174
+	train acc: 0.957534246575
+epoch: 49 298, loss:0.0851342827082
+	train acc: 0.939726027397
+epoch: 49 299, loss:0.0288675688207
+	train acc: 0.930136986301
+                                                          Valid Accuracy 0.9031
+                                                          Test Accuracy 0.8915
+time 6049.02641201
+POOLING ITERATION 71
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0452764257789
+	train acc: 0.966216216216
+epoch: 49 295, loss:0.0698102116585
+	train acc: 0.968918918919
+epoch: 49 296, loss:0.159838795662
+	train acc: 0.982432432432
+epoch: 49 297, loss:0.0557950660586
+	train acc: 0.985135135135
+epoch: 49 298, loss:0.0335669666529
+	train acc: 0.985135135135
+epoch: 49 299, loss:0.104498125613
+	train acc: 0.981081081081
+                                                          Valid Accuracy 0.8951
+                                                          Test Accuracy 0.8898
+time 6144.57332993
+POOLING ITERATION 72
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.0726265534759
+	train acc: 0.988
+epoch: 49 295, loss:0.0478929951787
+	train acc: 0.990666666667
+epoch: 49 296, loss:0.027848534286
+	train acc: 0.993333333333
+epoch: 49 297, loss:0.0341757275164
+	train acc: 0.993333333333
+epoch: 49 298, loss:0.056345783174
+	train acc: 0.994666666667
+epoch: 49 299, loss:0.114520266652
+	train acc: 0.994666666667
+                                                          Valid Accuracy 0.9197
+                                                          Test Accuracy 0.92
+time 6232.5000639
+POOLING ITERATION 73
+	getting train_func
+	getting useful_funcs
+epoch: 49 294, loss:0.054405413568
+	train acc: 0.963157894737
+epoch: 49 295, loss:0.15049597621
+	train acc: 0.959210526316
+epoch: 49 296, loss:0.115246959031
+	train acc: 0.959210526316
+epoch: 49 297, loss:0.0689466148615
+	train acc: 0.956578947368
+epoch: 49 298, loss:0.0522704012692
+	train acc: 0.957894736842
+epoch: 49 299, loss:0.104288227856
+	train acc: 0.963157894737
+                                                          Valid Accuracy 0.9097
+                                                          Test Accuracy 0.9073
+time 6323.65799594
+POOLING ITERATION 74
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.160713464022
+	train acc: 0.941558441558
+epoch: 49 344, loss:0.166130334139
+	train acc: 0.963636363636
+epoch: 49 345, loss:0.143330380321
+	train acc: 0.977922077922
+epoch: 49 346, loss:0.0807341337204
+	train acc: 0.984415584416
+epoch: 49 347, loss:0.0733379125595
+	train acc: 0.985714285714
+epoch: 49 348, loss:0.145100310445
+	train acc: 0.983116883117
+epoch: 49 349, loss:0.0229158401489
+	train acc: 0.984415584416
+                                                          Valid Accuracy 0.8927
+                                                          Test Accuracy 0.8854
+time 6409.71766496
+POOLING ITERATION 75
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.168954581022
+	train acc: 0.939743589744
+epoch: 49 344, loss:0.0957208499312
+	train acc: 0.948717948718
+epoch: 49 345, loss:0.127637386322
+	train acc: 0.957692307692
+epoch: 49 346, loss:0.158989086747
+	train acc: 0.964102564103
+epoch: 49 347, loss:0.156850874424
+	train acc: 0.966666666667
+epoch: 49 348, loss:0.174616903067
+	train acc: 0.966666666667
+epoch: 49 349, loss:0.0163026656955
+	train acc: 0.967948717949
+                                                          Valid Accuracy 0.8638
+                                                          Test Accuracy 0.8588
+time 6494.27140307
+POOLING ITERATION 76
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0752964913845
+	train acc: 0.962025316456
+epoch: 49 344, loss:0.10046581924
+	train acc: 0.963291139241
+epoch: 49 345, loss:0.0486874170601
+	train acc: 0.970886075949
+epoch: 49 346, loss:0.0390782617033
+	train acc: 0.982278481013
+epoch: 49 347, loss:0.0503421239555
+	train acc: 0.987341772152
+epoch: 49 348, loss:0.0414920449257
+	train acc: 0.991139240506
+epoch: 49 349, loss:0.0490670837462
+	train acc: 0.992405063291
+                                                          Valid Accuracy 0.9157
+                                                          Test Accuracy 0.9137
+time 6584.01188707
+POOLING ITERATION 77
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.114149861038
+	train acc: 0.98
+epoch: 49 344, loss:0.0938202887774
+	train acc: 0.98625
+epoch: 49 345, loss:0.0897211134434
+	train acc: 0.98375
+epoch: 49 346, loss:0.0566412098706
+	train acc: 0.9725
+epoch: 49 347, loss:0.161503180861
+	train acc: 0.96375
+epoch: 49 348, loss:0.109638616443
+	train acc: 0.95625
+epoch: 49 349, loss:0.0805668234825
+	train acc: 0.9325
+                                                          Valid Accuracy 0.8807
+                                                          Test Accuracy 0.8744
+time 6671.63553905
+POOLING ITERATION 78
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.163323670626
+	train acc: 0.987654320988
+epoch: 49 344, loss:0.336634874344
+	train acc: 0.99012345679
+epoch: 49 345, loss:0.178818330169
+	train acc: 0.988888888889
+epoch: 49 346, loss:0.111446917057
+	train acc: 0.985185185185
+epoch: 49 347, loss:0.145309895277
+	train acc: 0.983950617284
+epoch: 49 348, loss:0.18544600904
+	train acc: 0.992592592593
+epoch: 49 349, loss:0.058838378638
+	train acc: 0.987654320988
+                                                          Valid Accuracy 0.8914
+                                                          Test Accuracy 0.8817
+time 6761.36406994
+POOLING ITERATION 79
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.138656064868
+	train acc: 0.967073170732
+epoch: 49 344, loss:0.161519482732
+	train acc: 0.967073170732
+epoch: 49 345, loss:0.0696272328496
+	train acc: 0.965853658537
+epoch: 49 346, loss:0.0317939184606
+	train acc: 0.960975609756
+epoch: 49 347, loss:0.0438403487206
+	train acc: 0.960975609756
+epoch: 49 348, loss:0.0838041678071
+	train acc: 0.964634146341
+epoch: 49 349, loss:0.0948024317622
+	train acc: 0.963414634146
+                                                          Valid Accuracy 0.9146
+                                                          Test Accuracy 0.9099
+time 6849.30520701
+POOLING ITERATION 80
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0657820925117
+	train acc: 0.948192771084
+epoch: 49 344, loss:0.0731825530529
+	train acc: 0.932530120482
+epoch: 49 345, loss:0.127006620169
+	train acc: 0.940963855422
+epoch: 49 346, loss:0.0581462942064
+	train acc: 0.959036144578
+epoch: 49 347, loss:0.0249481908977
+	train acc: 0.975903614458
+epoch: 49 348, loss:0.0657453387976
+	train acc: 0.975903614458
+epoch: 49 349, loss:0.030757850036
+	train acc: 0.978313253012
+                                                          Valid Accuracy 0.9256
+                                                          Test Accuracy 0.9239
+time 6929.09539104
+POOLING ITERATION 81
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0888114795089
+	train acc: 0.989285714286
+epoch: 49 344, loss:0.0503444485366
+	train acc: 0.983333333333
+epoch: 49 345, loss:0.0791208744049
+	train acc: 0.97619047619
+epoch: 49 346, loss:0.0280309394002
+	train acc: 0.972619047619
+epoch: 49 347, loss:0.0454884842038
+	train acc: 0.975
+epoch: 49 348, loss:0.0435103997588
+	train acc: 0.983333333333
+epoch: 49 349, loss:0.0644792839885
+	train acc: 0.988095238095
+                                                          Valid Accuracy 0.9358
+                                                          Test Accuracy 0.9366
+time 7017.06630802
+POOLING ITERATION 82
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0417538248003
+	train acc: 0.997647058824
+epoch: 49 344, loss:0.0319016724825
+	train acc: 0.996470588235
+epoch: 49 345, loss:0.0369552411139
+	train acc: 0.995294117647
+epoch: 49 346, loss:0.0671874955297
+	train acc: 0.995294117647
+epoch: 49 347, loss:0.0564156919718
+	train acc: 0.995294117647
+epoch: 49 348, loss:0.0441930182278
+	train acc: 0.991764705882
+epoch: 49 349, loss:0.0747940018773
+	train acc: 0.992941176471
+                                                          Valid Accuracy 0.9138
+                                                          Test Accuracy 0.9146
+time 7101.73378992
+POOLING ITERATION 83
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.0639173686504
+	train acc: 0.977906976744
+epoch: 49 344, loss:0.140198022127
+	train acc: 0.981395348837
+epoch: 49 345, loss:0.0649080872536
+	train acc: 0.981395348837
+epoch: 49 346, loss:0.0619753561914
+	train acc: 0.987209302326
+epoch: 49 347, loss:0.0532132647932
+	train acc: 0.989534883721
+epoch: 49 348, loss:0.0593118667603
+	train acc: 0.990697674419
+epoch: 49 349, loss:0.0653531625867
+	train acc: 0.989534883721
+                                                          Valid Accuracy 0.9009
+                                                          Test Accuracy 0.8943
+time 7192.1496489
+POOLING ITERATION 84
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.037868693471
+	train acc: 0.997701149425
+epoch: 49 344, loss:0.0624883510172
+	train acc: 0.996551724138
+epoch: 49 345, loss:0.0248171538115
+	train acc: 0.994252873563
+epoch: 49 346, loss:0.0161082744598
+	train acc: 0.993103448276
+epoch: 49 347, loss:0.0467172749341
+	train acc: 0.987356321839
+epoch: 49 348, loss:0.0658921599388
+	train acc: 0.985057471264
+epoch: 49 349, loss:0.109973214567
+	train acc: 0.995402298851
+                                                          Valid Accuracy 0.9357
+                                                          Test Accuracy 0.9349
+time 7291.16473198
+POOLING ITERATION 85
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.11878914386
+	train acc: 0.920454545455
+epoch: 49 344, loss:0.0528073944151
+	train acc: 0.935227272727
+epoch: 49 345, loss:0.0280521921813
+	train acc: 0.940909090909
+epoch: 49 346, loss:0.0570762380958
+	train acc: 0.944318181818
+epoch: 49 347, loss:0.0480625033379
+	train acc: 0.943181818182
+epoch: 49 348, loss:0.0429158322513
+	train acc: 0.942045454545
+epoch: 49 349, loss:0.0528780780733
+	train acc: 0.932954545455
+                                                          Valid Accuracy 0.91
+                                                          Test Accuracy 0.91
+time 7381.08289409
+POOLING ITERATION 86
+	getting train_func
+	getting useful_funcs
+epoch: 49 343, loss:0.155900537968
+	train acc: 0.983146067416
+epoch: 49 344, loss:0.104511022568
+	train acc: 0.975280898876
+epoch: 49 345, loss:0.0572694018483
+	train acc: 0.973033707865
+epoch: 49 346, loss:0.0384757518768
+	train acc: 0.976404494382
+epoch: 49 347, loss:0.0647931024432
+	train acc: 0.976404494382
+epoch: 49 348, loss:0.0904676169157
+	train acc: 0.978651685393
+epoch: 49 349, loss:0.0640951469541
+	train acc: 0.984269662921
+                                                          Valid Accuracy 0.9233
+                                                          Test Accuracy 0.9216
+time 7467.730896
+POOLING ITERATION 87
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.220562309027
+	train acc: 0.987777777778
+epoch: 49 393, loss:0.181281492114
+	train acc: 0.988888888889
+epoch: 49 394, loss:0.231836795807
+	train acc: 0.986666666667
+epoch: 49 395, loss:0.246926024556
+	train acc: 0.981111111111
+epoch: 49 396, loss:0.251994431019
+	train acc: 0.981111111111
+epoch: 49 397, loss:0.190560102463
+	train acc: 0.982222222222
+epoch: 49 398, loss:0.244503989816
+	train acc: 0.982222222222
+epoch: 49 399, loss:0.00233244895935
+	train acc: 0.984444444444
+                                                          Valid Accuracy 0.8786
+                                                          Test Accuracy 0.8749
+time 7554.60243011
+POOLING ITERATION 88
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0834843218327
+	train acc: 0.987912087912
+epoch: 49 393, loss:0.0736444443464
+	train acc: 0.982417582418
+epoch: 49 394, loss:0.0818951874971
+	train acc: 0.976923076923
+epoch: 49 395, loss:0.0397923998535
+	train acc: 0.971428571429
+epoch: 49 396, loss:0.0374828614295
+	train acc: 0.972527472527
+epoch: 49 397, loss:0.0867404341698
+	train acc: 0.974725274725
+epoch: 49 398, loss:0.0952879935503
+	train acc: 0.979120879121
+epoch: 49 399, loss:0.0154066430405
+	train acc: 0.981318681319
+                                                          Valid Accuracy 0.9245
+                                                          Test Accuracy 0.924
+time 7641.07856798
+POOLING ITERATION 89
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.028588000685
+	train acc: 0.98152173913
+epoch: 49 393, loss:0.0288636498153
+	train acc: 0.98152173913
+epoch: 49 394, loss:0.0270932503045
+	train acc: 0.979347826087
+epoch: 49 395, loss:0.0157443732023
+	train acc: 0.977173913043
+epoch: 49 396, loss:0.0236255154014
+	train acc: 0.977173913043
+epoch: 49 397, loss:0.0327598974109
+	train acc: 0.98152173913
+epoch: 49 398, loss:0.0574272051454
+	train acc: 0.984782608696
+epoch: 49 399, loss:0.000698367774021
+	train acc: 0.990217391304
+                                                          Valid Accuracy 0.9384
+                                                          Test Accuracy 0.9394
+time 7728.1762569
+POOLING ITERATION 90
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0580988489091
+	train acc: 0.912903225806
+epoch: 49 393, loss:0.106981575489
+	train acc: 0.913978494624
+epoch: 49 394, loss:0.0893537998199
+	train acc: 0.922580645161
+epoch: 49 395, loss:0.0559154637158
+	train acc: 0.925806451613
+epoch: 49 396, loss:0.0729274302721
+	train acc: 0.927956989247
+epoch: 49 397, loss:0.0854843556881
+	train acc: 0.933333333333
+epoch: 49 398, loss:0.111705973744
+	train acc: 0.938709677419
+epoch: 49 399, loss:0.0205241236836
+	train acc: 0.939784946237
+                                                          Valid Accuracy 0.8885
+                                                          Test Accuracy 0.885
+time 7817.29231811
+POOLING ITERATION 91
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0704589262605
+	train acc: 0.990425531915
+epoch: 49 393, loss:0.111183390021
+	train acc: 0.993617021277
+epoch: 49 394, loss:0.0492005720735
+	train acc: 0.992553191489
+epoch: 49 395, loss:0.0330506563187
+	train acc: 0.989361702128
+epoch: 49 396, loss:0.0497326031327
+	train acc: 0.986170212766
+epoch: 49 397, loss:0.0610130503774
+	train acc: 0.982978723404
+epoch: 49 398, loss:0.0192216075957
+	train acc: 0.98085106383
+epoch: 49 399, loss:0.00836259685457
+	train acc: 0.977659574468
+                                                          Valid Accuracy 0.9363
+                                                          Test Accuracy 0.9415
+time 7907.88540506
+POOLING ITERATION 92
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.13385643065
+	train acc: 0.964210526316
+epoch: 49 393, loss:0.113137617707
+	train acc: 0.950526315789
+epoch: 49 394, loss:0.0724013894796
+	train acc: 0.946315789474
+epoch: 49 395, loss:0.0357448942959
+	train acc: 0.933684210526
+epoch: 49 396, loss:0.0288805551827
+	train acc: 0.929473684211
+epoch: 49 397, loss:0.0410138145089
+	train acc: 0.924210526316
+epoch: 49 398, loss:0.0823854207993
+	train acc: 0.935789473684
+epoch: 49 399, loss:0.0311201494187
+	train acc: 0.946315789474
+                                                          Valid Accuracy 0.9397
+                                                          Test Accuracy 0.9405
+time 7995.14160299
+POOLING ITERATION 93
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0599965006113
+	train acc: 0.978125
+epoch: 49 393, loss:0.101807206869
+	train acc: 0.978125
+epoch: 49 394, loss:0.0342822931707
+	train acc: 0.980208333333
+epoch: 49 395, loss:0.0176884196699
+	train acc: 0.975
+epoch: 49 396, loss:0.0762097388506
+	train acc: 0.975
+epoch: 49 397, loss:0.0661130100489
+	train acc: 0.977083333333
+epoch: 49 398, loss:0.0165629498661
+	train acc: 0.976041666667
+epoch: 49 399, loss:0.0157394707203
+	train acc: 0.976041666667
+                                                          Valid Accuracy 0.935
+                                                          Test Accuracy 0.9367
+time 8081.81285
+POOLING ITERATION 94
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0718040317297
+	train acc: 0.959793814433
+epoch: 49 393, loss:0.0907657891512
+	train acc: 0.954639175258
+epoch: 49 394, loss:0.12833788991
+	train acc: 0.962886597938
+epoch: 49 395, loss:0.0420194715261
+	train acc: 0.964948453608
+epoch: 49 396, loss:0.0285185165703
+	train acc: 0.969072164948
+epoch: 49 397, loss:0.051580876112
+	train acc: 0.972164948454
+epoch: 49 398, loss:0.0326593779027
+	train acc: 0.972164948454
+epoch: 49 399, loss:0.0162446685135
+	train acc: 0.975257731959
+                                                          Valid Accuracy 0.9324
+                                                          Test Accuracy 0.9344
+time 8168.97992611
+POOLING ITERATION 95
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.156662762165
+	train acc: 0.99693877551
+epoch: 49 393, loss:0.0668019652367
+	train acc: 0.997959183673
+epoch: 49 394, loss:0.104461818933
+	train acc: 0.99693877551
+epoch: 49 395, loss:0.0936699211597
+	train acc: 0.994897959184
+epoch: 49 396, loss:0.157147139311
+	train acc: 0.99387755102
+epoch: 49 397, loss:0.161677926779
+	train acc: 0.994897959184
+epoch: 49 398, loss:0.206714272499
+	train acc: 0.99387755102
+epoch: 49 399, loss:0.116575345397
+	train acc: 0.995918367347
+                                                          Valid Accuracy 0.8935
+                                                          Test Accuracy 0.8902
+time 8259.66046405
+POOLING ITERATION 96
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.0630899816751
+	train acc: 0.980808080808
+epoch: 49 393, loss:0.0527380518615
+	train acc: 0.988888888889
+epoch: 49 394, loss:0.035847608
+	train acc: 0.988888888889
+epoch: 49 395, loss:0.0533094927669
+	train acc: 0.988888888889
+epoch: 49 396, loss:0.081880569458
+	train acc: 0.988888888889
+epoch: 49 397, loss:0.0449793823063
+	train acc: 0.984848484848
+epoch: 49 398, loss:0.155071556568
+	train acc: 0.980808080808
+epoch: 49 399, loss:0.0454294122756
+	train acc: 0.974747474747
+                                                          Valid Accuracy 0.9181
+                                                          Test Accuracy 0.9157
+time 8349.02211308
+POOLING ITERATION 97
+	getting train_func
+	getting useful_funcs
+epoch: 49 392, loss:0.072027862072
+	train acc: 0.978
+epoch: 49 393, loss:0.0500324852765
+	train acc: 0.977
+epoch: 49 394, loss:0.0435611009598
+	train acc: 0.974
+epoch: 49 395, loss:0.0223090052605
+	train acc: 0.972
+epoch: 49 396, loss:0.0347982160747
+	train acc: 0.975
+epoch: 49 397, loss:0.0481180101633
+	train acc: 0.978
+epoch: 49 398, loss:0.0351583510637
+	train acc: 0.98
+epoch: 49 399, loss:0.0268826577812
+	train acc: 0.98
+                                                          Valid Accuracy 0.9469
+                                                          Test Accuracy 0.947
+Set compute mode to DEFAULT for GPU 0000:14:00.0.
+All done.

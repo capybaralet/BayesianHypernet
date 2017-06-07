@@ -1,0 +1,60 @@
+INFO (theano.gof.compilelock): Waiting for existing lock by process '184376' (I am process '185863')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+WARNING (theano.sandbox.cuda): The cuda backend is deprecated and will be removed in the next release (v0.10).  Please switch to the gpuarray backend. You can get more information about how to switch at this URL:
+ https://github.com/Theano/Theano/wiki/Converting-to-the-new-gpu-back-end%28gpuarray%29
+
+INFO (theano.gof.compilelock): Waiting for existing lock by process '184376' (I am process '185863')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '186909' (I am process '185863')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '183641' (I am process '185863')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '186607' (I am process '185863')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '184376' (I am process '185863')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '186607' (I am process '185863')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '186607' (I am process '185863')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182152' (I am process '185863')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '185119' (I am process '185863')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+Using gpu device 0: Tesla K80 (CNMeM is disabled, cuDNN 5005)
+/home/capybara/BayesianHypernet/dk_hyperCNN.py:105: UserWarning: The parameter 'updates' of theano.function() expects an OrderedDict, got <type 'dict'>. Using a standard dictionary here results in non-deterministic behavior. You should use an OrderedDict if you are using Python 2.7 (theano.compat.OrderedDict for older python), or use a list of (shared, update) pairs. Do not just convert your dictionary to this type before the call as the conversion will still be non-deterministic.
+  self.reset = theano.function([],None, updates=updates)
+Traceback (most recent call last):
+  File "/home/capybara/BayesianHypernet/Active_Learning_Tasks/BHN_AL/dk_AL.py", line 511, in <module>
+    main()
+  File "/home/capybara/BayesianHypernet/Active_Learning_Tasks/BHN_AL/dk_AL.py", line 388, in main
+    test_accuracy, valid_accuracy = active_learning(acquisition_iterations)
+  File "/home/capybara/BayesianHypernet/Active_Learning_Tasks/BHN_AL/dk_AL.py", line 141, in active_learning
+    stride=1)
+  File "/home/capybara/BayesianHypernet/dk_hyperCNN.py", line 106, in __init__
+    model.add_reset('init')
+NameError: global name 'model' is not defined
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 25 22:51:26 2017
+Driver Version                      : 375.39
+
+Attached GPUs                       : 16
+GPU 0000:15:00.0
+    Accounting Mode                 : Enabled
+    Accounting Mode Buffer Size     : 1920
+    Accounted Processes
+        Process ID                  : 13471
+            GPU Utilization         : 0 %
+            Memory Utilization      : 0 %
+            Max memory usage        : 0 MiB
+            Time                    : 89416 ms
+            Is Running              : 0
+        Process ID                  : 185863
+            GPU Utilization         : 0 %
+            Memory Utilization      : 0 %
+            Max memory usage        : 81 MiB
+            Time                    : 89627 ms
+            Is Running              : 0
+

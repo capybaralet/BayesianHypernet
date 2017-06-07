@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/capybara/BayesianHypernet/Active_Learning_Tasks/BHN_AL/dk_AL.py", line 2, in <module>
+    from BHNs import HyperCNN
+  File "/home/capybara/BayesianHypernet/BHNs.py", line 1104
+    self.args = [[32,kernel_width,stride,pad, rectify, 'none'],
+              ^
+SyntaxError: invalid syntax
+
+==============NVSMI LOG==============
+
+Timestamp                           : Wed May 31 02:58:53 2017
+Driver Version                      : 375.39
+
+Attached GPUs                       : 16
+GPU 0000:86:00.0
+    Accounting Mode                 : Enabled
+    Accounting Mode Buffer Size     : 1920
+    Accounted Processes             : None
+

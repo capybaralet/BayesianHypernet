@@ -1,0 +1,128 @@
+WARNING (theano.sandbox.cuda): The cuda backend is deprecated and will be removed in the next release (v0.10).  Please switch to the gpuarray backend. You can get more information about how to switch at this URL:
+ https://github.com/Theano/Theano/wiki/Converting-to-the-new-gpu-back-end%28gpuarray%29
+
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+Using gpu device 0: Tesla K20m (CNMeM is disabled, cuDNN 5005)
+/home/capybara/Theano/theano/gradient.py:539: UserWarning: grad method was asked to compute the gradient with respect to a variable that is not part of the computational graph of the cost, or is used only by a non-differentiable operator: b
+  handle_disconnected(elem)
+/home/capybara/Theano/theano/gradient.py:539: UserWarning: grad method was asked to compute the gradient with respect to a variable that is not part of the computational graph of the cost, or is used only by a non-differentiable operator: W
+  handle_disconnected(elem)
+/home/capybara/Theano/theano/gradient.py:565: UserWarning: grad method was asked to compute the gradient with respect to a variable that is not part of the computational graph of the cost, or is used only by a non-differentiable operator: <DisconnectedType>
+  handle_disconnected(rval[i])
+/home/capybara/Theano/theano/gradient.py:539: UserWarning: grad method was asked to compute the gradient with respect to a variable that is not part of the computational graph of the cost, or is used only by a non-differentiable operator: cdds_W22
+  handle_disconnected(elem)
+/home/capybara/Theano/theano/gradient.py:539: UserWarning: grad method was asked to compute the gradient with respect to a variable that is not part of the computational graph of the cost, or is used only by a non-differentiable operator: cpds_b22
+  handle_disconnected(elem)
+WARNING (theano.configdefaults): install mkl with `conda install mkl-service`: No module named mkl
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '182233' (I am process '188806')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+/home/capybara/BayesianHypernet/BHNs.py:184: UserWarning: theano.function was asked to create a function computing outputs given certain inputs, but the provided input variable at index 3 is not part of the computational graph needed to compute the outputs: learning_rate.
+To make this warning into an error, you can pass the parameter on_unused_input='raise' to theano.function. To disable it completely, use on_unused_input='ignore'.
+  on_unused_input='warn')
+/home/capybara/BayesianHypernet/BHNs.py:90: UserWarning: The parameter 'updates' of theano.function() expects an OrderedDict, got <type 'dict'>. Using a standard dictionary here results in non-deterministic behavior. You should use an OrderedDict if you are using Python 2.7 (theano.compat.OrderedDict for older python), or use a list of (shared, update) pairs. Do not just convert your dictionary to this type before the call as the conversion will still be non-deterministic.
+  updates=updates)
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 18 20:56:18 2017
+Driver Version                      : 375.39
+
+Attached GPUs                       : 8
+GPU 0000:87:00.0
+    Accounting Mode                 : Enabled
+    Accounting Mode Buffer Size     : 1920
+    Accounted Processes
+        Process ID                  : 6317
+            GPU Utilization         : 70 %
+            Memory Utilization      : 15 %
+            Max memory usage        : 0 MiB
+            Time                    : 8942874 ms
+            Is Running              : 0
+        Process ID                  : 188806
+            GPU Utilization         : 70 %
+            Memory Utilization      : 15 %
+            Max memory usage        : 1512 MiB
+            Time                    : 8943013 ms
+            Is Running              : 0
+

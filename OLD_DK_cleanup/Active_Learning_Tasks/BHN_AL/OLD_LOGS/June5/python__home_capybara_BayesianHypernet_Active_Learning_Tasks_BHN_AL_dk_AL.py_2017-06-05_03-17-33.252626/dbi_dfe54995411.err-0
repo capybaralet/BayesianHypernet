@@ -1,0 +1,52 @@
+INFO (theano.gof.compilelock): Waiting for existing lock by process '211048' (I am process '210306')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+WARNING (theano.sandbox.cuda): The cuda backend is deprecated and will be removed in the next release (v0.10).  Please switch to the gpuarray backend. You can get more information about how to switch at this URL:
+ https://github.com/Theano/Theano/wiki/Converting-to-the-new-gpu-back-end%28gpuarray%29
+
+Using gpu device 0: Tesla K80 (CNMeM is disabled, cuDNN 5005)
+INFO (theano.gof.compilelock): Waiting for existing lock by process '211808' (I am process '210306')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '211808' (I am process '210306')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '211048' (I am process '210306')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+INFO (theano.gof.compilelock): Waiting for existing lock by process '214058' (I am process '210306')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+usage: dk_AL.py [-h] [--acq {bald,max_ent,var_ratio,mean_std,random}]
+                [--arch ARCH] [--bs BS]
+                [--convex_combination CONVEX_COMBINATION]
+                [--coupling COUPLING] [--epochs EPOCHS] [--extra_l2 EXTRA_L2]
+                [--lrdecay LRDECAY] [--lr0 LR0] [--lbda LBDA]
+                [--model_type MODEL_TYPE] [--new_model NEW_MODEL]
+                [--nonlinearity NONLINEARITY] [--num_acq NUM_ACQ]
+                [--num_experiments NUM_EXPERIMENTS]
+                [--params_reset {deterministic,none,pretrained,random}]
+                [--perdatapoint PERDATAPOINT] [--prior PRIOR]
+                [--pool_size POOL_SIZE] [--size SIZE] [--test_eval TEST_EVAL]
+                [--save SAVE] [--save_dir SAVE_DIR] [--seed SEED]
+                [--verbose VERBOSE]
+dk_AL.py: error: argument --test_eval: invalid int value: '1--model_type=hyperCNN'
+
+==============NVSMI LOG==============
+
+Timestamp                           : Mon Jun  5 03:19:22 2017
+Driver Version                      : 375.39
+
+Attached GPUs                       : 16
+GPU 0000:15:00.0
+    Accounting Mode                 : Enabled
+    Accounting Mode Buffer Size     : 1920
+    Accounted Processes
+        Process ID                  : 13471
+            GPU Utilization         : 0 %
+            Memory Utilization      : 0 %
+            Max memory usage        : 0 MiB
+            Time                    : 46129 ms
+            Is Running              : 0
+        Process ID                  : 210306
+            GPU Utilization         : 0 %
+            Memory Utilization      : 0 %
+            Max memory usage        : 75 MiB
+            Time                    : 46768 ms
+            Is Running              : 0
+

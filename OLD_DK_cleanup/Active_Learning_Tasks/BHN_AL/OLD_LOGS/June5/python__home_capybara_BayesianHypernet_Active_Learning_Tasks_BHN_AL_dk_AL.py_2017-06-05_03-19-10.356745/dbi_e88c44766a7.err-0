@@ -1,0 +1,30 @@
+WARNING (theano.sandbox.cuda): The cuda backend is deprecated and will be removed in the next release (v0.10).  Please switch to the gpuarray backend. You can get more information about how to switch at this URL:
+ https://github.com/Theano/Theano/wiki/Converting-to-the-new-gpu-back-end%28gpuarray%29
+
+INFO (theano.gof.compilelock): Waiting for existing lock by process '213309' (I am process '217096')
+INFO (theano.gof.compilelock): To manually release the lock, delete /tmp/capybara/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.9-Final-x86_64-2.7.12-64/lock_dir
+Using gpu device 0: Tesla K80 (CNMeM is disabled, cuDNN 5005)
+
+==============NVSMI LOG==============
+
+Timestamp                           : Mon Jun  5 03:20:01 2017
+Driver Version                      : 375.39
+
+Attached GPUs                       : 16
+GPU 0000:89:00.0
+    Accounting Mode                 : Enabled
+    Accounting Mode Buffer Size     : 1920
+    Accounted Processes
+        Process ID                  : 13471
+            GPU Utilization         : 0 %
+            Memory Utilization      : 0 %
+            Max memory usage        : 0 MiB
+            Time                    : 25110 ms
+            Is Running              : 0
+        Process ID                  : 217096
+            GPU Utilization         : 0 %
+            Memory Utilization      : 0 %
+            Max memory usage        : 75 MiB
+            Time                    : 25447 ms
+            Is Running              : 0
+

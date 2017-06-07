@@ -1,0 +1,37 @@
+[DBI] executing on host gpu-k80-03
+MOAB_JOBNAME=dbi_d421ad8a2fd
+MOAB_USER=capybara
+MOAB_TASKMAP=gpu-k80-03:1
+MOAB_CLASS=gpu_1
+MOAB_PROCCOUNT=1
+MOAB_GROUP=jvb-000-01
+MOAB_NODELIST=gpu-k80-03
+MOAB_ACCOUNT=jvb-000-ag
+MOABHOMEDIR=/opt/moab
+MOAB_MACHINE=torque
+MOAB_NODECOUNT=1
+MOAB_JOBID=76359[0]
+MOAB_QOS=24H
+MOAB_PARTITION=colosse
+/rap/jvb-000-aa//capy/results/launch6_dk_AL.py/dk_AL.py___seed=1_arch=hyperCNN_acq=bald_num_experiments=1_coupling=4_convex_combination=0_lr0=.001_new_model=1_params_reset=random_save=1_test_eval=1
+
+
+
+-----------------------------------------------------------------------
+
+
+
+Namespace(acq='bald', arch='hyperCNN', bs=128, convex_combination=0, coupling=4, epochs=50, lbda=1, lr0=0.001, lrdecay=0, new_model=1, nonlinearity='rectify', num_experiments=1, params_reset='random', perdatapoint=0, pool_size=2000, prior='log_normal', save=1, save_path='/rap/jvb-000-aa//capy/results/launch6_dk_AL.py/dk_AL.py___seed=1_arch=hyperCNN_acq=bald_num_experiments=1_coupling=4_convex_combination=0_lr0=.001_new_model=1_params_reset=random_save=1_test_eval=1', seed=1, size=10000, test_eval=1, verbose=1)
+Initial Training Data (20, 1, 28, 28)
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+Set compute mode to DEFAULT for GPU 0000:11:00.0.
+All done.

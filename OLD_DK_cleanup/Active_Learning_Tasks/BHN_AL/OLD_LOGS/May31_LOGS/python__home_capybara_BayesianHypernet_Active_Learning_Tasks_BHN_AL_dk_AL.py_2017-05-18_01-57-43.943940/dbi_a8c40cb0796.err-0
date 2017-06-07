@@ -1,0 +1,28 @@
+WARNING (theano.sandbox.cuda): The cuda backend is deprecated and will be removed in the next release (v0.10).  Please switch to the gpuarray backend. You can get more information about how to switch at this URL:
+ https://github.com/Theano/Theano/wiki/Converting-to-the-new-gpu-back-end%28gpuarray%29
+
+Using gpu device 0: Tesla K20m (CNMeM is disabled, cuDNN 5005)
+
+==============NVSMI LOG==============
+
+Timestamp                           : Thu May 18 05:22:50 2017
+Driver Version                      : 375.39
+
+Attached GPUs                       : 8
+GPU 0000:05:00.0
+    Accounting Mode                 : Enabled
+    Accounting Mode Buffer Size     : 1920
+    Accounted Processes
+        Process ID                  : 6016
+            GPU Utilization         : 74 %
+            Memory Utilization      : 22 %
+            Max memory usage        : 0 MiB
+            Time                    : 12285715 ms
+            Is Running              : 0
+        Process ID                  : 164394
+            GPU Utilization         : 74 %
+            Memory Utilization      : 22 %
+            Max memory usage        : 1309 MiB
+            Time                    : 12285867 ms
+            Is Running              : 0
+

@@ -1,0 +1,6274 @@
+[DBI] executing on host gpu-k80-04
+MOAB_JOBNAME=dbi_62c038a53c0
+MOAB_USER=capybara
+MOAB_TASKMAP=gpu-k80-04:1
+MOAB_CLASS=gpu_1
+MOAB_PROCCOUNT=1
+MOAB_GROUP=jvb-000-01
+MOAB_NODELIST=gpu-k80-04
+MOAB_ACCOUNT=jvb-000-ag
+MOABHOMEDIR=/opt/moab
+MOAB_MACHINE=torque
+MOAB_NODECOUNT=1
+MOAB_JOBID=82074[0]
+MOAB_QOS=24H
+MOAB_PARTITION=colosse
+/rap/jvb-000-aa//capy/results/launch6_dk_AL.py/dk_AL.py___model_type=hyperCNN_acq=random_arch=Riashat_num_experiments=3_coupling=4_convex_combination=0_lr0=.001_new_model=1_params_reset=random_save=1_test_eval=1
+
+
+
+-----------------------------------------------------------------------
+
+
+
+Namespace(acq='random', arch='Riashat', bs=128, convex_combination=0, coupling=4, epochs=50, lbda=1, lr0=0.001, lrdecay=0, model_type='hyperCNN', new_model=1, nonlinearity='rectify', num_acq=98, num_experiments=3, params_reset='random', perdatapoint=0, pool_size=2000, prior='log_normal', save=1, save_path='/rap/jvb-000-aa//capy/results/launch6_dk_AL.py/dk_AL.py___model_type=hyperCNN_acq=random_arch=Riashat_num_experiments=3_coupling=4_convex_combination=0_lr0=.001_new_model=1_params_reset=random_save=1_test_eval=1', seed=1337, size=10000, test_eval=1, verbose=1)
+Initial Training Data (20, 1, 28, 28)
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:84.7763519287
+	train acc: 0.1
+                                                          valid Accuracy 0.0991
+                                                          Test Accuracy 0.098
+time 1885.85550284
+POOLING ITERATION 0
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:57.2688598633
+	train acc: 0.166666666667
+                                                          Valid Accuracy 0.1009
+                                                          Test Accuracy 0.0974
+time 2182.61457396
+POOLING ITERATION 1
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:43.5182876587
+	train acc: 0.125
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 2482.80978179
+POOLING ITERATION 2
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:35.2722930908
+	train acc: 0.18
+                                                          Valid Accuracy 0.0915
+                                                          Test Accuracy 0.0892
+time 2782.26737595
+POOLING ITERATION 3
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:29.7681369781
+	train acc: 0.15
+                                                          Valid Accuracy 0.0915
+                                                          Test Accuracy 0.0892
+time 3088.26750088
+POOLING ITERATION 4
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:25.8495635986
+	train acc: 0.128571428571
+                                                          Valid Accuracy 0.099
+                                                          Test Accuracy 0.1032
+time 3393.479213
+POOLING ITERATION 5
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:22.9040431976
+	train acc: 0.1375
+                                                          Valid Accuracy 0.0915
+                                                          Test Accuracy 0.0892
+time 3703.12289286
+POOLING ITERATION 6
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:20.6169033051
+	train acc: 0.133333333333
+                                                          Valid Accuracy 0.0991
+                                                          Test Accuracy 0.098
+time 4010.22076082
+POOLING ITERATION 7
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:18.785785675
+	train acc: 0.12
+                                                          Valid Accuracy 0.0991
+                                                          Test Accuracy 0.098
+time 4320.19492984
+POOLING ITERATION 8
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:17.2843914032
+	train acc: 0.136363636364
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 4631.87362695
+POOLING ITERATION 9
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:16.0347633362
+	train acc: 0.158333333333
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 4944.53724885
+POOLING ITERATION 10
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:15.0244808197
+	train acc: 0.107692307692
+epoch: 49 99, loss:13.6032905579
+	train acc: 0.107692307692
+                                                          Valid Accuracy 0.0983
+                                                          Test Accuracy 0.0982
+time 5279.83461094
+POOLING ITERATION 11
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:13.821269989
+	train acc: 0.121428571429
+epoch: 49 99, loss:13.6267023087
+	train acc: 0.121428571429
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 5629.35582089
+POOLING ITERATION 12
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:13.0246219635
+	train acc: 0.106666666667
+epoch: 49 99, loss:12.9219818115
+	train acc: 0.106666666667
+                                                          Valid Accuracy 0.0991
+                                                          Test Accuracy 0.098
+time 5979.94754195
+POOLING ITERATION 13
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:12.3550462723
+	train acc: 0.1125
+epoch: 49 99, loss:12.2767677307
+	train acc: 0.1125
+                                                          Valid Accuracy 0.099
+                                                          Test Accuracy 0.1032
+time 6331.74492097
+POOLING ITERATION 14
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:11.7837619781
+	train acc: 0.123529411765
+epoch: 49 99, loss:11.6902837753
+	train acc: 0.123529411765
+                                                          Valid Accuracy 0.099
+                                                          Test Accuracy 0.1032
+time 6685.2146039
+POOLING ITERATION 15
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:11.2402219772
+	train acc: 0.116666666667
+epoch: 49 99, loss:11.1941728592
+	train acc: 0.116666666667
+                                                          Valid Accuracy 0.099
+                                                          Test Accuracy 0.1032
+time 7041.05394793
+POOLING ITERATION 16
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:10.7631292343
+	train acc: 0.136842105263
+epoch: 49 99, loss:10.7319316864
+	train acc: 0.136842105263
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 7395.25735283
+POOLING ITERATION 17
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:10.3455257416
+	train acc: 0.14
+epoch: 49 99, loss:10.3075275421
+	train acc: 0.14
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 7753.43848181
+POOLING ITERATION 18
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:9.9568271637
+	train acc: 0.133333333333
+epoch: 49 99, loss:9.93584346771
+	train acc: 0.133333333333
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 8105.70513678
+POOLING ITERATION 19
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:9.60977745056
+	train acc: 0.127272727273
+epoch: 49 99, loss:9.58687019348
+	train acc: 0.127272727273
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 8461.98032284
+POOLING ITERATION 20
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:9.29460811615
+	train acc: 0.126086956522
+epoch: 49 99, loss:9.27262306213
+	train acc: 0.126086956522
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 8822.62011695
+POOLING ITERATION 21
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:8.99299812317
+	train acc: 0.133333333333
+epoch: 49 99, loss:8.98253726959
+	train acc: 0.133333333333
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 9186.7231729
+POOLING ITERATION 22
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:8.72616577148
+	train acc: 0.136
+epoch: 49 99, loss:8.72092819214
+	train acc: 0.136
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 9537.30648685
+POOLING ITERATION 23
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:8.36643123627
+	train acc: 0.107692307692
+epoch: 49 148, loss:8.35003376007
+	train acc: 0.107692307692
+epoch: 49 149, loss:7.58223247528
+	train acc: 0.107692307692
+                                                          Valid Accuracy 0.0915
+                                                          Test Accuracy 0.0892
+time 9913.23126388
+POOLING ITERATION 24
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.96044397354
+	train acc: 0.144444444444
+epoch: 49 148, loss:7.98851156235
+	train acc: 0.144444444444
+epoch: 49 149, loss:7.75510263443
+	train acc: 0.144444444444
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 10304.585161
+POOLING ITERATION 25
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.51756095886
+	train acc: 0.317857142857
+epoch: 49 148, loss:7.54336166382
+	train acc: 0.328571428571
+epoch: 49 149, loss:7.12464523315
+	train acc: 0.317857142857
+                                                          Valid Accuracy 0.2931
+                                                          Test Accuracy 0.2875
+time 10695.6836779
+POOLING ITERATION 26
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.3620262146
+	train acc: 0.210344827586
+epoch: 49 148, loss:7.35904932022
+	train acc: 0.258620689655
+epoch: 49 149, loss:7.12035369873
+	train acc: 0.306896551724
+                                                          Valid Accuracy 0.2545
+                                                          Test Accuracy 0.2546
+time 11090.0310528
+POOLING ITERATION 27
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.00382184982
+	train acc: 0.333333333333
+epoch: 49 148, loss:6.90236854553
+	train acc: 0.36
+epoch: 49 149, loss:6.51301527023
+	train acc: 0.393333333333
+                                                          Valid Accuracy 0.3542
+                                                          Test Accuracy 0.3603
+time 11483.0180759
+POOLING ITERATION 28
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.07773780823
+	train acc: 0.193548387097
+epoch: 49 148, loss:7.08270740509
+	train acc: 0.316129032258
+epoch: 49 149, loss:6.88095760345
+	train acc: 0.322580645161
+                                                          Valid Accuracy 0.2932
+                                                          Test Accuracy 0.2849
+time 11854.6692669
+POOLING ITERATION 29
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.90275192261
+	train acc: 0.165625
+epoch: 49 148, loss:6.88687610626
+	train acc: 0.275
+epoch: 49 149, loss:6.6356344223
+	train acc: 0.375
+                                                          Valid Accuracy 0.3005
+                                                          Test Accuracy 0.2902
+time 12207.9638429
+POOLING ITERATION 30
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.8238325119
+	train acc: 0.142424242424
+epoch: 49 148, loss:6.83765506744
+	train acc: 0.187878787879
+epoch: 49 149, loss:6.70635795593
+	train acc: 0.236363636364
+                                                          Valid Accuracy 0.1887
+                                                          Test Accuracy 0.1835
+time 12560.6313679
+POOLING ITERATION 31
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.74057340622
+	train acc: 0.132352941176
+epoch: 49 148, loss:6.74974346161
+	train acc: 0.132352941176
+epoch: 49 149, loss:6.66366434097
+	train acc: 0.132352941176
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 12925.0795448
+POOLING ITERATION 32
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.62320518494
+	train acc: 0.131428571429
+epoch: 49 148, loss:6.63024997711
+	train acc: 0.131428571429
+epoch: 49 149, loss:6.56784343719
+	train acc: 0.131428571429
+                                                          Valid Accuracy 0.109
+                                                          Test Accuracy 0.1028
+time 13274.1323078
+POOLING ITERATION 33
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.30375432968
+	train acc: 0.272222222222
+epoch: 49 148, loss:6.24227046967
+	train acc: 0.394444444444
+epoch: 49 149, loss:6.05768871307
+	train acc: 0.433333333333
+                                                          Valid Accuracy 0.4159
+                                                          Test Accuracy 0.4062
+time 13639.204083
+POOLING ITERATION 34
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.09686803818
+	train acc: 0.316216216216
+epoch: 49 148, loss:6.00375080109
+	train acc: 0.389189189189
+epoch: 49 149, loss:5.84433698654
+	train acc: 0.413513513514
+                                                          Valid Accuracy 0.3938
+                                                          Test Accuracy 0.3932
+time 13994.1653068
+POOLING ITERATION 35
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.13269805908
+	train acc: 0.302631578947
+epoch: 49 148, loss:6.11208820343
+	train acc: 0.35
+epoch: 49 149, loss:6.02505350113
+	train acc: 0.360526315789
+                                                          Valid Accuracy 0.33
+                                                          Test Accuracy 0.3306
+time 14354.8955829
+POOLING ITERATION 36
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:4.41121768951
+	train acc: 0.769230769231
+epoch: 49 197, loss:4.30030536652
+	train acc: 0.846153846154
+epoch: 49 198, loss:4.15163183212
+	train acc: 0.861538461538
+epoch: 49 199, loss:3.56861448288
+	train acc: 0.830769230769
+                                                          Valid Accuracy 0.8019
+                                                          Test Accuracy 0.7973
+time 14737.9500089
+POOLING ITERATION 37
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.85095357895
+	train acc: 0.92
+epoch: 49 197, loss:3.74991726875
+	train acc: 0.9375
+epoch: 49 198, loss:3.75480532646
+	train acc: 0.945
+epoch: 49 199, loss:3.50485634804
+	train acc: 0.95
+                                                          Valid Accuracy 0.8474
+                                                          Test Accuracy 0.8369
+time 15133.9552119
+POOLING ITERATION 38
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.759141922
+	train acc: 0.943902439024
+epoch: 49 197, loss:3.66151118279
+	train acc: 0.936585365854
+epoch: 49 198, loss:3.59673261642
+	train acc: 0.951219512195
+epoch: 49 199, loss:3.74895358086
+	train acc: 0.943902439024
+                                                          Valid Accuracy 0.8593
+                                                          Test Accuracy 0.8498
+time 15511.0864909
+POOLING ITERATION 39
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.63602733612
+	train acc: 0.930952380952
+epoch: 49 197, loss:3.56711125374
+	train acc: 0.938095238095
+epoch: 49 198, loss:3.4792547226
+	train acc: 0.92380952381
+epoch: 49 199, loss:3.71160888672
+	train acc: 0.907142857143
+                                                          Valid Accuracy 0.8425
+                                                          Test Accuracy 0.8296
+time 15907.3573759
+POOLING ITERATION 40
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.40451169014
+	train acc: 0.972093023256
+epoch: 49 197, loss:3.46144247055
+	train acc: 0.981395348837
+epoch: 49 198, loss:3.35787296295
+	train acc: 0.988372093023
+epoch: 49 199, loss:3.60008168221
+	train acc: 0.976744186047
+                                                          Valid Accuracy 0.8701
+                                                          Test Accuracy 0.8625
+time 16308.4166918
+POOLING ITERATION 41
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.5162153244
+	train acc: 0.952272727273
+epoch: 49 197, loss:3.4887342453
+	train acc: 0.938636363636
+epoch: 49 198, loss:3.39810419083
+	train acc: 0.959090909091
+epoch: 49 199, loss:3.35513520241
+	train acc: 0.954545454545
+                                                          Valid Accuracy 0.8683
+                                                          Test Accuracy 0.8628
+time 16713.807699
+POOLING ITERATION 42
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.45646834373
+	train acc: 0.944444444444
+epoch: 49 197, loss:3.36425924301
+	train acc: 0.948888888889
+epoch: 49 198, loss:3.32374811172
+	train acc: 0.937777777778
+epoch: 49 199, loss:3.34695410728
+	train acc: 0.948888888889
+                                                          Valid Accuracy 0.866
+                                                          Test Accuracy 0.8613
+time 17129.0334539
+POOLING ITERATION 43
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.27307081223
+	train acc: 0.94347826087
+epoch: 49 197, loss:3.32875108719
+	train acc: 0.94347826087
+epoch: 49 198, loss:3.26491618156
+	train acc: 0.952173913043
+epoch: 49 199, loss:3.3567545414
+	train acc: 0.952173913043
+                                                          Valid Accuracy 0.8624
+                                                          Test Accuracy 0.8558
+time 17531.850194
+POOLING ITERATION 44
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.31458759308
+	train acc: 0.940425531915
+epoch: 49 197, loss:3.29584550858
+	train acc: 0.948936170213
+epoch: 49 198, loss:3.129799366
+	train acc: 0.955319148936
+epoch: 49 199, loss:3.30180931091
+	train acc: 0.951063829787
+                                                          Valid Accuracy 0.8752
+                                                          Test Accuracy 0.8666
+time 17927.606169
+POOLING ITERATION 45
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.18472290039
+	train acc: 0.958333333333
+epoch: 49 197, loss:3.19959878922
+	train acc: 0.966666666667
+epoch: 49 198, loss:3.06394982338
+	train acc: 0.96875
+epoch: 49 199, loss:3.18617653847
+	train acc: 0.970833333333
+                                                          Valid Accuracy 0.8837
+                                                          Test Accuracy 0.884
+time 18332.7505949
+POOLING ITERATION 46
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.12113690376
+	train acc: 0.961224489796
+epoch: 49 197, loss:3.1052043438
+	train acc: 0.961224489796
+epoch: 49 198, loss:3.06964540482
+	train acc: 0.965306122449
+epoch: 49 199, loss:3.14747190475
+	train acc: 0.959183673469
+                                                          Valid Accuracy 0.8757
+                                                          Test Accuracy 0.868
+time 18726.6519029
+POOLING ITERATION 47
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:2.96731185913
+	train acc: 0.968
+epoch: 49 197, loss:2.95938158035
+	train acc: 0.966
+epoch: 49 198, loss:2.8748190403
+	train acc: 0.968
+epoch: 49 199, loss:2.99987602234
+	train acc: 0.98
+                                                          Valid Accuracy 0.8799
+                                                          Test Accuracy 0.8765
+time 19109.5122929
+POOLING ITERATION 48
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.05604219437
+	train acc: 0.941176470588
+epoch: 49 197, loss:3.00294137001
+	train acc: 0.945098039216
+epoch: 49 198, loss:2.94751834869
+	train acc: 0.952941176471
+epoch: 49 199, loss:3.03984451294
+	train acc: 0.954901960784
+                                                          Valid Accuracy 0.8809
+                                                          Test Accuracy 0.8728
+time 19454.5203018
+POOLING ITERATION 49
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.36948084831
+	train acc: 0.992307692308
+epoch: 49 246, loss:2.46582150459
+	train acc: 0.992307692308
+epoch: 49 247, loss:2.35017609596
+	train acc: 0.992307692308
+epoch: 49 248, loss:2.44871020317
+	train acc: 0.992307692308
+epoch: 49 249, loss:2.33181476593
+	train acc: 0.992307692308
+                                                          Valid Accuracy 0.9195
+                                                          Test Accuracy 0.9168
+time 19799.70856
+POOLING ITERATION 50
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.58028411865
+	train acc: 0.979245283019
+epoch: 49 246, loss:2.59700608253
+	train acc: 0.983018867925
+epoch: 49 247, loss:2.44608044624
+	train acc: 0.984905660377
+epoch: 49 248, loss:2.59569478035
+	train acc: 0.990566037736
+epoch: 49 249, loss:2.42870926857
+	train acc: 0.990566037736
+                                                          Valid Accuracy 0.9208
+                                                          Test Accuracy 0.9122
+time 20199.4594319
+POOLING ITERATION 51
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.56769704819
+	train acc: 0.944444444444
+epoch: 49 246, loss:2.62921977043
+	train acc: 0.957407407407
+epoch: 49 247, loss:2.59595918655
+	train acc: 0.966666666667
+epoch: 49 248, loss:2.57282757759
+	train acc: 0.966666666667
+epoch: 49 249, loss:2.44417095184
+	train acc: 0.964814814815
+                                                          Valid Accuracy 0.889
+                                                          Test Accuracy 0.8829
+time 20597.7669098
+POOLING ITERATION 52
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.40969276428
+	train acc: 0.989090909091
+epoch: 49 246, loss:2.50617575645
+	train acc: 0.987272727273
+epoch: 49 247, loss:2.40873336792
+	train acc: 0.989090909091
+epoch: 49 248, loss:2.44879889488
+	train acc: 0.990909090909
+epoch: 49 249, loss:2.38021492958
+	train acc: 0.989090909091
+                                                          Valid Accuracy 0.9088
+                                                          Test Accuracy 0.9028
+time 21003.1588998
+POOLING ITERATION 53
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.4580514431
+	train acc: 0.9625
+epoch: 49 246, loss:2.51257538795
+	train acc: 0.9875
+epoch: 49 247, loss:2.34482359886
+	train acc: 0.9875
+epoch: 49 248, loss:2.44851112366
+	train acc: 0.973214285714
+epoch: 49 249, loss:2.41404461861
+	train acc: 0.964285714286
+                                                          Valid Accuracy 0.8666
+                                                          Test Accuracy 0.8558
+time 21414.328161
+POOLING ITERATION 54
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.4983317852
+	train acc: 0.973684210526
+epoch: 49 246, loss:2.51913928986
+	train acc: 0.982456140351
+epoch: 49 247, loss:2.42005467415
+	train acc: 0.984210526316
+epoch: 49 248, loss:2.4873816967
+	train acc: 0.978947368421
+epoch: 49 249, loss:2.41238021851
+	train acc: 0.964912280702
+                                                          Valid Accuracy 0.8616
+                                                          Test Accuracy 0.8552
+time 21790.6707809
+POOLING ITERATION 55
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.43139910698
+	train acc: 0.981034482759
+epoch: 49 246, loss:2.44623303413
+	train acc: 0.958620689655
+epoch: 49 247, loss:2.46698260307
+	train acc: 0.936206896552
+epoch: 49 248, loss:2.63204979897
+	train acc: 0.963793103448
+epoch: 49 249, loss:2.34452700615
+	train acc: 0.965517241379
+                                                          Valid Accuracy 0.8759
+                                                          Test Accuracy 0.873
+time 22176.687943
+POOLING ITERATION 56
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.32504796982
+	train acc: 0.991525423729
+epoch: 49 246, loss:2.3722782135
+	train acc: 0.991525423729
+epoch: 49 247, loss:2.26028251648
+	train acc: 0.991525423729
+epoch: 49 248, loss:2.36934900284
+	train acc: 0.991525423729
+epoch: 49 249, loss:2.24943733215
+	train acc: 0.991525423729
+                                                          Valid Accuracy 0.8989
+                                                          Test Accuracy 0.896
+time 22568.1794028
+POOLING ITERATION 57
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.25891590118
+	train acc: 0.986666666667
+epoch: 49 246, loss:2.30617427826
+	train acc: 0.985
+epoch: 49 247, loss:2.26548910141
+	train acc: 0.99
+epoch: 49 248, loss:2.35251164436
+	train acc: 0.985
+epoch: 49 249, loss:2.19856333733
+	train acc: 0.986666666667
+                                                          Valid Accuracy 0.9117
+                                                          Test Accuracy 0.9092
+time 22964.0530748
+POOLING ITERATION 58
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.22222781181
+	train acc: 0.955737704918
+epoch: 49 246, loss:2.44063878059
+	train acc: 0.965573770492
+epoch: 49 247, loss:2.23276877403
+	train acc: 0.983606557377
+epoch: 49 248, loss:2.34797072411
+	train acc: 0.993442622951
+epoch: 49 249, loss:2.17550086975
+	train acc: 0.945901639344
+                                                          Valid Accuracy 0.8671
+                                                          Test Accuracy 0.8622
+time 23379.489574
+POOLING ITERATION 59
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.1645796299
+	train acc: 0.990322580645
+epoch: 49 246, loss:2.23998594284
+	train acc: 0.977419354839
+epoch: 49 247, loss:2.14814972878
+	train acc: 0.982258064516
+epoch: 49 248, loss:2.23965001106
+	train acc: 0.974193548387
+epoch: 49 249, loss:2.13417577744
+	train acc: 0.954838709677
+                                                          Valid Accuracy 0.88
+                                                          Test Accuracy 0.8727
+time 23768.2665
+POOLING ITERATION 60
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.26254320145
+	train acc: 0.984126984127
+epoch: 49 246, loss:2.25912356377
+	train acc: 0.984126984127
+epoch: 49 247, loss:2.15321469307
+	train acc: 0.984126984127
+epoch: 49 248, loss:2.29890489578
+	train acc: 0.98253968254
+epoch: 49 249, loss:2.20888876915
+	train acc: 0.98253968254
+                                                          Valid Accuracy 0.8905
+                                                          Test Accuracy 0.8851
+time 24162.8777108
+POOLING ITERATION 61
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.21582961082
+	train acc: 0.9703125
+epoch: 49 246, loss:2.29035711288
+	train acc: 0.975
+epoch: 49 247, loss:2.12985420227
+	train acc: 0.9765625
+epoch: 49 248, loss:2.27061414719
+	train acc: 0.975
+epoch: 49 249, loss:2.08663606644
+	train acc: 0.9796875
+                                                          Valid Accuracy 0.8865
+                                                          Test Accuracy 0.8778
+time 24570.01036
+POOLING ITERATION 62
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.95735692978
+	train acc: 0.986153846154
+epoch: 49 295, loss:2.00847649574
+	train acc: 0.983076923077
+epoch: 49 296, loss:1.91612839699
+	train acc: 0.98
+epoch: 49 297, loss:2.00740504265
+	train acc: 0.990769230769
+epoch: 49 298, loss:1.952216506
+	train acc: 0.987692307692
+epoch: 49 299, loss:1.87359952927
+	train acc: 0.978461538462
+                                                          Valid Accuracy 0.9091
+                                                          Test Accuracy 0.9043
+time 25019.6486988
+POOLING ITERATION 63
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.90619647503
+	train acc: 0.993939393939
+epoch: 49 295, loss:2.00063967705
+	train acc: 0.993939393939
+epoch: 49 296, loss:1.8926897049
+	train acc: 0.993939393939
+epoch: 49 297, loss:1.99832224846
+	train acc: 0.993939393939
+epoch: 49 298, loss:1.88226902485
+	train acc: 0.993939393939
+epoch: 49 299, loss:1.88607406616
+	train acc: 0.992424242424
+                                                          Valid Accuracy 0.9168
+                                                          Test Accuracy 0.9158
+time 25444.674619
+POOLING ITERATION 64
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.92615556717
+	train acc: 0.980597014925
+epoch: 49 295, loss:1.93387460709
+	train acc: 0.979104477612
+epoch: 49 296, loss:1.86443030834
+	train acc: 0.985074626866
+epoch: 49 297, loss:2.01577591896
+	train acc: 0.989552238806
+epoch: 49 298, loss:1.89275979996
+	train acc: 0.988059701493
+epoch: 49 299, loss:1.81615459919
+	train acc: 0.980597014925
+                                                          Valid Accuracy 0.9111
+                                                          Test Accuracy 0.9113
+time 25884.3696589
+POOLING ITERATION 65
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.96749830246
+	train acc: 0.992647058824
+epoch: 49 295, loss:1.97651565075
+	train acc: 0.988235294118
+epoch: 49 296, loss:1.90181279182
+	train acc: 0.988235294118
+epoch: 49 297, loss:1.95907866955
+	train acc: 0.992647058824
+epoch: 49 298, loss:1.87199580669
+	train acc: 0.985294117647
+epoch: 49 299, loss:1.858060956
+	train acc: 0.980882352941
+                                                          Valid Accuracy 0.9012
+                                                          Test Accuracy 0.8973
+time 26305.1587129
+POOLING ITERATION 66
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.90010654926
+	train acc: 0.991304347826
+epoch: 49 295, loss:1.95187354088
+	train acc: 0.989855072464
+epoch: 49 296, loss:1.84543132782
+	train acc: 0.989855072464
+epoch: 49 297, loss:2.0101082325
+	train acc: 0.988405797101
+epoch: 49 298, loss:1.84060966969
+	train acc: 0.991304347826
+epoch: 49 299, loss:1.82842552662
+	train acc: 0.991304347826
+                                                          Valid Accuracy 0.9213
+                                                          Test Accuracy 0.912
+time 26716.758817
+POOLING ITERATION 67
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.90627038479
+	train acc: 0.99
+epoch: 49 295, loss:1.9028699398
+	train acc: 0.99
+epoch: 49 296, loss:1.82738852501
+	train acc: 0.991428571429
+epoch: 49 297, loss:1.85956156254
+	train acc: 0.994285714286
+epoch: 49 298, loss:1.79032409191
+	train acc: 0.994285714286
+epoch: 49 299, loss:1.78190267086
+	train acc: 0.992857142857
+                                                          Valid Accuracy 0.9134
+                                                          Test Accuracy 0.9143
+time 27133.8162398
+POOLING ITERATION 68
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.81857395172
+	train acc: 0.995774647887
+epoch: 49 295, loss:1.91987884045
+	train acc: 0.995774647887
+epoch: 49 296, loss:1.82285380363
+	train acc: 0.995774647887
+epoch: 49 297, loss:1.86224329472
+	train acc: 0.995774647887
+epoch: 49 298, loss:1.80691170692
+	train acc: 0.995774647887
+epoch: 49 299, loss:1.81933093071
+	train acc: 0.995774647887
+                                                          Valid Accuracy 0.9222
+                                                          Test Accuracy 0.9177
+time 27535.8902369
+POOLING ITERATION 69
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.88965702057
+	train acc: 0.991666666667
+epoch: 49 295, loss:1.83537399769
+	train acc: 0.993055555556
+epoch: 49 296, loss:1.73505473137
+	train acc: 0.990277777778
+epoch: 49 297, loss:1.79352140427
+	train acc: 0.986111111111
+epoch: 49 298, loss:1.72990953922
+	train acc: 0.9875
+epoch: 49 299, loss:1.72181344032
+	train acc: 0.988888888889
+                                                          Valid Accuracy 0.901
+                                                          Test Accuracy 0.9006
+time 27942.4870188
+POOLING ITERATION 70
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.75597405434
+	train acc: 0.986301369863
+epoch: 49 295, loss:1.80261445045
+	train acc: 0.991780821918
+epoch: 49 296, loss:1.69206309319
+	train acc: 0.982191780822
+epoch: 49 297, loss:1.86290216446
+	train acc: 0.980821917808
+epoch: 49 298, loss:1.74671912193
+	train acc: 0.986301369863
+epoch: 49 299, loss:1.71033239365
+	train acc: 0.984931506849
+                                                          Valid Accuracy 0.9194
+                                                          Test Accuracy 0.9159
+time 28362.2914488
+POOLING ITERATION 71
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.9520316124
+	train acc: 0.986486486486
+epoch: 49 295, loss:1.88087141514
+	train acc: 0.991891891892
+epoch: 49 296, loss:1.73451423645
+	train acc: 0.991891891892
+epoch: 49 297, loss:1.84199714661
+	train acc: 0.990540540541
+epoch: 49 298, loss:1.77679157257
+	train acc: 0.991891891892
+epoch: 49 299, loss:1.79854643345
+	train acc: 0.993243243243
+                                                          Valid Accuracy 0.9249
+                                                          Test Accuracy 0.9224
+time 28775.2323308
+POOLING ITERATION 72
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.72348809242
+	train acc: 0.972
+epoch: 49 295, loss:1.98367452621
+	train acc: 0.956
+epoch: 49 296, loss:2.02110886574
+	train acc: 0.958666666667
+epoch: 49 297, loss:1.97460722923
+	train acc: 0.978666666667
+epoch: 49 298, loss:1.72942245007
+	train acc: 0.98
+epoch: 49 299, loss:1.78066766262
+	train acc: 0.969333333333
+                                                          Valid Accuracy 0.9068
+                                                          Test Accuracy 0.9045
+time 29198.0223479
+POOLING ITERATION 73
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.94698226452
+	train acc: 0.964473684211
+epoch: 49 295, loss:1.90347874165
+	train acc: 0.955263157895
+epoch: 49 296, loss:1.93252801895
+	train acc: 0.969736842105
+epoch: 49 297, loss:1.80257868767
+	train acc: 0.985526315789
+epoch: 49 298, loss:1.71881341934
+	train acc: 0.978947368421
+epoch: 49 299, loss:1.75562429428
+	train acc: 0.971052631579
+                                                          Valid Accuracy 0.9144
+                                                          Test Accuracy 0.9135
+time 29608.4329648
+POOLING ITERATION 74
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.55756521225
+	train acc: 0.990909090909
+epoch: 49 344, loss:1.65744543076
+	train acc: 0.98961038961
+epoch: 49 345, loss:1.56458413601
+	train acc: 0.992207792208
+epoch: 49 346, loss:1.59489178658
+	train acc: 0.993506493506
+epoch: 49 347, loss:1.54319155216
+	train acc: 0.992207792208
+epoch: 49 348, loss:1.6238796711
+	train acc: 0.98961038961
+epoch: 49 349, loss:1.54357099533
+	train acc: 0.992207792208
+                                                          Valid Accuracy 0.9295
+                                                          Test Accuracy 0.9249
+time 30025.7062118
+POOLING ITERATION 75
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.63103103638
+	train acc: 0.988461538462
+epoch: 49 344, loss:1.72414803505
+	train acc: 0.992307692308
+epoch: 49 345, loss:1.55389606953
+	train acc: 0.992307692308
+epoch: 49 346, loss:1.60842394829
+	train acc: 0.992307692308
+epoch: 49 347, loss:1.5576813221
+	train acc: 0.989743589744
+epoch: 49 348, loss:1.62175607681
+	train acc: 0.991025641026
+epoch: 49 349, loss:1.54385948181
+	train acc: 0.992307692308
+                                                          Valid Accuracy 0.9049
+                                                          Test Accuracy 0.9063
+time 30458.3261139
+POOLING ITERATION 76
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.61161279678
+	train acc: 0.964556962025
+epoch: 49 344, loss:1.68724477291
+	train acc: 0.981012658228
+epoch: 49 345, loss:1.50496649742
+	train acc: 0.989873417722
+epoch: 49 346, loss:1.59430897236
+	train acc: 0.986075949367
+epoch: 49 347, loss:1.50787317753
+	train acc: 0.988607594937
+epoch: 49 348, loss:1.62331342697
+	train acc: 0.983544303797
+epoch: 49 349, loss:1.48714637756
+	train acc: 0.979746835443
+                                                          Valid Accuracy 0.9045
+                                                          Test Accuracy 0.9046
+time 30815.4553909
+POOLING ITERATION 77
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.59332764149
+	train acc: 0.9875
+epoch: 49 344, loss:1.59162867069
+	train acc: 0.985
+epoch: 49 345, loss:1.49371218681
+	train acc: 0.99125
+epoch: 49 346, loss:1.57222545147
+	train acc: 0.99125
+epoch: 49 347, loss:1.48242592812
+	train acc: 0.98375
+epoch: 49 348, loss:1.56551039219
+	train acc: 0.985
+epoch: 49 349, loss:1.4746131897
+	train acc: 0.9875
+                                                          Valid Accuracy 0.9127
+                                                          Test Accuracy 0.9092
+time 31190.3697238
+POOLING ITERATION 78
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.52350199223
+	train acc: 0.993827160494
+epoch: 49 344, loss:1.62574791908
+	train acc: 0.992592592593
+epoch: 49 345, loss:1.52202212811
+	train acc: 0.993827160494
+epoch: 49 346, loss:1.56889081001
+	train acc: 0.993827160494
+epoch: 49 347, loss:1.51288664341
+	train acc: 0.993827160494
+epoch: 49 348, loss:1.61841070652
+	train acc: 0.993827160494
+epoch: 49 349, loss:1.50377464294
+	train acc: 0.993827160494
+                                                          Valid Accuracy 0.9189
+                                                          Test Accuracy 0.9189
+time 31536.815002
+POOLING ITERATION 79
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.52032208443
+	train acc: 0.991463414634
+epoch: 49 344, loss:1.67246472836
+	train acc: 0.991463414634
+epoch: 49 345, loss:1.50975489616
+	train acc: 0.990243902439
+epoch: 49 346, loss:1.56512057781
+	train acc: 0.990243902439
+epoch: 49 347, loss:1.52117037773
+	train acc: 0.991463414634
+epoch: 49 348, loss:1.61605787277
+	train acc: 0.992682926829
+epoch: 49 349, loss:1.51296854019
+	train acc: 0.992682926829
+                                                          Valid Accuracy 0.9285
+                                                          Test Accuracy 0.9266
+time 31882.1456728
+POOLING ITERATION 80
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.60124456882
+	train acc: 0.968674698795
+epoch: 49 344, loss:1.66513168812
+	train acc: 0.973493975904
+epoch: 49 345, loss:1.51381313801
+	train acc: 0.986746987952
+epoch: 49 346, loss:1.56606698036
+	train acc: 0.956626506024
+epoch: 49 347, loss:1.60729777813
+	train acc: 0.953012048193
+epoch: 49 348, loss:1.60435390472
+	train acc: 0.984337349398
+epoch: 49 349, loss:1.51484727859
+	train acc: 0.986746987952
+                                                          Valid Accuracy 0.9119
+                                                          Test Accuracy 0.909
+time 32238.963028
+POOLING ITERATION 81
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.46045053005
+	train acc: 0.994047619048
+epoch: 49 344, loss:1.57555615902
+	train acc: 0.994047619048
+epoch: 49 345, loss:1.45509874821
+	train acc: 0.994047619048
+epoch: 49 346, loss:1.56474626064
+	train acc: 0.994047619048
+epoch: 49 347, loss:1.45326113701
+	train acc: 0.994047619048
+epoch: 49 348, loss:1.504986763
+	train acc: 0.994047619048
+epoch: 49 349, loss:1.44503486156
+	train acc: 0.994047619048
+                                                          Valid Accuracy 0.9218
+                                                          Test Accuracy 0.9156
+time 32591.9132159
+POOLING ITERATION 82
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.46896195412
+	train acc: 0.992941176471
+epoch: 49 344, loss:1.5414532423
+	train acc: 0.989411764706
+epoch: 49 345, loss:1.43333387375
+	train acc: 0.985882352941
+epoch: 49 346, loss:1.54306066036
+	train acc: 0.982352941176
+epoch: 49 347, loss:1.52718520164
+	train acc: 0.972941176471
+epoch: 49 348, loss:1.52831280231
+	train acc: 0.974117647059
+epoch: 49 349, loss:1.4308937788
+	train acc: 0.965882352941
+                                                          Valid Accuracy 0.9064
+                                                          Test Accuracy 0.9005
+time 32945.032233
+POOLING ITERATION 83
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.4597735405
+	train acc: 0.982558139535
+epoch: 49 344, loss:1.66867172718
+	train acc: 0.983720930233
+epoch: 49 345, loss:1.43990683556
+	train acc: 0.977906976744
+epoch: 49 346, loss:1.48582684994
+	train acc: 0.973255813953
+epoch: 49 347, loss:1.50850999355
+	train acc: 0.990697674419
+epoch: 49 348, loss:1.55588138103
+	train acc: 0.989534883721
+epoch: 49 349, loss:1.49673259258
+	train acc: 0.989534883721
+                                                          Valid Accuracy 0.9279
+                                                          Test Accuracy 0.9198
+time 33309.2989459
+POOLING ITERATION 84
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.4727973938
+	train acc: 0.990804597701
+epoch: 49 344, loss:1.52194142342
+	train acc: 0.990804597701
+epoch: 49 345, loss:1.41886162758
+	train acc: 0.990804597701
+epoch: 49 346, loss:1.51975440979
+	train acc: 0.990804597701
+epoch: 49 347, loss:1.46439027786
+	train acc: 0.990804597701
+epoch: 49 348, loss:1.46265077591
+	train acc: 0.990804597701
+epoch: 49 349, loss:1.47527253628
+	train acc: 0.990804597701
+                                                          Valid Accuracy 0.9361
+                                                          Test Accuracy 0.9345
+time 33653.262115
+POOLING ITERATION 85
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.48330366611
+	train acc: 0.977272727273
+epoch: 49 344, loss:1.50904643536
+	train acc: 0.977272727273
+epoch: 49 345, loss:1.38744735718
+	train acc: 0.9625
+epoch: 49 346, loss:1.5075751543
+	train acc: 0.964772727273
+epoch: 49 347, loss:1.51344370842
+	train acc: 0.985227272727
+epoch: 49 348, loss:1.44661450386
+	train acc: 0.980681818182
+epoch: 49 349, loss:1.45412003994
+	train acc: 0.964772727273
+                                                          Valid Accuracy 0.9173
+                                                          Test Accuracy 0.9098
+time 33991.3305738
+POOLING ITERATION 86
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.4803467989
+	train acc: 0.984269662921
+epoch: 49 344, loss:1.4944537878
+	train acc: 0.988764044944
+epoch: 49 345, loss:1.37912011147
+	train acc: 0.991011235955
+epoch: 49 346, loss:1.47652542591
+	train acc: 0.991011235955
+epoch: 49 347, loss:1.36598145962
+	train acc: 0.985393258427
+epoch: 49 348, loss:1.50230515003
+	train acc: 0.991011235955
+epoch: 49 349, loss:1.47254490852
+	train acc: 0.989887640449
+                                                          Valid Accuracy 0.9262
+                                                          Test Accuracy 0.9213
+time 34335.0759039
+POOLING ITERATION 87
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.25187206268
+	train acc: 0.99
+epoch: 49 393, loss:1.42720222473
+	train acc: 0.992222222222
+epoch: 49 394, loss:1.22559928894
+	train acc: 0.991111111111
+epoch: 49 395, loss:1.29055988789
+	train acc: 0.993333333333
+epoch: 49 396, loss:1.23718905449
+	train acc: 0.991111111111
+epoch: 49 397, loss:1.28750371933
+	train acc: 0.992222222222
+epoch: 49 398, loss:1.29205942154
+	train acc: 0.994444444444
+epoch: 49 399, loss:1.21963012218
+	train acc: 0.993333333333
+                                                          Valid Accuracy 0.9396
+                                                          Test Accuracy 0.9377
+time 34692.1011519
+POOLING ITERATION 88
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.36893951893
+	train acc: 0.981318681319
+epoch: 49 393, loss:1.43979036808
+	train acc: 0.979120879121
+epoch: 49 394, loss:1.37392997742
+	train acc: 0.981318681319
+epoch: 49 395, loss:1.44310081005
+	train acc: 0.991208791209
+epoch: 49 396, loss:1.33582472801
+	train acc: 0.982417582418
+epoch: 49 397, loss:1.39480412006
+	train acc: 0.979120879121
+epoch: 49 398, loss:1.50556027889
+	train acc: 0.974725274725
+epoch: 49 399, loss:1.31972801685
+	train acc: 0.965934065934
+                                                          Valid Accuracy 0.8962
+                                                          Test Accuracy 0.8892
+time 35060.5704508
+POOLING ITERATION 89
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.47924816608
+	train acc: 0.969565217391
+epoch: 49 393, loss:1.47052717209
+	train acc: 0.964130434783
+epoch: 49 394, loss:1.53254294395
+	train acc: 0.967391304348
+epoch: 49 395, loss:1.44534015656
+	train acc: 0.973913043478
+epoch: 49 396, loss:1.41634750366
+	train acc: 0.986956521739
+epoch: 49 397, loss:1.35915565491
+	train acc: 0.979347826087
+epoch: 49 398, loss:1.4094735384
+	train acc: 0.971739130435
+epoch: 49 399, loss:1.29657614231
+	train acc: 0.95652173913
+                                                          Valid Accuracy 0.917
+                                                          Test Accuracy 0.9122
+time 35436.4440548
+POOLING ITERATION 90
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.34702813625
+	train acc: 0.990322580645
+epoch: 49 393, loss:1.43869078159
+	train acc: 0.989247311828
+epoch: 49 394, loss:1.27703356743
+	train acc: 0.990322580645
+epoch: 49 395, loss:1.38562226295
+	train acc: 0.991397849462
+epoch: 49 396, loss:1.2705976963
+	train acc: 0.991397849462
+epoch: 49 397, loss:1.32243490219
+	train acc: 0.991397849462
+epoch: 49 398, loss:1.32209157944
+	train acc: 0.989247311828
+epoch: 49 399, loss:1.26550984383
+	train acc: 0.989247311828
+                                                          Valid Accuracy 0.9378
+                                                          Test Accuracy 0.9342
+time 35793.7084169
+POOLING ITERATION 91
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.27577972412
+	train acc: 0.985106382979
+epoch: 49 393, loss:1.38749802113
+	train acc: 0.991489361702
+epoch: 49 394, loss:1.33165919781
+	train acc: 0.982978723404
+epoch: 49 395, loss:1.48177504539
+	train acc: 0.98085106383
+epoch: 49 396, loss:1.25575017929
+	train acc: 0.987234042553
+epoch: 49 397, loss:1.32738220692
+	train acc: 0.991489361702
+epoch: 49 398, loss:1.32087016106
+	train acc: 0.991489361702
+epoch: 49 399, loss:1.25098717213
+	train acc: 0.990425531915
+                                                          Valid Accuracy 0.9317
+                                                          Test Accuracy 0.9255
+time 36171.971283
+POOLING ITERATION 92
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.29292571545
+	train acc: 0.993684210526
+epoch: 49 393, loss:1.34704518318
+	train acc: 0.993684210526
+epoch: 49 394, loss:1.23902475834
+	train acc: 0.993684210526
+epoch: 49 395, loss:1.28873932362
+	train acc: 0.993684210526
+epoch: 49 396, loss:1.23126626015
+	train acc: 0.993684210526
+epoch: 49 397, loss:1.28528285027
+	train acc: 0.993684210526
+epoch: 49 398, loss:1.28427553177
+	train acc: 0.993684210526
+epoch: 49 399, loss:1.224801898
+	train acc: 0.993684210526
+                                                          Valid Accuracy 0.9458
+                                                          Test Accuracy 0.9419
+time 36531.7512689
+POOLING ITERATION 93
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.32763946056
+	train acc: 0.991666666667
+epoch: 49 393, loss:1.37166643143
+	train acc: 0.991666666667
+epoch: 49 394, loss:1.26080203056
+	train acc: 0.991666666667
+epoch: 49 395, loss:1.33791279793
+	train acc: 0.992708333333
+epoch: 49 396, loss:1.31558430195
+	train acc: 0.991666666667
+epoch: 49 397, loss:1.31482934952
+	train acc: 0.989583333333
+epoch: 49 398, loss:1.31696724892
+	train acc: 0.988541666667
+epoch: 49 399, loss:1.26699864864
+	train acc: 0.992708333333
+                                                          Valid Accuracy 0.9371
+                                                          Test Accuracy 0.9349
+time 36894.5185988
+POOLING ITERATION 94
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.27371072769
+	train acc: 0.989690721649
+epoch: 49 393, loss:1.32841491699
+	train acc: 0.985567010309
+epoch: 49 394, loss:1.22615695
+	train acc: 0.990721649485
+epoch: 49 395, loss:1.34970867634
+	train acc: 0.992783505155
+epoch: 49 396, loss:1.21304702759
+	train acc: 0.992783505155
+epoch: 49 397, loss:1.26393914223
+	train acc: 0.99175257732
+epoch: 49 398, loss:1.2704564333
+	train acc: 0.99175257732
+epoch: 49 399, loss:1.20864140987
+	train acc: 0.986597938144
+                                                          Valid Accuracy 0.9318
+                                                          Test Accuracy 0.9323
+time 37264.4893479
+POOLING ITERATION 95
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.25251424313
+	train acc: 0.991836734694
+epoch: 49 393, loss:1.30162394047
+	train acc: 0.991836734694
+epoch: 49 394, loss:1.19757926464
+	train acc: 0.991836734694
+epoch: 49 395, loss:1.2998508215
+	train acc: 0.991836734694
+epoch: 49 396, loss:1.19304764271
+	train acc: 0.989795918367
+epoch: 49 397, loss:1.30983269215
+	train acc: 0.991836734694
+epoch: 49 398, loss:1.29530549049
+	train acc: 0.991836734694
+epoch: 49 399, loss:1.19019818306
+	train acc: 0.991836734694
+                                                          Valid Accuracy 0.9282
+                                                          Test Accuracy 0.9234
+time 37637.4620559
+POOLING ITERATION 96
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.20281040668
+	train acc: 0.992929292929
+epoch: 49 393, loss:1.30917704105
+	train acc: 0.992929292929
+epoch: 49 394, loss:1.1999976635
+	train acc: 0.992929292929
+epoch: 49 395, loss:1.25576353073
+	train acc: 0.991919191919
+epoch: 49 396, loss:1.25015699863
+	train acc: 0.991919191919
+epoch: 49 397, loss:1.33297181129
+	train acc: 0.992929292929
+epoch: 49 398, loss:1.24614524841
+	train acc: 0.992929292929
+epoch: 49 399, loss:1.19408369064
+	train acc: 0.992929292929
+                                                          Valid Accuracy 0.9387
+                                                          Test Accuracy 0.9365
+time 38009.664881
+POOLING ITERATION 97
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.28671872616
+	train acc: 0.991
+epoch: 49 393, loss:1.376989007
+	train acc: 0.992
+epoch: 49 394, loss:1.22657048702
+	train acc: 0.992
+epoch: 49 395, loss:1.28605985641
+	train acc: 0.992
+epoch: 49 396, loss:1.27784323692
+	train acc: 0.993
+epoch: 49 397, loss:1.2856771946
+	train acc: 0.992
+epoch: 49 398, loss:1.27578365803
+	train acc: 0.989
+epoch: 49 399, loss:1.22185385227
+	train acc: 0.992
+                                                          Valid Accuracy 0.9254
+                                                          Test Accuracy 0.9219
+Initial Training Data (20, 1, 28, 28)
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:84.767791748
+	train acc: 0.1
+                                                          valid Accuracy 0.103
+                                                          Test Accuracy 0.101
+time 223.496208191
+POOLING ITERATION 0
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:57.2689437866
+	train acc: 0.133333333333
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 455.164946079
+POOLING ITERATION 1
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:43.5050735474
+	train acc: 0.175
+                                                          Valid Accuracy 0.0961
+                                                          Test Accuracy 0.1009
+time 688.71222806
+POOLING ITERATION 2
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:35.2575645447
+	train acc: 0.16
+                                                          Valid Accuracy 0.1009
+                                                          Test Accuracy 0.0974
+time 921.377300978
+POOLING ITERATION 3
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:29.7606525421
+	train acc: 0.15
+                                                          Valid Accuracy 0.0961
+                                                          Test Accuracy 0.1009
+time 1157.72751307
+POOLING ITERATION 4
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:25.844329834
+	train acc: 0.142857142857
+                                                          Valid Accuracy 0.0961
+                                                          Test Accuracy 0.1009
+time 1391.44248509
+POOLING ITERATION 5
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:22.901348114
+	train acc: 0.1625
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 1626.28523111
+POOLING ITERATION 6
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:20.6071681976
+	train acc: 0.155555555556
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 1860.20757008
+POOLING ITERATION 7
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:18.7765808105
+	train acc: 0.16
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 2095.50242209
+POOLING ITERATION 8
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:17.278137207
+	train acc: 0.127272727273
+                                                          Valid Accuracy 0.0961
+                                                          Test Accuracy 0.1009
+time 2331.46705103
+POOLING ITERATION 9
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:16.0322933197
+	train acc: 0.125
+                                                          Valid Accuracy 0.0961
+                                                          Test Accuracy 0.1009
+time 2568.71662116
+POOLING ITERATION 10
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:15.0675621033
+	train acc: 0.138461538462
+epoch: 49 99, loss:13.5058641434
+	train acc: 0.138461538462
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 2814.41669607
+POOLING ITERATION 11
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:13.8422107697
+	train acc: 0.142857142857
+epoch: 49 99, loss:13.5335636139
+	train acc: 0.142857142857
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 3067.90728211
+POOLING ITERATION 12
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:13.0216331482
+	train acc: 0.14
+epoch: 49 99, loss:12.9750623703
+	train acc: 0.14
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 3322.07272601
+POOLING ITERATION 13
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:12.3653659821
+	train acc: 0.125
+epoch: 49 99, loss:12.2907447815
+	train acc: 0.125
+                                                          Valid Accuracy 0.0967
+                                                          Test Accuracy 0.0958
+time 3579.33702803
+POOLING ITERATION 14
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:11.7688646317
+	train acc: 0.123529411765
+epoch: 49 99, loss:11.7201061249
+	train acc: 0.123529411765
+                                                          Valid Accuracy 0.0983
+                                                          Test Accuracy 0.0982
+time 3834.2013011
+POOLING ITERATION 15
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:11.2366695404
+	train acc: 0.122222222222
+epoch: 49 99, loss:11.2072200775
+	train acc: 0.122222222222
+                                                          Valid Accuracy 0.0967
+                                                          Test Accuracy 0.0958
+time 4089.16403008
+POOLING ITERATION 16
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:10.7644338608
+	train acc: 0.131578947368
+epoch: 49 99, loss:10.7377700806
+	train acc: 0.131578947368
+                                                          Valid Accuracy 0.0967
+                                                          Test Accuracy 0.0958
+time 4352.06000614
+POOLING ITERATION 17
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:10.3398914337
+	train acc: 0.135
+epoch: 49 99, loss:10.303563118
+	train acc: 0.135
+                                                          Valid Accuracy 0.0967
+                                                          Test Accuracy 0.0958
+time 4620.85228109
+POOLING ITERATION 18
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:9.95557594299
+	train acc: 0.133333333333
+epoch: 49 99, loss:9.91837978363
+	train acc: 0.133333333333
+                                                          Valid Accuracy 0.0967
+                                                          Test Accuracy 0.0958
+time 4885.33714008
+POOLING ITERATION 19
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:9.60339736938
+	train acc: 0.136363636364
+epoch: 49 99, loss:9.5898141861
+	train acc: 0.136363636364
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 5141.93299913
+POOLING ITERATION 20
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:9.28148365021
+	train acc: 0.147826086957
+epoch: 49 99, loss:9.26837444305
+	train acc: 0.147826086957
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 5408.7555151
+POOLING ITERATION 21
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:8.98759746552
+	train acc: 0.141666666667
+epoch: 49 99, loss:8.97715473175
+	train acc: 0.141666666667
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 5663.89435315
+POOLING ITERATION 22
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:8.7225189209
+	train acc: 0.136
+epoch: 49 99, loss:8.72288036346
+	train acc: 0.136
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 5928.78737402
+POOLING ITERATION 23
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:8.3230009079
+	train acc: 0.0923076923077
+epoch: 49 148, loss:8.35303688049
+	train acc: 0.0923076923077
+epoch: 49 149, loss:7.60171413422
+	train acc: 0.0923076923077
+                                                          Valid Accuracy 0.099
+                                                          Test Accuracy 0.1032
+time 6201.20781016
+POOLING ITERATION 24
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.93159914017
+	train acc: 0.118518518519
+epoch: 49 148, loss:7.90687465668
+	train acc: 0.118518518519
+epoch: 49 149, loss:7.81648349762
+	train acc: 0.118518518519
+                                                          Valid Accuracy 0.0983
+                                                          Test Accuracy 0.0982
+time 6474.04411912
+POOLING ITERATION 25
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.6826710701
+	train acc: 0.117857142857
+epoch: 49 148, loss:7.70284175873
+	train acc: 0.135714285714
+epoch: 49 149, loss:7.57636356354
+	train acc: 0.221428571429
+                                                          Valid Accuracy 0.1859
+                                                          Test Accuracy 0.186
+time 6763.19058514
+POOLING ITERATION 26
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.51094341278
+	train acc: 0.203448275862
+epoch: 49 148, loss:7.52347183228
+	train acc: 0.251724137931
+epoch: 49 149, loss:7.43126678467
+	train acc: 0.265517241379
+                                                          Valid Accuracy 0.2576
+                                                          Test Accuracy 0.2581
+time 7041.66502714
+POOLING ITERATION 27
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.12445831299
+	train acc: 0.366666666667
+epoch: 49 148, loss:7.09272861481
+	train acc: 0.413333333333
+epoch: 49 149, loss:6.93663835526
+	train acc: 0.376666666667
+                                                          Valid Accuracy 0.3779
+                                                          Test Accuracy 0.3802
+time 7332.45100617
+POOLING ITERATION 28
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.93084430695
+	train acc: 0.251612903226
+epoch: 49 148, loss:6.87533903122
+	train acc: 0.312903225806
+epoch: 49 149, loss:6.79443216324
+	train acc: 0.358064516129
+                                                          Valid Accuracy 0.3004
+                                                          Test Accuracy 0.3013
+time 7570.02769017
+POOLING ITERATION 29
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.98847103119
+	train acc: 0.121875
+epoch: 49 148, loss:6.99431037903
+	train acc: 0.121875
+epoch: 49 149, loss:6.98606872559
+	train acc: 0.171875
+                                                          Valid Accuracy 0.1427
+                                                          Test Accuracy 0.153
+time 7799.57782006
+POOLING ITERATION 30
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.84841108322
+	train acc: 0.218181818182
+epoch: 49 148, loss:6.82439088821
+	train acc: 0.190909090909
+epoch: 49 149, loss:6.77591705322
+	train acc: 0.2
+                                                          Valid Accuracy 0.1716
+                                                          Test Accuracy 0.18
+time 8022.53112316
+POOLING ITERATION 31
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.69131612778
+	train acc: 0.244117647059
+epoch: 49 148, loss:6.65866041183
+	train acc: 0.235294117647
+epoch: 49 149, loss:6.61797094345
+	train acc: 0.229411764706
+                                                          Valid Accuracy 0.2093
+                                                          Test Accuracy 0.2194
+time 8251.79570103
+POOLING ITERATION 32
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.25645875931
+	train acc: 0.302857142857
+epoch: 49 148, loss:6.19946289062
+	train acc: 0.325714285714
+epoch: 49 149, loss:6.15535449982
+	train acc: 0.357142857143
+                                                          Valid Accuracy 0.3112
+                                                          Test Accuracy 0.3198
+time 8476.7659061
+POOLING ITERATION 33
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.06422328949
+	train acc: 0.35
+epoch: 49 148, loss:5.98305702209
+	train acc: 0.411111111111
+epoch: 49 149, loss:5.95441627502
+	train acc: 0.463888888889
+                                                          Valid Accuracy 0.4408
+                                                          Test Accuracy 0.4349
+time 8702.30120516
+POOLING ITERATION 34
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.22264814377
+	train acc: 0.189189189189
+epoch: 49 148, loss:6.19506549835
+	train acc: 0.235135135135
+epoch: 49 149, loss:6.14205026627
+	train acc: 0.32972972973
+                                                          Valid Accuracy 0.3055
+                                                          Test Accuracy 0.3188
+time 8927.44277906
+POOLING ITERATION 35
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.23471736908
+	train acc: 0.115789473684
+epoch: 49 148, loss:6.22359085083
+	train acc: 0.115789473684
+epoch: 49 149, loss:6.22545433044
+	train acc: 0.123684210526
+                                                          Valid Accuracy 0.1142
+                                                          Test Accuracy 0.1276
+time 9157.14560318
+POOLING ITERATION 36
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:4.07907676697
+	train acc: 0.764102564103
+epoch: 49 197, loss:4.54682540894
+	train acc: 0.828205128205
+epoch: 49 198, loss:4.1162238121
+	train acc: 0.85641025641
+epoch: 49 199, loss:3.47888231277
+	train acc: 0.74358974359
+                                                          Valid Accuracy 0.6812
+                                                          Test Accuracy 0.6699
+time 9390.56109905
+POOLING ITERATION 37
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.80142331123
+	train acc: 0.935
+epoch: 49 197, loss:3.68079447746
+	train acc: 0.9275
+epoch: 49 198, loss:3.7193813324
+	train acc: 0.92
+epoch: 49 199, loss:3.50082373619
+	train acc: 0.9175
+                                                          Valid Accuracy 0.8259
+                                                          Test Accuracy 0.8239
+time 9628.13512206
+POOLING ITERATION 38
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.52247571945
+	train acc: 0.941463414634
+epoch: 49 197, loss:3.55875253677
+	train acc: 0.956097560976
+epoch: 49 198, loss:3.43156981468
+	train acc: 0.963414634146
+epoch: 49 199, loss:3.35873198509
+	train acc: 0.970731707317
+                                                          Valid Accuracy 0.8873
+                                                          Test Accuracy 0.8829
+time 9858.45135617
+POOLING ITERATION 39
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.51184177399
+	train acc: 0.969047619048
+epoch: 49 197, loss:3.49857401848
+	train acc: 0.971428571429
+epoch: 49 198, loss:3.54728770256
+	train acc: 0.969047619048
+epoch: 49 199, loss:3.35412478447
+	train acc: 0.959523809524
+                                                          Valid Accuracy 0.8708
+                                                          Test Accuracy 0.8674
+time 10086.817085
+POOLING ITERATION 40
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.46183562279
+	train acc: 0.93488372093
+epoch: 49 197, loss:3.51126408577
+	train acc: 0.958139534884
+epoch: 49 198, loss:3.30910658836
+	train acc: 0.955813953488
+epoch: 49 199, loss:3.22183322906
+	train acc: 0.937209302326
+                                                          Valid Accuracy 0.8716
+                                                          Test Accuracy 0.8705
+time 10312.672538
+POOLING ITERATION 41
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.31100535393
+	train acc: 0.961363636364
+epoch: 49 197, loss:3.31524968147
+	train acc: 0.961363636364
+epoch: 49 198, loss:3.27007937431
+	train acc: 0.970454545455
+epoch: 49 199, loss:3.15641760826
+	train acc: 0.965909090909
+                                                          Valid Accuracy 0.8914
+                                                          Test Accuracy 0.8855
+time 10539.9519911
+POOLING ITERATION 42
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.23003292084
+	train acc: 0.964444444444
+epoch: 49 197, loss:3.28058433533
+	train acc: 0.968888888889
+epoch: 49 198, loss:3.16361069679
+	train acc: 0.968888888889
+epoch: 49 199, loss:3.10609030724
+	train acc: 0.968888888889
+                                                          Valid Accuracy 0.8926
+                                                          Test Accuracy 0.8893
+time 10768.2945201
+POOLING ITERATION 43
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.13558316231
+	train acc: 0.976086956522
+epoch: 49 197, loss:3.18363642693
+	train acc: 0.976086956522
+epoch: 49 198, loss:3.09564590454
+	train acc: 0.976086956522
+epoch: 49 199, loss:3.01468539238
+	train acc: 0.982608695652
+                                                          Valid Accuracy 0.8984
+                                                          Test Accuracy 0.8976
+time 10997.5703921
+POOLING ITERATION 44
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.0332698822
+	train acc: 0.970212765957
+epoch: 49 197, loss:3.22871446609
+	train acc: 0.968085106383
+epoch: 49 198, loss:3.00208377838
+	train acc: 0.970212765957
+epoch: 49 199, loss:3.09644842148
+	train acc: 0.942553191489
+                                                          Valid Accuracy 0.8973
+                                                          Test Accuracy 0.8899
+time 11228.937757
+POOLING ITERATION 45
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.06092214584
+	train acc: 0.916666666667
+epoch: 49 197, loss:3.32111644745
+	train acc: 0.952083333333
+epoch: 49 198, loss:3.01538777351
+	train acc: 0.960416666667
+epoch: 49 199, loss:3.02636384964
+	train acc: 0.945833333333
+                                                          Valid Accuracy 0.8997
+                                                          Test Accuracy 0.9015
+time 11467.717818
+POOLING ITERATION 46
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:2.93097472191
+	train acc: 0.963265306122
+epoch: 49 197, loss:3.12553262711
+	train acc: 0.967346938776
+epoch: 49 198, loss:2.89680147171
+	train acc: 0.969387755102
+epoch: 49 199, loss:2.96176028252
+	train acc: 0.957142857143
+                                                          Valid Accuracy 0.9091
+                                                          Test Accuracy 0.9115
+time 11701.0628622
+POOLING ITERATION 47
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:2.93853640556
+	train acc: 0.942
+epoch: 49 197, loss:3.09801650047
+	train acc: 0.956
+epoch: 49 198, loss:2.96223306656
+	train acc: 0.95
+epoch: 49 199, loss:2.98733949661
+	train acc: 0.952
+                                                          Valid Accuracy 0.8574
+                                                          Test Accuracy 0.8584
+time 11925.093796
+POOLING ITERATION 48
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:2.84218621254
+	train acc: 0.954901960784
+epoch: 49 197, loss:2.94060492516
+	train acc: 0.958823529412
+epoch: 49 198, loss:2.91987967491
+	train acc: 0.964705882353
+epoch: 49 199, loss:2.92804408073
+	train acc: 0.970588235294
+                                                          Valid Accuracy 0.8852
+                                                          Test Accuracy 0.885
+time 12150.8208621
+POOLING ITERATION 49
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.42438673973
+	train acc: 0.994230769231
+epoch: 49 246, loss:2.4932551384
+	train acc: 0.992307692308
+epoch: 49 247, loss:2.41231632233
+	train acc: 0.992307692308
+epoch: 49 248, loss:2.46019077301
+	train acc: 0.990384615385
+epoch: 49 249, loss:2.39369869232
+	train acc: 0.986538461538
+                                                          Valid Accuracy 0.9089
+                                                          Test Accuracy 0.9105
+time 12391.812705
+POOLING ITERATION 50
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.50009346008
+	train acc: 0.981132075472
+epoch: 49 246, loss:2.6092646122
+	train acc: 0.983018867925
+epoch: 49 247, loss:2.46584391594
+	train acc: 0.98679245283
+epoch: 49 248, loss:2.45351052284
+	train acc: 0.98679245283
+epoch: 49 249, loss:2.42571735382
+	train acc: 0.98679245283
+                                                          Valid Accuracy 0.9249
+                                                          Test Accuracy 0.9253
+time 12626.6003461
+POOLING ITERATION 51
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.52508306503
+	train acc: 0.977777777778
+epoch: 49 246, loss:2.51373553276
+	train acc: 0.985185185185
+epoch: 49 247, loss:2.48694992065
+	train acc: 0.987037037037
+epoch: 49 248, loss:2.45500564575
+	train acc: 0.97962962963
+epoch: 49 249, loss:2.38648247719
+	train acc: 0.942592592593
+                                                          Valid Accuracy 0.8649
+                                                          Test Accuracy 0.8607
+time 12856.412708
+POOLING ITERATION 52
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.40967011452
+	train acc: 0.98
+epoch: 49 246, loss:2.52063989639
+	train acc: 0.985454545455
+epoch: 49 247, loss:2.39556908607
+	train acc: 0.978181818182
+epoch: 49 248, loss:2.51450586319
+	train acc: 0.976363636364
+epoch: 49 249, loss:2.32685375214
+	train acc: 0.970909090909
+                                                          Valid Accuracy 0.8886
+                                                          Test Accuracy 0.8919
+time 13085.2345691
+POOLING ITERATION 53
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.26980543137
+	train acc: 0.994642857143
+epoch: 49 246, loss:2.3521168232
+	train acc: 0.992857142857
+epoch: 49 247, loss:2.2663025856
+	train acc: 0.996428571429
+epoch: 49 248, loss:2.25512599945
+	train acc: 0.996428571429
+epoch: 49 249, loss:2.24445676804
+	train acc: 0.998214285714
+                                                          Valid Accuracy 0.9323
+                                                          Test Accuracy 0.9345
+time 13331.9138091
+POOLING ITERATION 54
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.26305031776
+	train acc: 0.99298245614
+epoch: 49 246, loss:2.34575223923
+	train acc: 0.991228070175
+epoch: 49 247, loss:2.25728750229
+	train acc: 0.99298245614
+epoch: 49 248, loss:2.32666993141
+	train acc: 0.987719298246
+epoch: 49 249, loss:2.24423098564
+	train acc: 0.994736842105
+                                                          Valid Accuracy 0.9184
+                                                          Test Accuracy 0.9203
+time 13568.1695931
+POOLING ITERATION 55
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.30108833313
+	train acc: 0.975862068966
+epoch: 49 246, loss:2.34578037262
+	train acc: 0.974137931034
+epoch: 49 247, loss:2.36978149414
+	train acc: 0.987931034483
+epoch: 49 248, loss:2.33395862579
+	train acc: 0.984482758621
+epoch: 49 249, loss:2.25789833069
+	train acc: 0.977586206897
+                                                          Valid Accuracy 0.8736
+                                                          Test Accuracy 0.8726
+time 13801.748652
+POOLING ITERATION 56
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.18375205994
+	train acc: 0.996610169492
+epoch: 49 246, loss:2.27579808235
+	train acc: 0.993220338983
+epoch: 49 247, loss:2.18368458748
+	train acc: 0.986440677966
+epoch: 49 248, loss:2.19692564011
+	train acc: 0.984745762712
+epoch: 49 249, loss:2.1748342514
+	train acc: 0.994915254237
+                                                          Valid Accuracy 0.9251
+                                                          Test Accuracy 0.926
+time 14035.334872
+POOLING ITERATION 57
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.20023059845
+	train acc: 0.968333333333
+epoch: 49 246, loss:2.34928417206
+	train acc: 0.96
+epoch: 49 247, loss:2.26256489754
+	train acc: 0.986666666667
+epoch: 49 248, loss:2.2228717804
+	train acc: 0.993333333333
+epoch: 49 249, loss:2.17600655556
+	train acc: 0.99
+                                                          Valid Accuracy 0.906
+                                                          Test Accuracy 0.907
+time 14275.238209
+POOLING ITERATION 58
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.1645026207
+	train acc: 0.996721311475
+epoch: 49 246, loss:2.22256159782
+	train acc: 0.993442622951
+epoch: 49 247, loss:2.16758418083
+	train acc: 0.996721311475
+epoch: 49 248, loss:2.1910700798
+	train acc: 0.998360655738
+epoch: 49 249, loss:2.14480495453
+	train acc: 0.990163934426
+                                                          Valid Accuracy 0.9009
+                                                          Test Accuracy 0.9056
+time 14519.9854372
+POOLING ITERATION 59
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.14497542381
+	train acc: 0.990322580645
+epoch: 49 246, loss:2.21946191788
+	train acc: 0.996774193548
+epoch: 49 247, loss:2.13804364204
+	train acc: 0.998387096774
+epoch: 49 248, loss:2.1361656189
+	train acc: 0.998387096774
+epoch: 49 249, loss:2.13340473175
+	train acc: 0.995161290323
+                                                          Valid Accuracy 0.9071
+                                                          Test Accuracy 0.9094
+time 14752.940099
+POOLING ITERATION 60
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.07871580124
+	train acc: 0.998412698413
+epoch: 49 246, loss:2.13182425499
+	train acc: 0.998412698413
+epoch: 49 247, loss:2.07590889931
+	train acc: 0.998412698413
+epoch: 49 248, loss:2.06715846062
+	train acc: 0.998412698413
+epoch: 49 249, loss:2.06367206573
+	train acc: 0.998412698413
+                                                          Valid Accuracy 0.9224
+                                                          Test Accuracy 0.9254
+time 14982.762629
+POOLING ITERATION 61
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.0244166851
+	train acc: 0.9984375
+epoch: 49 246, loss:2.07096457481
+	train acc: 0.9984375
+epoch: 49 247, loss:2.01136755943
+	train acc: 0.9984375
+epoch: 49 248, loss:2.00525665283
+	train acc: 0.9984375
+epoch: 49 249, loss:2.00226044655
+	train acc: 0.9984375
+                                                          Valid Accuracy 0.9244
+                                                          Test Accuracy 0.9239
+time 15220.6079061
+POOLING ITERATION 62
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.92670166492
+	train acc: 0.992307692308
+epoch: 49 295, loss:1.92047846317
+	train acc: 0.990769230769
+epoch: 49 296, loss:1.91858768463
+	train acc: 0.992307692308
+epoch: 49 297, loss:1.85397863388
+	train acc: 0.990769230769
+epoch: 49 298, loss:1.92542982101
+	train acc: 0.993846153846
+epoch: 49 299, loss:1.85623002052
+	train acc: 0.992307692308
+                                                          Valid Accuracy 0.9147
+                                                          Test Accuracy 0.9073
+time 15463.0760481
+POOLING ITERATION 63
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.91199231148
+	train acc: 0.990909090909
+epoch: 49 295, loss:1.89950108528
+	train acc: 0.983333333333
+epoch: 49 296, loss:1.92583346367
+	train acc: 0.983333333333
+epoch: 49 297, loss:1.87553071976
+	train acc: 0.971212121212
+epoch: 49 298, loss:1.93414330482
+	train acc: 0.984848484848
+epoch: 49 299, loss:2.04967689514
+	train acc: 0.951515151515
+                                                          Valid Accuracy 0.8807
+                                                          Test Accuracy 0.8755
+time 15708.850471
+POOLING ITERATION 64
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.82024669647
+	train acc: 0.974626865672
+epoch: 49 295, loss:1.85793733597
+	train acc: 0.973134328358
+epoch: 49 296, loss:1.86550414562
+	train acc: 0.973134328358
+epoch: 49 297, loss:1.97545349598
+	train acc: 0.973134328358
+epoch: 49 298, loss:1.9632024765
+	train acc: 0.971641791045
+epoch: 49 299, loss:1.76265609264
+	train acc: 0.976119402985
+                                                          Valid Accuracy 0.8975
+                                                          Test Accuracy 0.8922
+time 15955.349534
+POOLING ITERATION 65
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.90343725681
+	train acc: 0.997058823529
+epoch: 49 295, loss:1.90186154842
+	train acc: 0.997058823529
+epoch: 49 296, loss:1.8967448473
+	train acc: 0.997058823529
+epoch: 49 297, loss:1.89280056953
+	train acc: 0.997058823529
+epoch: 49 298, loss:1.99715948105
+	train acc: 0.997058823529
+epoch: 49 299, loss:1.88520359993
+	train acc: 0.997058823529
+                                                          Valid Accuracy 0.9221
+                                                          Test Accuracy 0.9239
+time 16210.564677
+POOLING ITERATION 66
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.85149300098
+	train acc: 0.995652173913
+epoch: 49 295, loss:1.7996506691
+	train acc: 0.992753623188
+epoch: 49 296, loss:1.84379148483
+	train acc: 0.98115942029
+epoch: 49 297, loss:1.8150113821
+	train acc: 0.991304347826
+epoch: 49 298, loss:1.79790961742
+	train acc: 0.997101449275
+epoch: 49 299, loss:1.78547954559
+	train acc: 0.997101449275
+                                                          Valid Accuracy 0.9213
+                                                          Test Accuracy 0.9162
+time 16470.268676
+POOLING ITERATION 67
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.85108554363
+	train acc: 0.994285714286
+epoch: 49 295, loss:1.81504952908
+	train acc: 0.995714285714
+epoch: 49 296, loss:1.85146069527
+	train acc: 0.994285714286
+epoch: 49 297, loss:1.79649329185
+	train acc: 0.995714285714
+epoch: 49 298, loss:1.85564982891
+	train acc: 0.994285714286
+epoch: 49 299, loss:1.77933955193
+	train acc: 0.994285714286
+                                                          Valid Accuracy 0.9217
+                                                          Test Accuracy 0.9202
+time 16717.557059
+POOLING ITERATION 68
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.79806888103
+	train acc: 0.994366197183
+epoch: 49 295, loss:1.79506373405
+	train acc: 0.994366197183
+epoch: 49 296, loss:1.79074954987
+	train acc: 0.994366197183
+epoch: 49 297, loss:1.73395454884
+	train acc: 0.992957746479
+epoch: 49 298, loss:1.78651237488
+	train acc: 0.988732394366
+epoch: 49 299, loss:1.72734248638
+	train acc: 0.987323943662
+                                                          Valid Accuracy 0.9107
+                                                          Test Accuracy 0.9068
+time 16965.340101
+POOLING ITERATION 69
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.79898786545
+	train acc: 0.958333333333
+epoch: 49 295, loss:2.01889967918
+	train acc: 0.965277777778
+epoch: 49 296, loss:1.84898197651
+	train acc: 0.958333333333
+epoch: 49 297, loss:1.87842535973
+	train acc: 0.963888888889
+epoch: 49 298, loss:1.98090457916
+	train acc: 0.968055555556
+epoch: 49 299, loss:1.83099722862
+	train acc: 0.966666666667
+                                                          Valid Accuracy 0.9047
+                                                          Test Accuracy 0.8992
+time 17213.124274
+POOLING ITERATION 70
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.72131478786
+	train acc: 1.0
+epoch: 49 295, loss:1.71992278099
+	train acc: 1.0
+epoch: 49 296, loss:1.71362602711
+	train acc: 1.0
+epoch: 49 297, loss:1.70757591724
+	train acc: 1.0
+epoch: 49 298, loss:1.70281565189
+	train acc: 0.998630136986
+epoch: 49 299, loss:1.70085668564
+	train acc: 0.998630136986
+                                                          Valid Accuracy 0.9388
+                                                          Test Accuracy 0.9369
+time 17465.6584642
+POOLING ITERATION 71
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.7206158638
+	train acc: 0.987837837838
+epoch: 49 295, loss:1.86212360859
+	train acc: 0.991891891892
+epoch: 49 296, loss:1.72501277924
+	train acc: 0.987837837838
+epoch: 49 297, loss:1.77520418167
+	train acc: 0.983783783784
+epoch: 49 298, loss:1.7098556757
+	train acc: 0.983783783784
+epoch: 49 299, loss:1.87801671028
+	train acc: 0.985135135135
+                                                          Valid Accuracy 0.9212
+                                                          Test Accuracy 0.9242
+time 17731.117449
+POOLING ITERATION 72
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.69425952435
+	train acc: 0.990666666667
+epoch: 49 295, loss:1.74115121365
+	train acc: 0.993333333333
+epoch: 49 296, loss:1.69801318645
+	train acc: 0.996
+epoch: 49 297, loss:1.69263982773
+	train acc: 0.996
+epoch: 49 298, loss:1.69075322151
+	train acc: 0.997333333333
+epoch: 49 299, loss:1.66950345039
+	train acc: 0.996
+                                                          Valid Accuracy 0.937
+                                                          Test Accuracy 0.9326
+time 17982.2045121
+POOLING ITERATION 73
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.65797030926
+	train acc: 0.996052631579
+epoch: 49 295, loss:1.72428822517
+	train acc: 0.997368421053
+epoch: 49 296, loss:1.65149009228
+	train acc: 0.997368421053
+epoch: 49 297, loss:1.64655816555
+	train acc: 0.998684210526
+epoch: 49 298, loss:1.64436483383
+	train acc: 0.997368421053
+epoch: 49 299, loss:1.64610028267
+	train acc: 0.996052631579
+                                                          Valid Accuracy 0.9394
+                                                          Test Accuracy 0.9432
+time 18233.120126
+POOLING ITERATION 74
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.44457745552
+	train acc: 0.993506493506
+epoch: 49 344, loss:1.4452713728
+	train acc: 0.984415584416
+epoch: 49 345, loss:1.4400036335
+	train acc: 0.990909090909
+epoch: 49 346, loss:1.48874783516
+	train acc: 0.996103896104
+epoch: 49 347, loss:1.45649194717
+	train acc: 0.998701298701
+epoch: 49 348, loss:1.45393621922
+	train acc: 0.998701298701
+epoch: 49 349, loss:1.42386567593
+	train acc: 0.994805194805
+                                                          Valid Accuracy 0.9282
+                                                          Test Accuracy 0.9275
+time 18490.0649722
+POOLING ITERATION 75
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.52795112133
+	train acc: 0.980769230769
+epoch: 49 344, loss:1.63460075855
+	train acc: 0.985897435897
+epoch: 49 345, loss:1.52069532871
+	train acc: 0.983333333333
+epoch: 49 346, loss:1.52206897736
+	train acc: 0.962820512821
+epoch: 49 347, loss:1.52038097382
+	train acc: 0.944871794872
+epoch: 49 348, loss:1.5614682436
+	train acc: 0.971794871795
+epoch: 49 349, loss:1.44474256039
+	train acc: 0.969230769231
+                                                          Valid Accuracy 0.8835
+                                                          Test Accuracy 0.8712
+time 18762.5457771
+POOLING ITERATION 76
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.46288394928
+	train acc: 0.994936708861
+epoch: 49 344, loss:1.46966433525
+	train acc: 0.989873417722
+epoch: 49 345, loss:1.49099957943
+	train acc: 0.998734177215
+epoch: 49 346, loss:1.48001003265
+	train acc: 1.0
+epoch: 49 347, loss:1.46179223061
+	train acc: 0.99746835443
+epoch: 49 348, loss:1.46879947186
+	train acc: 0.978481012658
+epoch: 49 349, loss:1.46560382843
+	train acc: 0.96835443038
+                                                          Valid Accuracy 0.9071
+                                                          Test Accuracy 0.9091
+time 19025.4772131
+POOLING ITERATION 77
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.47008478642
+	train acc: 0.99875
+epoch: 49 344, loss:1.46570837498
+	train acc: 0.9975
+epoch: 49 345, loss:1.46286702156
+	train acc: 0.9975
+epoch: 49 346, loss:1.48457157612
+	train acc: 0.99875
+epoch: 49 347, loss:1.46189725399
+	train acc: 0.9975
+epoch: 49 348, loss:1.5207606554
+	train acc: 0.9975
+epoch: 49 349, loss:1.46439957619
+	train acc: 0.9975
+                                                          Valid Accuracy 0.9257
+                                                          Test Accuracy 0.9254
+time 19283.493552
+POOLING ITERATION 78
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.49504101276
+	train acc: 0.98024691358
+epoch: 49 344, loss:1.58170223236
+	train acc: 0.992592592593
+epoch: 49 345, loss:1.47589576244
+	train acc: 0.988888888889
+epoch: 49 346, loss:1.54735207558
+	train acc: 0.975308641975
+epoch: 49 347, loss:1.51074922085
+	train acc: 0.988888888889
+epoch: 49 348, loss:1.47362065315
+	train acc: 0.99012345679
+epoch: 49 349, loss:1.46686899662
+	train acc: 0.991358024691
+                                                          Valid Accuracy 0.9231
+                                                          Test Accuracy 0.9254
+time 19552.5769491
+POOLING ITERATION 79
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.46545028687
+	train acc: 0.992682926829
+epoch: 49 344, loss:1.5354372263
+	train acc: 0.996341463415
+epoch: 49 345, loss:1.46843004227
+	train acc: 0.99756097561
+epoch: 49 346, loss:1.45672631264
+	train acc: 0.996341463415
+epoch: 49 347, loss:1.45911765099
+	train acc: 0.991463414634
+epoch: 49 348, loss:1.52008748055
+	train acc: 0.996341463415
+epoch: 49 349, loss:1.46107959747
+	train acc: 0.993902439024
+                                                          Valid Accuracy 0.9315
+                                                          Test Accuracy 0.9338
+time 19818.9444082
+POOLING ITERATION 80
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.47749626637
+	train acc: 0.986746987952
+epoch: 49 344, loss:1.53105974197
+	train acc: 0.993975903614
+epoch: 49 345, loss:1.46638381481
+	train acc: 0.992771084337
+epoch: 49 346, loss:1.46497583389
+	train acc: 0.990361445783
+epoch: 49 347, loss:1.50464487076
+	train acc: 0.993975903614
+epoch: 49 348, loss:1.47926735878
+	train acc: 0.993975903614
+epoch: 49 349, loss:1.4591602087
+	train acc: 0.992771084337
+                                                          Valid Accuracy 0.9136
+                                                          Test Accuracy 0.9196
+time 20079.2574301
+POOLING ITERATION 81
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.41823554039
+	train acc: 0.995238095238
+epoch: 49 344, loss:1.50750005245
+	train acc: 0.992857142857
+epoch: 49 345, loss:1.42955887318
+	train acc: 0.984523809524
+epoch: 49 346, loss:1.4616663456
+	train acc: 0.991666666667
+epoch: 49 347, loss:1.42475366592
+	train acc: 0.992857142857
+epoch: 49 348, loss:1.42186319828
+	train acc: 0.994047619048
+epoch: 49 349, loss:1.41504848003
+	train acc: 0.990476190476
+                                                          Valid Accuracy 0.9172
+                                                          Test Accuracy 0.9175
+time 20338.5529611
+POOLING ITERATION 82
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.43626892567
+	train acc: 0.998823529412
+epoch: 49 344, loss:1.4866476059
+	train acc: 0.998823529412
+epoch: 49 345, loss:1.43455946445
+	train acc: 0.998823529412
+epoch: 49 346, loss:1.43069207668
+	train acc: 0.998823529412
+epoch: 49 347, loss:1.42704212666
+	train acc: 0.998823529412
+epoch: 49 348, loss:1.42584240437
+	train acc: 0.998823529412
+epoch: 49 349, loss:1.42375969887
+	train acc: 0.998823529412
+                                                          Valid Accuracy 0.9348
+                                                          Test Accuracy 0.9402
+time 20607.7872601
+POOLING ITERATION 83
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.46599555016
+	train acc: 0.997674418605
+epoch: 49 344, loss:1.50558316708
+	train acc: 0.998837209302
+epoch: 49 345, loss:1.44655621052
+	train acc: 0.998837209302
+epoch: 49 346, loss:1.44526779652
+	train acc: 0.998837209302
+epoch: 49 347, loss:1.44096314907
+	train acc: 0.998837209302
+epoch: 49 348, loss:1.44147217274
+	train acc: 0.997674418605
+epoch: 49 349, loss:1.43789052963
+	train acc: 0.998837209302
+                                                          Valid Accuracy 0.9339
+                                                          Test Accuracy 0.9357
+time 20870.141134
+POOLING ITERATION 84
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.42663455009
+	train acc: 0.996551724138
+epoch: 49 344, loss:1.45804619789
+	train acc: 0.994252873563
+epoch: 49 345, loss:1.40717947483
+	train acc: 0.990804597701
+epoch: 49 346, loss:1.39917910099
+	train acc: 0.993103448276
+epoch: 49 347, loss:1.40319025517
+	train acc: 0.991954022989
+epoch: 49 348, loss:1.52258133888
+	train acc: 0.994252873563
+epoch: 49 349, loss:1.40592765808
+	train acc: 0.998850574713
+                                                          Valid Accuracy 0.9306
+                                                          Test Accuracy 0.9372
+time 21138.0335841
+POOLING ITERATION 85
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.40133345127
+	train acc: 0.997727272727
+epoch: 49 344, loss:1.45796513557
+	train acc: 0.998863636364
+epoch: 49 345, loss:1.39291596413
+	train acc: 0.998863636364
+epoch: 49 346, loss:1.39357924461
+	train acc: 0.996590909091
+epoch: 49 347, loss:1.38732922077
+	train acc: 0.995454545455
+epoch: 49 348, loss:1.39818120003
+	train acc: 0.998863636364
+epoch: 49 349, loss:1.39985442162
+	train acc: 0.998863636364
+                                                          Valid Accuracy 0.9309
+                                                          Test Accuracy 0.9355
+time 21399.4838622
+POOLING ITERATION 86
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.37317371368
+	train acc: 0.997752808989
+epoch: 49 344, loss:1.4236947298
+	train acc: 0.996629213483
+epoch: 49 345, loss:1.36114490032
+	train acc: 0.997752808989
+epoch: 49 346, loss:1.36146855354
+	train acc: 0.997752808989
+epoch: 49 347, loss:1.35733437538
+	train acc: 0.996629213483
+epoch: 49 348, loss:1.35697495937
+	train acc: 0.996629213483
+epoch: 49 349, loss:1.40917789936
+	train acc: 0.995505617978
+                                                          Valid Accuracy 0.9364
+                                                          Test Accuracy 0.9416
+time 21664.2331691
+POOLING ITERATION 87
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.39506304264
+	train acc: 0.993333333333
+epoch: 49 393, loss:1.22748243809
+	train acc: 0.994444444444
+epoch: 49 394, loss:1.22872829437
+	train acc: 0.99
+epoch: 49 395, loss:1.23372673988
+	train acc: 0.985555555556
+epoch: 49 396, loss:1.24437093735
+	train acc: 0.993333333333
+epoch: 49 397, loss:1.28878223896
+	train acc: 0.984444444444
+epoch: 49 398, loss:1.28254640102
+	train acc: 0.987777777778
+epoch: 49 399, loss:1.23097121716
+	train acc: 0.984444444444
+                                                          Valid Accuracy 0.9305
+                                                          Test Accuracy 0.9267
+time 21938.804471
+POOLING ITERATION 88
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.31539726257
+	train acc: 0.994505494505
+epoch: 49 393, loss:1.26076304913
+	train acc: 0.996703296703
+epoch: 49 394, loss:1.28871929646
+	train acc: 0.997802197802
+epoch: 49 395, loss:1.25811111927
+	train acc: 0.996703296703
+epoch: 49 396, loss:1.25343596935
+	train acc: 0.997802197802
+epoch: 49 397, loss:1.25120460987
+	train acc: 0.996703296703
+epoch: 49 398, loss:1.30779278278
+	train acc: 0.994505494505
+epoch: 49 399, loss:1.25199365616
+	train acc: 0.996703296703
+                                                          Valid Accuracy 0.9236
+                                                          Test Accuracy 0.9241
+time 22211.3301971
+POOLING ITERATION 89
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.34714519978
+	train acc: 0.994565217391
+epoch: 49 393, loss:1.33913314342
+	train acc: 0.995652173913
+epoch: 49 394, loss:1.32169604301
+	train acc: 0.996739130435
+epoch: 49 395, loss:1.32012796402
+	train acc: 0.995652173913
+epoch: 49 396, loss:1.3528059721
+	train acc: 0.997826086957
+epoch: 49 397, loss:1.34053337574
+	train acc: 0.998913043478
+epoch: 49 398, loss:1.37211585045
+	train acc: 0.998913043478
+epoch: 49 399, loss:1.31369936466
+	train acc: 0.998913043478
+                                                          Valid Accuracy 0.9282
+                                                          Test Accuracy 0.9272
+time 22484.5583611
+POOLING ITERATION 90
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.25230062008
+	train acc: 0.998924731183
+epoch: 49 393, loss:1.31413650513
+	train acc: 0.993548387097
+epoch: 49 394, loss:1.25166344643
+	train acc: 0.983870967742
+epoch: 49 395, loss:1.29203367233
+	train acc: 0.998924731183
+epoch: 49 396, loss:1.25022637844
+	train acc: 0.998924731183
+epoch: 49 397, loss:1.24443888664
+	train acc: 0.998924731183
+epoch: 49 398, loss:1.2488437891
+	train acc: 0.996774193548
+epoch: 49 399, loss:1.24594128132
+	train acc: 0.996774193548
+                                                          Valid Accuracy 0.9317
+                                                          Test Accuracy 0.9361
+time 22767.859616
+POOLING ITERATION 91
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.28140366077
+	train acc: 0.997872340426
+epoch: 49 393, loss:1.23294937611
+	train acc: 1.0
+epoch: 49 394, loss:1.23539888859
+	train acc: 0.994680851064
+epoch: 49 395, loss:1.24171543121
+	train acc: 0.996808510638
+epoch: 49 396, loss:1.23002040386
+	train acc: 0.997872340426
+epoch: 49 397, loss:1.23838162422
+	train acc: 0.995744680851
+epoch: 49 398, loss:1.24676036835
+	train acc: 0.997872340426
+epoch: 49 399, loss:1.22082161903
+	train acc: 0.997872340426
+                                                          Valid Accuracy 0.9254
+                                                          Test Accuracy 0.9321
+time 23040.6306281
+POOLING ITERATION 92
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.21305966377
+	train acc: 0.995789473684
+epoch: 49 393, loss:1.36932682991
+	train acc: 0.990526315789
+epoch: 49 394, loss:1.22503519058
+	train acc: 0.995789473684
+epoch: 49 395, loss:1.21830677986
+	train acc: 0.994736842105
+epoch: 49 396, loss:1.24281811714
+	train acc: 0.995789473684
+epoch: 49 397, loss:1.21156477928
+	train acc: 0.992631578947
+epoch: 49 398, loss:1.23423242569
+	train acc: 0.996842105263
+epoch: 49 399, loss:1.20441818237
+	train acc: 0.996842105263
+                                                          Valid Accuracy 0.9389
+                                                          Test Accuracy 0.9413
+time 23315.7232761
+POOLING ITERATION 93
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.34089338779
+	train acc: 0.978125
+epoch: 49 393, loss:1.35013902187
+	train acc: 0.988541666667
+epoch: 49 394, loss:1.27653324604
+	train acc: 0.996875
+epoch: 49 395, loss:1.27001202106
+	train acc: 0.995833333333
+epoch: 49 396, loss:1.27590584755
+	train acc: 0.988541666667
+epoch: 49 397, loss:1.27365779877
+	train acc: 0.988541666667
+epoch: 49 398, loss:1.32991099358
+	train acc: 0.997916666667
+epoch: 49 399, loss:1.27704048157
+	train acc: 0.994791666667
+                                                          Valid Accuracy 0.9314
+                                                          Test Accuracy 0.9325
+time 23594.2657712
+POOLING ITERATION 94
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.24823784828
+	train acc: 0.990721649485
+epoch: 49 393, loss:1.38594031334
+	train acc: 0.99793814433
+epoch: 49 394, loss:1.25646436214
+	train acc: 0.99175257732
+epoch: 49 395, loss:1.25237429142
+	train acc: 0.992783505155
+epoch: 49 396, loss:1.31323564053
+	train acc: 0.988659793814
+epoch: 49 397, loss:1.2644585371
+	train acc: 0.996907216495
+epoch: 49 398, loss:1.30689096451
+	train acc: 0.996907216495
+epoch: 49 399, loss:1.24631667137
+	train acc: 0.99587628866
+                                                          Valid Accuracy 0.9244
+                                                          Test Accuracy 0.9335
+time 23874.4291921
+POOLING ITERATION 95
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.20865869522
+	train acc: 0.99693877551
+epoch: 49 393, loss:1.26170504093
+	train acc: 0.99693877551
+epoch: 49 394, loss:1.2077665329
+	train acc: 0.99693877551
+epoch: 49 395, loss:1.25852954388
+	train acc: 0.99693877551
+epoch: 49 396, loss:1.20604491234
+	train acc: 0.995918367347
+epoch: 49 397, loss:1.2558863163
+	train acc: 0.99693877551
+epoch: 49 398, loss:1.20142233372
+	train acc: 0.99693877551
+epoch: 49 399, loss:1.19787466526
+	train acc: 0.99693877551
+                                                          Valid Accuracy 0.9402
+                                                          Test Accuracy 0.9431
+time 24169.653065
+POOLING ITERATION 96
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.21039748192
+	train acc: 0.993939393939
+epoch: 49 393, loss:1.23710441589
+	train acc: 0.988888888889
+epoch: 49 394, loss:1.18992185593
+	train acc: 0.980808080808
+epoch: 49 395, loss:1.21327292919
+	train acc: 0.992929292929
+epoch: 49 396, loss:1.21703028679
+	train acc: 0.99696969697
+epoch: 49 397, loss:1.19260942936
+	train acc: 0.99797979798
+epoch: 49 398, loss:1.17234277725
+	train acc: 0.99797979798
+epoch: 49 399, loss:1.19576430321
+	train acc: 0.987878787879
+                                                          Valid Accuracy 0.914
+                                                          Test Accuracy 0.9192
+time 24507.3887961
+POOLING ITERATION 97
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 392, loss:1.20687520504
+	train acc: 0.997
+epoch: 49 393, loss:1.22637975216
+	train acc: 0.999
+epoch: 49 394, loss:1.1599406004
+	train acc: 0.999
+epoch: 49 395, loss:1.15599167347
+	train acc: 0.999
+epoch: 49 396, loss:1.15429735184
+	train acc: 0.997
+epoch: 49 397, loss:1.16545176506
+	train acc: 0.994
+epoch: 49 398, loss:1.18776297569
+	train acc: 0.999
+epoch: 49 399, loss:1.15310359001
+	train acc: 0.999
+                                                          Valid Accuracy 0.9452
+                                                          Test Accuracy 0.9482
+Initial Training Data (20, 1, 28, 28)
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:84.7708282471
+	train acc: 0.1
+                                                          valid Accuracy 0.0983
+                                                          Test Accuracy 0.0982
+time 226.133928061
+POOLING ITERATION 0
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:57.2773246765
+	train acc: 0.133333333333
+                                                          Valid Accuracy 0.0915
+                                                          Test Accuracy 0.0892
+time 455.692276955
+POOLING ITERATION 1
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:43.5252723694
+	train acc: 0.125
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 691.284892082
+POOLING ITERATION 2
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:35.2821807861
+	train acc: 0.14
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 926.963257074
+POOLING ITERATION 3
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:29.7714939117
+	train acc: 0.2
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 1164.35339403
+POOLING ITERATION 4
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:25.8428668976
+	train acc: 0.128571428571
+                                                          Valid Accuracy 0.0915
+                                                          Test Accuracy 0.0892
+time 1406.60342908
+POOLING ITERATION 5
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:22.9027061462
+	train acc: 0.1875
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 1645.19914007
+POOLING ITERATION 6
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:20.6109237671
+	train acc: 0.166666666667
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 1878.11984205
+POOLING ITERATION 7
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:18.7772636414
+	train acc: 0.12
+                                                          Valid Accuracy 0.0915
+                                                          Test Accuracy 0.0892
+time 2112.62267303
+POOLING ITERATION 8
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:17.2708339691
+	train acc: 0.172727272727
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 2346.56056905
+POOLING ITERATION 9
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 49, loss:16.0244064331
+	train acc: 0.158333333333
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 2584.39656401
+POOLING ITERATION 10
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:14.9192695618
+	train acc: 0.0692307692308
+epoch: 49 99, loss:13.8032188416
+	train acc: 0.0692307692308
+                                                          Valid Accuracy 0.1009
+                                                          Test Accuracy 0.0974
+time 2831.58281207
+POOLING ITERATION 11
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:13.8230848312
+	train acc: 0.171428571429
+epoch: 49 99, loss:13.5460205078
+	train acc: 0.171428571429
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 3085.48496199
+POOLING ITERATION 12
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:13.0048685074
+	train acc: 0.166666666667
+epoch: 49 99, loss:12.9398078918
+	train acc: 0.166666666667
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 3342.04064703
+POOLING ITERATION 13
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:12.3325634003
+	train acc: 0.1625
+epoch: 49 99, loss:12.2699451447
+	train acc: 0.1625
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 3595.40566206
+POOLING ITERATION 14
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:11.74010849
+	train acc: 0.158823529412
+epoch: 49 99, loss:11.6834754944
+	train acc: 0.158823529412
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 3855.93998098
+POOLING ITERATION 15
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:11.2219562531
+	train acc: 0.155555555556
+epoch: 49 99, loss:11.1968603134
+	train acc: 0.155555555556
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 4114.79179192
+POOLING ITERATION 16
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:10.7536201477
+	train acc: 0.147368421053
+epoch: 49 99, loss:10.738568306
+	train acc: 0.147368421053
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 4372.88576102
+POOLING ITERATION 17
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:10.3308134079
+	train acc: 0.14
+epoch: 49 99, loss:10.3041706085
+	train acc: 0.14
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 4630.22357106
+POOLING ITERATION 18
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:9.94951820374
+	train acc: 0.142857142857
+epoch: 49 99, loss:9.93374633789
+	train acc: 0.142857142857
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 4881.60757208
+POOLING ITERATION 19
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:9.59881401062
+	train acc: 0.136363636364
+epoch: 49 99, loss:9.58519744873
+	train acc: 0.136363636364
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 5140.12942004
+POOLING ITERATION 20
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:9.28303146362
+	train acc: 0.126086956522
+epoch: 49 99, loss:9.27726364136
+	train acc: 0.126086956522
+                                                          Valid Accuracy 0.103
+                                                          Test Accuracy 0.101
+time 5401.82911706
+POOLING ITERATION 21
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:8.98652839661
+	train acc: 0.133333333333
+epoch: 49 99, loss:8.98085021973
+	train acc: 0.133333333333
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 5660.29848599
+POOLING ITERATION 22
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 98, loss:8.72006034851
+	train acc: 0.128
+epoch: 49 99, loss:8.72341251373
+	train acc: 0.128
+                                                          Valid Accuracy 0.1064
+                                                          Test Accuracy 0.1135
+time 5917.14471412
+POOLING ITERATION 23
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:8.30949497223
+	train acc: 0.123076923077
+epoch: 49 148, loss:8.22596073151
+	train acc: 0.123076923077
+epoch: 49 149, loss:7.83802223206
+	train acc: 0.123076923077
+                                                          Valid Accuracy 0.103
+                                                          Test Accuracy 0.101
+time 6183.60349894
+POOLING ITERATION 24
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:8.00247383118
+	train acc: 0.12962962963
+epoch: 49 148, loss:7.99262952805
+	train acc: 0.12962962963
+epoch: 49 149, loss:7.74980306625
+	train acc: 0.12962962963
+                                                          Valid Accuracy 0.103
+                                                          Test Accuracy 0.101
+time 6465.3429451
+POOLING ITERATION 25
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.76803588867
+	train acc: 0.128571428571
+epoch: 49 148, loss:7.77075481415
+	train acc: 0.128571428571
+epoch: 49 149, loss:7.62955141068
+	train acc: 0.128571428571
+                                                          Valid Accuracy 0.103
+                                                          Test Accuracy 0.101
+time 6738.61686707
+POOLING ITERATION 26
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.38160800934
+	train acc: 0.303448275862
+epoch: 49 148, loss:7.35173273087
+	train acc: 0.331034482759
+epoch: 49 149, loss:7.0769701004
+	train acc: 0.393103448276
+                                                          Valid Accuracy 0.3172
+                                                          Test Accuracy 0.333
+time 7014.07365394
+POOLING ITERATION 27
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.15038776398
+	train acc: 0.266666666667
+epoch: 49 148, loss:7.11828708649
+	train acc: 0.336666666667
+epoch: 49 149, loss:6.81529569626
+	train acc: 0.363333333333
+                                                          Valid Accuracy 0.3044
+                                                          Test Accuracy 0.3112
+time 7292.37601399
+POOLING ITERATION 28
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:7.11710691452
+	train acc: 0.270967741935
+epoch: 49 148, loss:7.09422111511
+	train acc: 0.290322580645
+epoch: 49 149, loss:6.94389629364
+	train acc: 0.335483870968
+                                                          Valid Accuracy 0.2891
+                                                          Test Accuracy 0.2921
+time 7573.16305614
+POOLING ITERATION 29
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.73528575897
+	train acc: 0.31875
+epoch: 49 148, loss:6.69864034653
+	train acc: 0.35625
+epoch: 49 149, loss:6.4767332077
+	train acc: 0.428125
+                                                          Valid Accuracy 0.3864
+                                                          Test Accuracy 0.3847
+time 7859.33469605
+POOLING ITERATION 30
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.5674533844
+	train acc: 0.29696969697
+epoch: 49 148, loss:6.50445985794
+	train acc: 0.409090909091
+epoch: 49 149, loss:6.26767730713
+	train acc: 0.463636363636
+                                                          Valid Accuracy 0.4051
+                                                          Test Accuracy 0.3928
+time 8151.51584697
+POOLING ITERATION 31
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.49586772919
+	train acc: 0.305882352941
+epoch: 49 148, loss:6.44722652435
+	train acc: 0.326470588235
+epoch: 49 149, loss:6.28998804092
+	train acc: 0.4
+                                                          Valid Accuracy 0.3671
+                                                          Test Accuracy 0.3696
+time 8427.19253206
+POOLING ITERATION 32
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:5.8211979866
+	train acc: 0.502857142857
+epoch: 49 148, loss:5.77212524414
+	train acc: 0.585714285714
+epoch: 49 149, loss:5.76358413696
+	train acc: 0.62
+                                                          Valid Accuracy 0.56
+                                                          Test Accuracy 0.556
+time 8702.76656795
+POOLING ITERATION 33
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:5.60164690018
+	train acc: 0.669444444444
+epoch: 49 148, loss:5.34186553955
+	train acc: 0.666666666667
+epoch: 49 149, loss:5.3303155899
+	train acc: 0.672222222222
+                                                          Valid Accuracy 0.6584
+                                                          Test Accuracy 0.6541
+time 8980.25589299
+POOLING ITERATION 34
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:6.37703418732
+	train acc: 0.127027027027
+epoch: 49 148, loss:6.3678150177
+	train acc: 0.127027027027
+epoch: 49 149, loss:6.27583026886
+	train acc: 0.135135135135
+                                                          Valid Accuracy 0.1011
+                                                          Test Accuracy 0.1012
+time 9261.11756897
+POOLING ITERATION 35
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 147, loss:5.83051872253
+	train acc: 0.597368421053
+epoch: 49 148, loss:5.66041088104
+	train acc: 0.655263157895
+epoch: 49 149, loss:5.45506668091
+	train acc: 0.642105263158
+                                                          Valid Accuracy 0.5778
+                                                          Test Accuracy 0.5757
+time 9540.15509295
+POOLING ITERATION 36
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.93658065796
+	train acc: 0.882051282051
+epoch: 49 197, loss:3.95290541649
+	train acc: 0.874358974359
+epoch: 49 198, loss:3.8746342659
+	train acc: 0.910256410256
+epoch: 49 199, loss:3.52906012535
+	train acc: 0.889743589744
+                                                          Valid Accuracy 0.8175
+                                                          Test Accuracy 0.8163
+time 9843.26286912
+POOLING ITERATION 37
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.81552529335
+	train acc: 0.915
+epoch: 49 197, loss:3.77660989761
+	train acc: 0.91
+epoch: 49 198, loss:3.71655988693
+	train acc: 0.94
+epoch: 49 199, loss:3.48941993713
+	train acc: 0.945
+                                                          Valid Accuracy 0.8547
+                                                          Test Accuracy 0.8583
+time 10135.9392409
+POOLING ITERATION 38
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.55675005913
+	train acc: 0.970731707317
+epoch: 49 197, loss:3.53432250023
+	train acc: 0.970731707317
+epoch: 49 198, loss:3.53847169876
+	train acc: 0.968292682927
+epoch: 49 199, loss:3.43420267105
+	train acc: 0.953658536585
+                                                          Valid Accuracy 0.8607
+                                                          Test Accuracy 0.8581
+time 10424.957289
+POOLING ITERATION 39
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.604347229
+	train acc: 0.954761904762
+epoch: 49 197, loss:3.49492239952
+	train acc: 0.969047619048
+epoch: 49 198, loss:3.38340806961
+	train acc: 0.969047619048
+epoch: 49 199, loss:3.31961250305
+	train acc: 0.961904761905
+                                                          Valid Accuracy 0.8679
+                                                          Test Accuracy 0.8623
+time 10714.3165991
+POOLING ITERATION 40
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.48261618614
+	train acc: 0.927906976744
+epoch: 49 197, loss:3.50875258446
+	train acc: 0.948837209302
+epoch: 49 198, loss:3.3334736824
+	train acc: 0.951162790698
+epoch: 49 199, loss:3.25353050232
+	train acc: 0.932558139535
+                                                          Valid Accuracy 0.8551
+                                                          Test Accuracy 0.8579
+time 11007.8967271
+POOLING ITERATION 41
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.44026422501
+	train acc: 0.945454545455
+epoch: 49 197, loss:3.32410812378
+	train acc: 0.945454545455
+epoch: 49 198, loss:3.3893430233
+	train acc: 0.954545454545
+epoch: 49 199, loss:3.20133113861
+	train acc: 0.95
+                                                          Valid Accuracy 0.876
+                                                          Test Accuracy 0.8723
+time 11302.6811421
+POOLING ITERATION 42
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.33100509644
+	train acc: 0.957777777778
+epoch: 49 197, loss:3.30226802826
+	train acc: 0.946666666667
+epoch: 49 198, loss:3.35562849045
+	train acc: 0.973333333333
+epoch: 49 199, loss:3.18775653839
+	train acc: 0.975555555556
+                                                          Valid Accuracy 0.8791
+                                                          Test Accuracy 0.8799
+time 11599.427563
+POOLING ITERATION 43
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.28682374954
+	train acc: 0.939130434783
+epoch: 49 197, loss:3.3746547699
+	train acc: 0.969565217391
+epoch: 49 198, loss:3.10714387894
+	train acc: 0.965217391304
+epoch: 49 199, loss:3.07094621658
+	train acc: 0.945652173913
+                                                          Valid Accuracy 0.8377
+                                                          Test Accuracy 0.8374
+time 11878.5622921
+POOLING ITERATION 44
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.19262814522
+	train acc: 0.970212765957
+epoch: 49 197, loss:3.16424655914
+	train acc: 0.976595744681
+epoch: 49 198, loss:3.12317562103
+	train acc: 0.98085106383
+epoch: 49 199, loss:3.07757019997
+	train acc: 0.985106382979
+                                                          Valid Accuracy 0.8831
+                                                          Test Accuracy 0.8784
+time 12147.6734271
+POOLING ITERATION 45
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.09846186638
+	train acc: 0.95625
+epoch: 49 197, loss:3.09166383743
+	train acc: 0.96875
+epoch: 49 198, loss:3.03711414337
+	train acc: 0.966666666667
+epoch: 49 199, loss:3.03323864937
+	train acc: 0.9625
+                                                          Valid Accuracy 0.8621
+                                                          Test Accuracy 0.8664
+time 12425.4396
+POOLING ITERATION 46
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:3.04317927361
+	train acc: 0.975510204082
+epoch: 49 197, loss:2.9914059639
+	train acc: 0.983673469388
+epoch: 49 198, loss:2.89096665382
+	train acc: 0.983673469388
+epoch: 49 199, loss:2.86972355843
+	train acc: 0.973469387755
+                                                          Valid Accuracy 0.8709
+                                                          Test Accuracy 0.8696
+time 12690.2458379
+POOLING ITERATION 47
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:2.96508717537
+	train acc: 0.954
+epoch: 49 197, loss:2.92861008644
+	train acc: 0.968
+epoch: 49 198, loss:2.87012767792
+	train acc: 0.962
+epoch: 49 199, loss:2.85481762886
+	train acc: 0.952
+                                                          Valid Accuracy 0.8669
+                                                          Test Accuracy 0.8652
+time 12956.852252
+POOLING ITERATION 48
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 196, loss:2.94520497322
+	train acc: 0.960784313725
+epoch: 49 197, loss:2.920378685
+	train acc: 0.962745098039
+epoch: 49 198, loss:2.83109712601
+	train acc: 0.972549019608
+epoch: 49 199, loss:2.84513497353
+	train acc: 0.98431372549
+                                                          Valid Accuracy 0.8906
+                                                          Test Accuracy 0.8935
+time 13226.866524
+POOLING ITERATION 49
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.52495336533
+	train acc: 0.990384615385
+epoch: 49 246, loss:2.44992113113
+	train acc: 0.992307692308
+epoch: 49 247, loss:2.38863182068
+	train acc: 0.988461538462
+epoch: 49 248, loss:2.44159245491
+	train acc: 0.988461538462
+epoch: 49 249, loss:2.36992955208
+	train acc: 0.988461538462
+                                                          Valid Accuracy 0.9073
+                                                          Test Accuracy 0.9061
+time 13509.914217
+POOLING ITERATION 50
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.48971629143
+	train acc: 0.998113207547
+epoch: 49 246, loss:2.42912554741
+	train acc: 0.998113207547
+epoch: 49 247, loss:2.42220950127
+	train acc: 0.998113207547
+epoch: 49 248, loss:2.41888237
+	train acc: 0.998113207547
+epoch: 49 249, loss:2.41166377068
+	train acc: 0.998113207547
+                                                          Valid Accuracy 0.9097
+                                                          Test Accuracy 0.9113
+time 13791.233706
+POOLING ITERATION 51
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.4632897377
+	train acc: 0.992592592593
+epoch: 49 246, loss:2.45845484734
+	train acc: 0.988888888889
+epoch: 49 247, loss:2.40526986122
+	train acc: 0.988888888889
+epoch: 49 248, loss:2.51004505157
+	train acc: 0.992592592593
+epoch: 49 249, loss:2.38881731033
+	train acc: 0.992592592593
+                                                          Valid Accuracy 0.9098
+                                                          Test Accuracy 0.9124
+time 14073.919641
+POOLING ITERATION 52
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.4868516922
+	train acc: 0.987272727273
+epoch: 49 246, loss:2.47478985786
+	train acc: 0.987272727273
+epoch: 49 247, loss:2.50374388695
+	train acc: 0.992727272727
+epoch: 49 248, loss:2.45524597168
+	train acc: 0.992727272727
+epoch: 49 249, loss:2.39393234253
+	train acc: 0.985454545455
+                                                          Valid Accuracy 0.8976
+                                                          Test Accuracy 0.9011
+time 14358.3355391
+POOLING ITERATION 53
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.39198684692
+	train acc: 0.978571428571
+epoch: 49 246, loss:2.39491701126
+	train acc: 0.985714285714
+epoch: 49 247, loss:2.43168544769
+	train acc: 0.983928571429
+epoch: 49 248, loss:2.43229222298
+	train acc: 0.976785714286
+epoch: 49 249, loss:2.36681866646
+	train acc: 0.930357142857
+                                                          Valid Accuracy 0.8373
+                                                          Test Accuracy 0.8281
+time 14644.6448071
+POOLING ITERATION 54
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.39649605751
+	train acc: 0.980701754386
+epoch: 49 246, loss:2.27681517601
+	train acc: 0.984210526316
+epoch: 49 247, loss:2.29143238068
+	train acc: 0.984210526316
+epoch: 49 248, loss:2.37508749962
+	train acc: 0.982456140351
+epoch: 49 249, loss:2.26444292068
+	train acc: 0.975438596491
+                                                          Valid Accuracy 0.8939
+                                                          Test Accuracy 0.8977
+time 14931.590101
+POOLING ITERATION 55
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.46168637276
+	train acc: 0.958620689655
+epoch: 49 246, loss:2.33637189865
+	train acc: 0.956896551724
+epoch: 49 247, loss:2.31689405441
+	train acc: 0.965517241379
+epoch: 49 248, loss:2.4241092205
+	train acc: 0.943103448276
+epoch: 49 249, loss:2.83577919006
+	train acc: 0.948275862069
+                                                          Valid Accuracy 0.8654
+                                                          Test Accuracy 0.8694
+time 15217.045927
+POOLING ITERATION 56
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.46219682693
+	train acc: 0.94406779661
+epoch: 49 246, loss:2.39823579788
+	train acc: 0.959322033898
+epoch: 49 247, loss:2.34548377991
+	train acc: 0.952542372881
+epoch: 49 248, loss:2.42310261726
+	train acc: 0.942372881356
+epoch: 49 249, loss:2.31891322136
+	train acc: 0.916949152542
+                                                          Valid Accuracy 0.857
+                                                          Test Accuracy 0.8568
+time 15506.272285
+POOLING ITERATION 57
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.31186056137
+	train acc: 0.985
+epoch: 49 246, loss:2.27824664116
+	train acc: 0.988333333333
+epoch: 49 247, loss:2.26484704018
+	train acc: 0.981666666667
+epoch: 49 248, loss:2.32654619217
+	train acc: 0.98
+epoch: 49 249, loss:2.27790570259
+	train acc: 0.981666666667
+                                                          Valid Accuracy 0.901
+                                                          Test Accuracy 0.8979
+time 15791.9979961
+POOLING ITERATION 58
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.29633569717
+	train acc: 0.983606557377
+epoch: 49 246, loss:2.23986840248
+	train acc: 0.988524590164
+epoch: 49 247, loss:2.29329824448
+	train acc: 0.985245901639
+epoch: 49 248, loss:2.3769557476
+	train acc: 0.981967213115
+epoch: 49 249, loss:2.27107071877
+	train acc: 0.980327868852
+                                                          Valid Accuracy 0.889
+                                                          Test Accuracy 0.8898
+time 16079.66482
+POOLING ITERATION 59
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.1738922596
+	train acc: 0.991935483871
+epoch: 49 246, loss:2.13678431511
+	train acc: 0.993548387097
+epoch: 49 247, loss:2.13182330132
+	train acc: 0.993548387097
+epoch: 49 248, loss:2.12851929665
+	train acc: 0.993548387097
+epoch: 49 249, loss:2.07108950615
+	train acc: 0.991935483871
+                                                          Valid Accuracy 0.8998
+                                                          Test Accuracy 0.9007
+time 16374.323802
+POOLING ITERATION 60
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.21971011162
+	train acc: 0.993650793651
+epoch: 49 246, loss:2.09638619423
+	train acc: 0.995238095238
+epoch: 49 247, loss:2.08525419235
+	train acc: 0.995238095238
+epoch: 49 248, loss:2.13548159599
+	train acc: 0.995238095238
+epoch: 49 249, loss:2.07746219635
+	train acc: 0.995238095238
+                                                          Valid Accuracy 0.8997
+                                                          Test Accuracy 0.8953
+time 16668.643702
+POOLING ITERATION 61
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 245, loss:2.10704350471
+	train acc: 0.984375
+epoch: 49 246, loss:2.22288680077
+	train acc: 0.9859375
+epoch: 49 247, loss:2.07986545563
+	train acc: 0.990625
+epoch: 49 248, loss:2.0987200737
+	train acc: 0.9890625
+epoch: 49 249, loss:2.05441641808
+	train acc: 0.9921875
+                                                          Valid Accuracy 0.9125
+                                                          Test Accuracy 0.9134
+time 16957.921854
+POOLING ITERATION 62
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.88365185261
+	train acc: 0.984615384615
+epoch: 49 295, loss:1.9071085453
+	train acc: 0.993846153846
+epoch: 49 296, loss:1.83115625381
+	train acc: 0.987692307692
+epoch: 49 297, loss:1.89333736897
+	train acc: 0.986153846154
+epoch: 49 298, loss:1.84843564034
+	train acc: 0.992307692308
+epoch: 49 299, loss:1.81726312637
+	train acc: 0.992307692308
+                                                          Valid Accuracy 0.8935
+                                                          Test Accuracy 0.897
+time 17260.946656
+POOLING ITERATION 63
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.89812660217
+	train acc: 0.989393939394
+epoch: 49 295, loss:1.8503344059
+	train acc: 0.987878787879
+epoch: 49 296, loss:1.89498960972
+	train acc: 0.986363636364
+epoch: 49 297, loss:1.91797780991
+	train acc: 0.989393939394
+epoch: 49 298, loss:1.85699009895
+	train acc: 0.993939393939
+epoch: 49 299, loss:1.82203316689
+	train acc: 0.993939393939
+                                                          Valid Accuracy 0.913
+                                                          Test Accuracy 0.9124
+time 17564.0895021
+POOLING ITERATION 64
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:2.02870845795
+	train acc: 0.99552238806
+epoch: 49 295, loss:1.88026618958
+	train acc: 0.997014925373
+epoch: 49 296, loss:1.8684360981
+	train acc: 0.998507462687
+epoch: 49 297, loss:1.87035048008
+	train acc: 0.997014925373
+epoch: 49 298, loss:1.86073517799
+	train acc: 0.997014925373
+epoch: 49 299, loss:1.85907745361
+	train acc: 0.989552238806
+                                                          Valid Accuracy 0.9066
+                                                          Test Accuracy 0.9044
+time 17865.6371679
+POOLING ITERATION 65
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.84784889221
+	train acc: 0.992647058824
+epoch: 49 295, loss:1.81019675732
+	train acc: 0.994117647059
+epoch: 49 296, loss:1.84000122547
+	train acc: 0.995588235294
+epoch: 49 297, loss:1.82900547981
+	train acc: 0.994117647059
+epoch: 49 298, loss:1.79492580891
+	train acc: 0.983823529412
+epoch: 49 299, loss:1.76920998096
+	train acc: 0.929411764706
+                                                          Valid Accuracy 0.866
+                                                          Test Accuracy 0.8529
+time 18169.651947
+POOLING ITERATION 66
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.87782645226
+	train acc: 0.992753623188
+epoch: 49 295, loss:1.82073616982
+	train acc: 0.992753623188
+epoch: 49 296, loss:1.86424434185
+	train acc: 0.989855072464
+epoch: 49 297, loss:1.87857162952
+	train acc: 0.971014492754
+epoch: 49 298, loss:1.80877840519
+	train acc: 0.986956521739
+epoch: 49 299, loss:1.93827188015
+	train acc: 0.992753623188
+                                                          Valid Accuracy 0.9066
+                                                          Test Accuracy 0.9021
+time 18470.4830539
+POOLING ITERATION 67
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.79043078423
+	train acc: 0.997142857143
+epoch: 49 295, loss:1.6940060854
+	train acc: 0.992857142857
+epoch: 49 296, loss:1.74691259861
+	train acc: 0.994285714286
+epoch: 49 297, loss:1.68923974037
+	train acc: 0.987142857143
+epoch: 49 298, loss:1.68365943432
+	train acc: 0.99
+epoch: 49 299, loss:1.68664598465
+	train acc: 0.99
+                                                          Valid Accuracy 0.9133
+                                                          Test Accuracy 0.9175
+time 18769.8843231
+POOLING ITERATION 68
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.85941052437
+	train acc: 0.991549295775
+epoch: 49 295, loss:1.79328656197
+	train acc: 0.994366197183
+epoch: 49 296, loss:1.79144346714
+	train acc: 0.995774647887
+epoch: 49 297, loss:1.73050332069
+	train acc: 0.995774647887
+epoch: 49 298, loss:1.7378064394
+	train acc: 0.991549295775
+epoch: 49 299, loss:1.73500716686
+	train acc: 0.988732394366
+                                                          Valid Accuracy 0.915
+                                                          Test Accuracy 0.9183
+time 19069.9808049
+POOLING ITERATION 69
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.77339935303
+	train acc: 0.997222222222
+epoch: 49 295, loss:1.71537160873
+	train acc: 0.997222222222
+epoch: 49 296, loss:1.712672472
+	train acc: 0.997222222222
+epoch: 49 297, loss:1.76306867599
+	train acc: 0.997222222222
+epoch: 49 298, loss:1.70802474022
+	train acc: 0.997222222222
+epoch: 49 299, loss:1.70324480534
+	train acc: 0.997222222222
+                                                          Valid Accuracy 0.9226
+                                                          Test Accuracy 0.9235
+time 19369.2738121
+POOLING ITERATION 70
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.79611825943
+	train acc: 0.995890410959
+epoch: 49 295, loss:1.73158228397
+	train acc: 0.995890410959
+epoch: 49 296, loss:1.73078131676
+	train acc: 0.997260273973
+epoch: 49 297, loss:1.77311587334
+	train acc: 0.997260273973
+epoch: 49 298, loss:1.72062587738
+	train acc: 0.997260273973
+epoch: 49 299, loss:1.71984362602
+	train acc: 0.997260273973
+                                                          Valid Accuracy 0.9156
+                                                          Test Accuracy 0.9095
+time 19672.8133471
+POOLING ITERATION 71
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.8320595026
+	train acc: 0.971621621622
+epoch: 49 295, loss:1.77612435818
+	train acc: 0.986486486486
+epoch: 49 296, loss:1.7752571106
+	train acc: 0.972972972973
+epoch: 49 297, loss:1.81780517101
+	train acc: 0.959459459459
+epoch: 49 298, loss:1.76541686058
+	train acc: 0.981081081081
+epoch: 49 299, loss:1.90380334854
+	train acc: 0.986486486486
+                                                          Valid Accuracy 0.9127
+                                                          Test Accuracy 0.9145
+time 20034.093982
+POOLING ITERATION 72
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.76112675667
+	train acc: 0.988
+epoch: 49 295, loss:1.63965892792
+	train acc: 0.988
+epoch: 49 296, loss:1.68782281876
+	train acc: 0.988
+epoch: 49 297, loss:1.76480126381
+	train acc: 0.992
+epoch: 49 298, loss:1.68839323521
+	train acc: 0.993333333333
+epoch: 49 299, loss:1.69261395931
+	train acc: 0.988
+                                                          Valid Accuracy 0.9145
+                                                          Test Accuracy 0.9124
+time 20558.5042741
+POOLING ITERATION 73
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 294, loss:1.66383683681
+	train acc: 0.996052631579
+epoch: 49 295, loss:1.59755265713
+	train acc: 0.994736842105
+epoch: 49 296, loss:1.60930645466
+	train acc: 0.984210526316
+epoch: 49 297, loss:1.69247615337
+	train acc: 0.990789473684
+epoch: 49 298, loss:1.64909625053
+	train acc: 0.993421052632
+epoch: 49 299, loss:1.58627057076
+	train acc: 0.989473684211
+                                                          Valid Accuracy 0.9204
+                                                          Test Accuracy 0.9195
+time 20997.0482731
+POOLING ITERATION 74
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.43088936806
+	train acc: 0.998701298701
+epoch: 49 344, loss:1.4277639389
+	train acc: 0.998701298701
+epoch: 49 345, loss:1.41389834881
+	train acc: 0.998701298701
+epoch: 49 346, loss:1.47380197048
+	train acc: 0.998701298701
+epoch: 49 347, loss:1.41291582584
+	train acc: 0.998701298701
+epoch: 49 348, loss:1.40664315224
+	train acc: 0.998701298701
+epoch: 49 349, loss:1.40437614918
+	train acc: 0.998701298701
+                                                          Valid Accuracy 0.9266
+                                                          Test Accuracy 0.9286
+time 21356.4735351
+POOLING ITERATION 75
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.58018052578
+	train acc: 0.996153846154
+epoch: 49 344, loss:1.46896862984
+	train acc: 0.996153846154
+epoch: 49 345, loss:1.46565747261
+	train acc: 0.996153846154
+epoch: 49 346, loss:1.46427583694
+	train acc: 0.996153846154
+epoch: 49 347, loss:1.45870566368
+	train acc: 0.994871794872
+epoch: 49 348, loss:1.51191484928
+	train acc: 0.996153846154
+epoch: 49 349, loss:1.44995450974
+	train acc: 0.996153846154
+                                                          Valid Accuracy 0.9214
+                                                          Test Accuracy 0.9234
+time 21767.2700171
+POOLING ITERATION 76
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.55347442627
+	train acc: 0.988607594937
+epoch: 49 344, loss:1.55857050419
+	train acc: 0.988607594937
+epoch: 49 345, loss:1.53649175167
+	train acc: 0.992405063291
+epoch: 49 346, loss:1.4928715229
+	train acc: 0.988607594937
+epoch: 49 347, loss:1.51340556145
+	train acc: 0.992405063291
+epoch: 49 348, loss:1.49550592899
+	train acc: 0.988607594937
+epoch: 49 349, loss:1.47694945335
+	train acc: 0.975949367089
+                                                          Valid Accuracy 0.9116
+                                                          Test Accuracy 0.915
+time 22277.741245
+POOLING ITERATION 77
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+	getting useful funcs
+epoch: 49 343, loss:1.50382649899
+	train acc: 0.99625
+epoch: 49 344, loss:1.5188369751
+	train acc: 0.99375
+epoch: 49 345, loss:1.44259381294
+	train acc: 0.9975
+epoch: 49 346, loss:1.44626891613
+	train acc: 0.99625
+epoch: 49 347, loss:1.43966341019
+	train acc: 0.99375
+epoch: 49 348, loss:1.44889891148
+	train acc: 0.995
+epoch: 49 349, loss:1.45772969723
+	train acc: 0.9975
+                                                          Valid Accuracy 0.923
+                                                          Test Accuracy 0.9251
+time 22969.601696
+POOLING ITERATION 78
+kernel_shape (32, 4, 4)
+	building hyper net
+234
+	building primary net
+(None, 1, 28, 28)
+	getting params
+	getting elbo
+	getting grads
+	getting train funcs
+Set compute mode to DEFAULT for GPU 0000:15:00.0.
+All done.
