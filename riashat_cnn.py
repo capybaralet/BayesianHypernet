@@ -6,8 +6,6 @@ Created on Sun May 14 19:49:51 2017
 @author: Chin-Wei
 """
 
-from BHNs import MLPWeightNorm_BHN
-from ops import load_mnist, load_cifar10
 #from utils import log_normal, log_laplace
 import numpy
 import numpy as np
@@ -23,10 +21,11 @@ import theano.tensor as T
 floatX = theano.config.floatX
 
 # DK
+from BHNs import MLPWeightNorm_BHN
 from BHNs import HyperCNN
 
-
 from helpers import SaveLoadMIXIN
+from helpers import load_mnist, load_cifar10
 
 
 class RiashatCNN(SaveLoadMIXIN):

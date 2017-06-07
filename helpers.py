@@ -6,8 +6,8 @@
 ##################################################################
 # AL_helpers.py
 #!/usr/bin/env python
-from ops import load_mnist
-from utils import log_normal, log_laplace
+#from ops import load_mnist
+#from utils import log_normal, log_laplace
 import numpy
 np = numpy
 import random

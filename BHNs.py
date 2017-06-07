@@ -8,12 +8,8 @@ Created on Sun May 14 17:58:58 2017
 
 # TODO: we should have a function for the core hypernet architecture (agnostic of whether we do WN/CNN/full Hnet)
 
-from layers import LinearFlowLayer, IndexLayer, PermuteLayer, SplitLayer, ReverseLayer
-from layers import CoupledDenseLayer, ConvexBiasLayer, CoupledWNDenseLayer, \
-                    stochasticDenseLayer2, stochasticConv2DLayer, \
-                    stochastic_weight_norm
-from layers import *
-from utils import log_normal
+import numpy
+np = numpy
 import theano
 import theano.tensor as T
 from theano.tensor.shared_randomstreams import RandomStreams
@@ -27,11 +23,16 @@ softmax = nonlinearities.softmax
 from lasagne.layers import get_output
 from lasagne.objectives import categorical_crossentropy as cc
 from lasagne.objectives import squared_error as se
-import numpy as np
 
 from helpers import flatten_list
+from helpers import log_normal
 from helpers import SaveLoadMIXIN
 
+from layers import LinearFlowLayer, IndexLayer, PermuteLayer, SplitLayer, ReverseLayer
+from layers import CoupledDenseLayer, ConvexBiasLayer, CoupledWNDenseLayer, \
+                    stochasticDenseLayer2, stochasticConv2DLayer, \
+                    stochastic_weight_norm
+from layers import *
 
 
 class Base_BHN(SaveLoadMIXIN):

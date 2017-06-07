@@ -433,7 +433,7 @@ if __name__ == '__main__':
     
     # boolean: 1 -> True ; 0 -> False
     parser.add_argument('--acq',default='bald',type=str, choices=['bald', 'max_ent', 'var_ratio', 'mean_std', 'random'])
-    parser.add_argument('--arch',default=None,type=str)
+    parser.add_argument('--arch',default='Riashat',type=str)
     parser.add_argument('--bs',default=128,type=int)  
     parser.add_argument('--convex_combination',default=0,type=int)  
     parser.add_argument('--coupling',default=4,type=int)  
