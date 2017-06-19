@@ -79,14 +79,18 @@ class CoupledDenseLayer(lasagne.layers.base.Layer):
         return output, ls.sum(1)
 
 
+
 class CoupledWNDenseLayer(lasagne.layers.base.Layer):    
     def __init__(self, incoming, num_units, W=init.Normal(1),
                  r=init.Normal(0.0001),
                  b=init.Constant(0.), nonlinearity=nonlinearities.rectify,
+                 uncoupled_init=0, # >0 --> downscale identity connection by default
                  **kwargs):
         super(CoupledWNDenseLayer, self).__init__(incoming, **kwargs)
         self.nonlinearity = (nonlinearities.identity if nonlinearity is None
                              else nonlinearity)
+
+        self.uncoupled_init = uncoupled_init
 
         self.num_units = num_units
 
@@ -133,7 +137,7 @@ class CoupledWNDenseLayer(lasagne.layers.base.Layer):
         
         s_ = self.r21 * T.dot(h,W21)
         if self.b21 is not None:
-            s_ = s_ + self.b21
+            s_ = s_ + self.b21 - self.uncoupled_init
         s = T.exp(s_) + 0.001
         ls = T.log(s)
         
@@ -274,9 +278,11 @@ class ConvexBiasLayer(lasagne.layers.base.Layer):
     """
     def __init__(self, incoming, W=init.Normal(0.01,-7),
                  b=init.Normal(0.01,0),
+                 upweight_primary=0,
                  **kwargs):
         super(ConvexBiasLayer, self).__init__(incoming, **kwargs)
         
+        self.upweight_primary = upweight_primary
         num_inputs = int(np.prod(self.input_shape[1]))
 
         self.W = self.add_param(W, (1,), name="lf_W")
@@ -288,7 +294,7 @@ class ConvexBiasLayer(lasagne.layers.base.Layer):
         return input_shape
 
     def get_output_for(self, input, **kwargs):
-        s = T.nnet.sigmoid(self.W) + delta
+        s = T.nnet.sigmoid(self.W - self.upweight_primary ) + delta
         output = input * s + (1-s) * self.b
         
         return output, (T.ones_like(input)*T.log(s)).sum(1)

@@ -61,10 +61,10 @@ def train_model(train_func,predict_func,X,Y,Xt,Yt,
             
             loss = train_func(x,y,N,lr)
             
-            if e == epochs-1:#i==0:#t%100==0:
+            if verbose or e == epochs-1:#i==0:#t%100==0:
                 print 'epoch: {} {}, loss:{}'.format(e,t,loss)
                 tr_acc = (predict_func(X)==Y.argmax(1)).mean()
-                te_acc = (predict_func(Xt)==Yt.argmax(1)).mean()
+                #te_acc = (predict_func(Xt)==Yt.argmax(1)).mean()
                 print '\ttrain acc: {}'.format(tr_acc)
                 # print '\ttest acc: {}'.format(te_acc)
             t+=1
@@ -182,13 +182,14 @@ def active_learning(acquisition_iterations):
 
 
    
-    valid_accuracy = test_model(model.predict_proba, valid_x, valid_y)
-    print "                                                          valid Accuracy", valid_accuracy
-    all_valid_accuracy = valid_accuracy
+    if 1:
+        valid_accuracy = test_model(model.predict_proba, valid_x, valid_y)
+        print "                                                          valid Accuracy", valid_accuracy
+        all_valid_accuracy = valid_accuracy
 
-    test_accuracy = test_model(model.predict_proba, test_x, test_y)
-    print "                                                          Test Accuracy", test_accuracy
-    all_accuracy = test_accuracy
+        test_accuracy = test_model(model.predict_proba, test_x, test_y)
+        print "                                                          Test Accuracy", test_accuracy
+        all_accuracy = test_accuracy
 
     for i in range(acquisition_iterations):
 

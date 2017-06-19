@@ -192,6 +192,12 @@ class Base_BHN(SaveLoadMIXIN):
     def _get_useful_funcs(self):
         pass
 
+    def sample_predictions(self, inputs, nsamples=100):
+        # nsamples, nexamples, nout
+        return np.array([self.predict_proba(inputs) for _ in range(nsamples)])
+
+    def get_acc(self, inputs, targets, nsamples=100):
+        return (self.sample_predictions(inputs, nsamples).mean(axis=0).argmax(-1) == targets.argmax(-1)).mean()
     
     
 
@@ -1096,15 +1102,16 @@ class HyperCNN(Base_BHN):
                                   
         if arch == 'Riashat':
             kernel_width = 3
-            pad = 'valid'
-            pool_size = 5
             self.kernel_width = kernel_width
+            stride=1
+            self.stride = stride
+            pad = 'valid'
             self.pad = pad
-            self.pool_size = pool_size
             self.weight_shapes = [(32,1,kernel_width,kernel_width),        # -> (None, 16, 14, 14)
                                   (32,32,kernel_width,kernel_width)]       # -> (None, 16,  7,  7)
             self.args = [[32,kernel_width,stride,pad, rectify, 'none'],
                          [32,kernel_width,stride,pad, rectify, 'max']]
+            self.pool_size = 5
         else:
             self.pool_size = 2
                                   
@@ -1187,6 +1194,9 @@ class HyperCNN(Base_BHN):
             p_net = lasagne.layers.InputLayer([None,3,32,32])
         print p_net.output_shape
         inputs = {p_net:self.input_var}
+
+        #logpw = np.float32(0.)
+        
         for ws, args in zip(self.weight_shapes,self.args):
 
             num_filters = ws[0]
